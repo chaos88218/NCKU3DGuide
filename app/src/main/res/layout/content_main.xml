@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.miles.ncku3dguide.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/GL_view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/park_icon"
+        android:id="@+id/parking_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="@dimen/activity_vertical_margin" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/classroom_icon"
+        android:id="@+id/classroom_image"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/parking_image"
+        android:layout_toEndOf="@+id/parking_image"
+        android:layout_margin="@dimen/activity_vertical_margin" />
+
+    <ImageView
+        app:srcCompat="@drawable/navigation_icon"
+        android:id="@+id/navi_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/classroom_image"
+        android:layout_toEndOf="@+id/classroom_image"
+        android:layout_margin="@dimen/activity_vertical_margin" />
+
+    <Button
+        android:text="確認"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_button"
+        android:visibility="gone"
+        android:layout_below="@+id/navi_image"
+        android:layout_toRightOf="@+id/search_text"
+        android:layout_toEndOf="@+id/search_text"
+        android:layout_alignBottom="@+id/search_text" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="8"
+        android:id="@+id/search_text"
+        android:visibility="gone"
+        android:layout_below="@+id/parking_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ad_layout"
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/first_ad"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/second_ad"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/third_ad"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

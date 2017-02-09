@@ -1,0 +1,4621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NCKUClassroomDatabase>
+	<Building code="1" CHName="中文系館">
+		<BuildingName>中文系館</BuildingName>
+		<BuildingCode>1</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="21X06" Name="21X06">
+				<ClassroomName>21X06</ClassroomName>
+				<ClassroomCode>21X06</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="21101" Name="21101">
+				<ClassroomName>21101</ClassroomName>
+				<ClassroomCode>21101</ClassroomCode>
+			</Classroom>
+			<Classroom code="21102" Name="21102">
+				<ClassroomName>21102</ClassroomName>
+				<ClassroomCode>21102</ClassroomCode>
+			</Classroom>
+			<Classroom code="21103" Name="21103">
+				<ClassroomName>21103</ClassroomName>
+				<ClassroomCode>21103</ClassroomCode>
+			</Classroom>
+			<Classroom code="21122" Name="文學院演講廳">
+				<ClassroomName>文學院演講廳</ClassroomName>
+				<ClassroomCode>21122</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="21201" Name="21201">
+				<ClassroomName>21201</ClassroomName>
+				<ClassroomCode>21201</ClassroomCode>
+			</Classroom>
+			<Classroom code="21202" Name="21202">
+				<ClassroomName>21202</ClassroomName>
+				<ClassroomCode>21202</ClassroomCode>
+			</Classroom>
+			<Classroom code="21204" Name="21204">
+				<ClassroomName>21204</ClassroomName>
+				<ClassroomCode>21204</ClassroomCode>
+			</Classroom>
+			<Classroom code="21205" Name="21205">
+				<ClassroomName>21205</ClassroomName>
+				<ClassroomCode>21205</ClassroomCode>
+			</Classroom>
+			<Classroom code="21207" Name="21207">
+				<ClassroomName>21207</ClassroomName>
+				<ClassroomCode>21207</ClassroomCode>
+			</Classroom>
+			<Classroom code="21208" Name="21208">
+				<ClassroomName>21208</ClassroomName>
+				<ClassroomCode>21208</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="21302" Name="21302">
+				<ClassroomName>21302</ClassroomName>
+				<ClassroomCode>21302</ClassroomCode>
+			</Classroom>
+			<Classroom code="21303" Name="21303">
+				<ClassroomName>21303</ClassroomName>
+				<ClassroomCode>21303</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="2" CHName="歷史系館">
+		<BuildingName>歷史系館</BuildingName>
+		<BuildingCode>2</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="25129" Name="25129">
+				<ClassroomName>25129</ClassroomName>
+				<ClassroomCode>25129</ClassroomCode>
+			</Classroom>
+			<Classroom code="25130" Name="25130">
+				<ClassroomName>25130</ClassroomName>
+				<ClassroomCode>25130</ClassroomCode>
+			</Classroom>
+			<Classroom code="25131" Name="25131">
+				<ClassroomName>25131</ClassroomName>
+				<ClassroomCode>25131</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="25231" Name="25231">
+				<ClassroomName>25231</ClassroomName>
+				<ClassroomCode>25231</ClassroomCode>
+			</Classroom>
+			<Classroom code="25232" Name="25232">
+				<ClassroomName>25232</ClassroomName>
+				<ClassroomCode>25232</ClassroomCode>
+			</Classroom>
+			<Classroom code="25233" Name="25233">
+				<ClassroomName>25233</ClassroomName>
+				<ClassroomCode>25233</ClassroomCode>
+			</Classroom>
+			<Classroom code="25234" Name="25234">
+				<ClassroomName>25234</ClassroomName>
+				<ClassroomCode>25234</ClassroomCode>
+			</Classroom>
+			<Classroom code="25235" Name="25235">
+				<ClassroomName>25235</ClassroomName>
+				<ClassroomCode>25235</ClassroomCode>
+			</Classroom>
+			<Classroom code="25236" Name="25236">
+				<ClassroomName>25236</ClassroomName>
+				<ClassroomCode>25236</ClassroomCode>
+			</Classroom>
+			<Classroom code="25237" Name="振芝講堂">
+				<ClassroomName>振芝講堂</ClassroomName>
+				<ClassroomCode>25237</ClassroomCode>
+			</Classroom>
+			<Classroom code="25240" Name="25240">
+				<ClassroomName>25240</ClassroomName>
+				<ClassroomCode>25240</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="3" CHName="修齊大樓">
+		<BuildingName>修齊大樓</BuildingName>
+		<BuildingCode>3</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="26X01" Name="修齊講堂">
+				<ClassroomName>修齊講堂</ClassroomName>
+				<ClassroomCode>26X01</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="26102" Name="26102">
+				<ClassroomName>26102</ClassroomName>
+				<ClassroomCode>26102</ClassroomCode>
+			</Classroom>
+			<Classroom code="26103" Name="26103">
+				<ClassroomName>26103</ClassroomName>
+				<ClassroomCode>26103</ClassroomCode>
+			</Classroom>
+			<Classroom code="26104" Name="26104">
+				<ClassroomName>26104</ClassroomName>
+				<ClassroomCode>26104</ClassroomCode>
+			</Classroom>
+			<Classroom code="26105" Name="26105">
+				<ClassroomName>26105</ClassroomName>
+				<ClassroomCode>26105</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="26204" Name="26204">
+				<ClassroomName>26204</ClassroomName>
+				<ClassroomCode>26204</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="26302" Name="26302">
+				<ClassroomName>26302</ClassroomName>
+				<ClassroomCode>26302</ClassroomCode>
+			</Classroom>
+			<Classroom code="26304" Name="26304">
+				<ClassroomName>26304</ClassroomName>
+				<ClassroomCode>26304</ClassroomCode>
+			</Classroom>
+			<Classroom code="26308" Name="26308">
+				<ClassroomName>26308</ClassroomName>
+				<ClassroomCode>26308</ClassroomCode>
+			</Classroom>
+			<Classroom code="26309" Name="26309">
+				<ClassroomName>26309</ClassroomName>
+				<ClassroomCode>26309</ClassroomCode>
+			</Classroom>
+			<Classroom code="26311" Name="26311">
+				<ClassroomName>26311</ClassroomName>
+				<ClassroomCode>26311</ClassroomCode>
+			</Classroom>
+			<Classroom code="26313" Name="26313">
+				<ClassroomName>26313</ClassroomName>
+				<ClassroomCode>26313</ClassroomCode>
+			</Classroom>
+			<Classroom code="26314" Name="26314">
+				<ClassroomName>26314</ClassroomName>
+				<ClassroomCode>26314</ClassroomCode>
+			</Classroom>
+			<Classroom code="26315" Name="26315">
+				<ClassroomName>26315</ClassroomName>
+				<ClassroomCode>26315</ClassroomCode>
+			</Classroom>
+			<Classroom code="26316" Name="26316">
+				<ClassroomName>26316</ClassroomName>
+				<ClassroomCode>26316</ClassroomCode>
+			</Classroom>
+			<Classroom code="26317" Name="26317">
+				<ClassroomName>26317</ClassroomName>
+				<ClassroomCode>26317</ClassroomCode>
+			</Classroom>
+			<Classroom code="26318" Name="26318">
+				<ClassroomName>26318</ClassroomName>
+				<ClassroomCode>26318</ClassroomCode>
+			</Classroom>
+			<Classroom code="26319" Name="26319">
+				<ClassroomName>26319</ClassroomName>
+				<ClassroomCode>26319</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="26401" Name="26401">
+				<ClassroomName>26401</ClassroomName>
+				<ClassroomCode>26401</ClassroomCode>
+			</Classroom>
+			<Classroom code="26402" Name="26402">
+				<ClassroomName>26402</ClassroomName>
+				<ClassroomCode>26402</ClassroomCode>
+			</Classroom>
+			<Classroom code="26403" Name="26403">
+				<ClassroomName>26403</ClassroomName>
+				<ClassroomCode>26403</ClassroomCode>
+			</Classroom>
+			<Classroom code="26404" Name="26404">
+				<ClassroomName>26404</ClassroomName>
+				<ClassroomCode>26404</ClassroomCode>
+			</Classroom>
+			<Classroom code="26405" Name="26405">
+				<ClassroomName>26405</ClassroomName>
+				<ClassroomCode>26405</ClassroomCode>
+			</Classroom>
+			<Classroom code="26406" Name="26406">
+				<ClassroomName>26406</ClassroomName>
+				<ClassroomCode>26406</ClassroomCode>
+			</Classroom>
+			<Classroom code="26407" Name="26407">
+				<ClassroomName>26407</ClassroomName>
+				<ClassroomCode>26407</ClassroomCode>
+			</Classroom>
+			<Classroom code="26408" Name="26408">
+				<ClassroomName>26408</ClassroomName>
+				<ClassroomCode>26408</ClassroomCode>
+			</Classroom>
+			<Classroom code="26409" Name="26409">
+				<ClassroomName>26409</ClassroomName>
+				<ClassroomCode>26409</ClassroomCode>
+			</Classroom>
+			<Classroom code="26412" Name="26412">
+				<ClassroomName>26412</ClassroomName>
+				<ClassroomCode>26412</ClassroomCode>
+			</Classroom>
+			<Classroom code="26421" Name="26421">
+				<ClassroomName>26421</ClassroomName>
+				<ClassroomCode>26421</ClassroomCode>
+			</Classroom>
+			<Classroom code="26423" Name="26423">
+				<ClassroomName>26423</ClassroomName>
+				<ClassroomCode>26423</ClassroomCode>
+			</Classroom>
+			<Classroom code="26425" Name="26425">
+				<ClassroomName>26425</ClassroomName>
+				<ClassroomCode>26425</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="5">
+			<FloorName>5</FloorName>
+			<Classroom code="26508" Name="26508">
+				<ClassroomName>26508</ClassroomName>
+				<ClassroomCode>26508</ClassroomCode>
+			</Classroom>
+			<Classroom code="26510" Name="26510">
+				<ClassroomName>26510</ClassroomName>
+				<ClassroomCode>26510</ClassroomCode>
+			</Classroom>
+			<Classroom code="26512" Name="26512">
+				<ClassroomName>26512</ClassroomName>
+				<ClassroomCode>26512</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="7">
+			<FloorName>7</FloorName>
+			<Classroom code="26703" Name="26703">
+				<ClassroomName>26703</ClassroomName>
+				<ClassroomCode>26703</ClassroomCode>
+			</Classroom>
+			<Classroom code="26707" Name="26707">
+				<ClassroomName>26707</ClassroomName>
+				<ClassroomCode>26707</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="4" CHName="雲平大樓">
+		<BuildingName>雲平大樓</BuildingName>
+		<BuildingCode>4</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="B2">
+			<FloorName>B2</FloorName>
+			<Classroom code="K001" Name="鳳凰樹劇場">
+				<ClassroomName>鳳凰樹劇場</ClassroomName>
+				<ClassroomCode>K001</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="27103" Name="27103(通識中心">
+				<ClassroomName>27103(通識中心</ClassroomName>
+				<ClassroomCode>27103</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="8">
+			<FloorName>8</FloorName>
+			<Classroom code="27806" Name="e化創新教室">
+				<ClassroomName>e化創新教室</ClassroomName>
+				<ClassroomCode>27806</ClassroomCode>
+			</Classroom>
+			<Classroom code="27808" Name="27808">
+				<ClassroomName>27808</ClassroomName>
+				<ClassroomCode>27808</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="6">
+			<FloorName>6</FloorName>
+			<Classroom code="27605" Name="27605">
+				<ClassroomName>27605</ClassroomName>
+				<ClassroomCode>27605</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="7">
+			<FloorName>7</FloorName>
+			<Classroom code="709" Name="709">
+				<ClassroomName>709</ClassroomName>
+				<ClassroomCode>709</ClassroomCode>
+			</Classroom>
+			<Classroom code="712" Name="712">
+				<ClassroomName>712</ClassroomName>
+				<ClassroomCode>712</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="5" CHName="建築系館">
+		<BuildingName>建築系館</BuildingName>
+		<BuildingCode>5</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="5101" Name="5101">
+				<ClassroomName>5101</ClassroomName>
+				<ClassroomCode>5101</ClassroomCode>
+			</Classroom>
+			<Classroom code="5102" Name="5102">
+				<ClassroomName>5102</ClassroomName>
+				<ClassroomCode>5102</ClassroomCode>
+			</Classroom>
+			<Classroom code="5103" Name="5103">
+				<ClassroomName>5103</ClassroomName>
+				<ClassroomCode>5103</ClassroomCode>
+			</Classroom>
+			<Classroom code="5104" Name="5104">
+				<ClassroomName>5104</ClassroomName>
+				<ClassroomCode>5104</ClassroomCode>
+			</Classroom>
+			<Classroom code="5105" Name="5105">
+				<ClassroomName>5105</ClassroomName>
+				<ClassroomCode>5105</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="5111" Name="5111">
+				<ClassroomName>5111</ClassroomName>
+				<ClassroomCode>5111</ClassroomCode>
+			</Classroom>
+			<Classroom code="5112" Name="5112">
+				<ClassroomName>5112</ClassroomName>
+				<ClassroomCode>5112</ClassroomCode>
+			</Classroom>
+			<Classroom code="5113" Name="5113">
+				<ClassroomName>5113</ClassroomName>
+				<ClassroomCode>5113</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="5121" Name="5121">
+				<ClassroomName>5121</ClassroomName>
+				<ClassroomCode>5121</ClassroomCode>
+			</Classroom>
+			<Classroom code="5122" Name="5122">
+				<ClassroomName>5122</ClassroomName>
+				<ClassroomCode>5122</ClassroomCode>
+			</Classroom>
+			<Classroom code="5123" Name="5123">
+				<ClassroomName>5123</ClassroomName>
+				<ClassroomCode>5123</ClassroomCode>
+			</Classroom>
+			<Classroom code="5124" Name="5124">
+				<ClassroomName>5124</ClassroomName>
+				<ClassroomCode>5124</ClassroomCode>
+			</Classroom>
+			<Classroom code="5126" Name="5126">
+				<ClassroomName>5126</ClassroomName>
+				<ClassroomCode>5126</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="5131" Name="5131">
+				<ClassroomName>5131</ClassroomName>
+				<ClassroomCode>5131</ClassroomCode>
+			</Classroom>
+			<Classroom code="5132" Name="5132">
+				<ClassroomName>5132</ClassroomName>
+				<ClassroomCode>5132</ClassroomCode>
+			</Classroom>
+			<Classroom code="5133" Name="5133">
+				<ClassroomName>5133</ClassroomName>
+				<ClassroomCode>5133</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="6" CHName="建築研究大樓">
+		<BuildingName>建築研究大樓</BuildingName>
+		<BuildingCode>6</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="E701" Name="２Ｆ會議室">
+				<ClassroomName>２Ｆ會議室</ClassroomName>
+				<ClassroomCode>E701</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="5139" Name="5139">
+				<ClassroomName>5139</ClassroomName>
+				<ClassroomCode>5139</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="7">
+			<FloorName>7</FloorName>
+			<Classroom code="5171" Name="5171">
+				<ClassroomName>5171</ClassroomName>
+				<ClassroomCode>5171</ClassroomCode>
+			</Classroom>
+			<Classroom code="5172" Name="5172">
+				<ClassroomName>5172</ClassroomName>
+				<ClassroomCode>5172</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="7" CHName="都計系館">
+		<BuildingName>都計系館</BuildingName>
+		<BuildingCode>7</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="50102" Name="50102">
+				<ClassroomName>50102</ClassroomName>
+				<ClassroomCode>50102</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="50202" Name="50202">
+				<ClassroomName>50202</ClassroomName>
+				<ClassroomCode>50202</ClassroomCode>
+			</Classroom>
+			<Classroom code="50204" Name="50204">
+				<ClassroomName>50204</ClassroomName>
+				<ClassroomCode>50204</ClassroomCode>
+			</Classroom>
+			<Classroom code="50219" Name="50219">
+				<ClassroomName>50219</ClassroomName>
+				<ClassroomCode>50219</ClassroomCode>
+			</Classroom>
+			<Classroom code="50221" Name="50221">
+				<ClassroomName>50221</ClassroomName>
+				<ClassroomCode>50221</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="50302" Name="50302">
+				<ClassroomName>50302</ClassroomName>
+				<ClassroomCode>50302</ClassroomCode>
+			</Classroom>
+			<Classroom code="50303" Name="50303">
+				<ClassroomName>50303</ClassroomName>
+				<ClassroomCode>50303</ClassroomCode>
+			</Classroom>
+			<Classroom code="50305" Name="50305">
+				<ClassroomName>50305</ClassroomName>
+				<ClassroomCode>50305</ClassroomCode>
+			</Classroom>
+			<Classroom code="50306" Name="50306">
+				<ClassroomName>50306</ClassroomName>
+				<ClassroomCode>50306</ClassroomCode>
+			</Classroom>
+			<Classroom code="50308" Name="50308">
+				<ClassroomName>50308</ClassroomName>
+				<ClassroomCode>50308</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="8" CHName="工設系館">
+		<BuildingName>工設系館</BuildingName>
+		<BuildingCode>8</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="5204A" Name="5204A">
+				<ClassroomName>5204A</ClassroomName>
+				<ClassroomCode>5204A</ClassroomCode>
+			</Classroom>
+			<Classroom code="5204B" Name="5204B">
+				<ClassroomName>5204B</ClassroomName>
+				<ClassroomCode>5204B</ClassroomCode>
+			</Classroom>
+			<Classroom code="5205A" Name="5205A">
+				<ClassroomName>5205A</ClassroomName>
+				<ClassroomCode>5205A</ClassroomCode>
+			</Classroom>
+			<Classroom code="5205B" Name="5205B">
+				<ClassroomName>5205B</ClassroomName>
+				<ClassroomCode>5205B</ClassroomCode>
+			</Classroom>
+			<Classroom code="5206" Name="5206">
+				<ClassroomName>5206</ClassroomName>
+				<ClassroomCode>5206</ClassroomCode>
+			</Classroom>
+			<Classroom code="5208" Name="5208">
+				<ClassroomName>5208</ClassroomName>
+				<ClassroomCode>5208</ClassroomCode>
+			</Classroom>
+			<Classroom code="5210" Name="5210">
+				<ClassroomName>5210</ClassroomName>
+				<ClassroomCode>5210</ClassroomCode>
+			</Classroom>
+			<Classroom code="5214" Name="5214">
+				<ClassroomName>5214</ClassroomName>
+				<ClassroomCode>5214</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="5259" Name="5259">
+				<ClassroomName>5259</ClassroomName>
+				<ClassroomCode>5259</ClassroomCode>
+			</Classroom>
+			<Classroom code="5260" Name="5260">
+				<ClassroomName>5260</ClassroomName>
+				<ClassroomCode>5260</ClassroomCode>
+			</Classroom>
+			<Classroom code="5256A" Name="5256A">
+				<ClassroomName>5256A</ClassroomName>
+				<ClassroomCode>5256A</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="9" CHName="藝術所">
+		<BuildingName>藝術所</BuildingName>
+		<BuildingCode>9</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="5450" Name="5450">
+				<ClassroomName>5450</ClassroomName>
+				<ClassroomCode>5450</ClassroomCode>
+			</Classroom>
+			<Classroom code="5452" Name="5452">
+				<ClassroomName>5452</ClassroomName>
+				<ClassroomCode>5452</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="10" CHName="軍訓館">
+		<BuildingName>軍訓館</BuildingName>
+		<BuildingCode>10</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="6021" Name="6021">
+				<ClassroomName>6021</ClassroomName>
+				<ClassroomCode>6021</ClassroomCode>
+			</Classroom>
+			<Classroom code="6022" Name="6022">
+				<ClassroomName>6022</ClassroomName>
+				<ClassroomCode>6022</ClassroomCode>
+			</Classroom>
+			<Classroom code="6028" Name="6028">
+				<ClassroomName>6028</ClassroomName>
+				<ClassroomCode>6028</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="11" CHName="唯農大樓">
+		<BuildingName>唯農大樓</BuildingName>
+		<BuildingCode>11</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="7102" Name="7102">
+				<ClassroomName>7102</ClassroomName>
+				<ClassroomCode>7102</ClassroomCode>
+			</Classroom>
+			<Classroom code="7104" Name="7104">
+				<ClassroomName>7104</ClassroomName>
+				<ClassroomCode>7104</ClassroomCode>
+			</Classroom>
+			<Classroom code="7106" Name="7106">
+				<ClassroomName>7106</ClassroomName>
+				<ClassroomCode>7106</ClassroomCode>
+			</Classroom>
+			<Classroom code="7108" Name="7108">
+				<ClassroomName>7108</ClassroomName>
+				<ClassroomCode>7108</ClassroomCode>
+			</Classroom>
+			<Classroom code="7110" Name="7110">
+				<ClassroomName>7110</ClassroomName>
+				<ClassroomCode>7110</ClassroomCode>
+			</Classroom>
+			<Classroom code="7112" Name="7112">
+				<ClassroomName>7112</ClassroomName>
+				<ClassroomCode>7112</ClassroomCode>
+			</Classroom>
+			<Classroom code="7113" Name="7113">
+				<ClassroomName>7113</ClassroomName>
+				<ClassroomCode>7113</ClassroomCode>
+			</Classroom>
+			<Classroom code="7115" Name="7115">
+				<ClassroomName>7115</ClassroomName>
+				<ClassroomCode>7115</ClassroomCode>
+			</Classroom>
+			<Classroom code="7117" Name="7117">
+				<ClassroomName>7117</ClassroomName>
+				<ClassroomCode>7117</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="7202" Name="7202">
+				<ClassroomName>7202</ClassroomName>
+				<ClassroomCode>7202</ClassroomCode>
+			</Classroom>
+			<Classroom code="7204" Name="7204">
+				<ClassroomName>7204</ClassroomName>
+				<ClassroomCode>7204</ClassroomCode>
+			</Classroom>
+			<Classroom code="7206" Name="7206">
+				<ClassroomName>7206</ClassroomName>
+				<ClassroomCode>7206</ClassroomCode>
+			</Classroom>
+			<Classroom code="7208" Name="7208">
+				<ClassroomName>7208</ClassroomName>
+				<ClassroomCode>7208</ClassroomCode>
+			</Classroom>
+			<Classroom code="7211" Name="7211">
+				<ClassroomName>7211</ClassroomName>
+				<ClassroomCode>7211</ClassroomCode>
+			</Classroom>
+			<Classroom code="7213" Name="7213">
+				<ClassroomName>7213</ClassroomName>
+				<ClassroomCode>7213</ClassroomCode>
+			</Classroom>
+			<Classroom code="7215" Name="7215">
+				<ClassroomName>7215</ClassroomName>
+				<ClassroomCode>7215</ClassroomCode>
+			</Classroom>
+			<Classroom code="7217" Name="7217">
+				<ClassroomName>7217</ClassroomName>
+				<ClassroomCode>7217</ClassroomCode>
+			</Classroom>
+			<Classroom code="72A1" Name="唯農會議室">
+				<ClassroomName>唯農會議室</ClassroomName>
+				<ClassroomCode>72A1</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="7302" Name="7302">
+				<ClassroomName>7302</ClassroomName>
+				<ClassroomCode>7302</ClassroomCode>
+			</Classroom>
+			<Classroom code="7307" Name="7307">
+				<ClassroomName>7307</ClassroomName>
+				<ClassroomCode>7307</ClassroomCode>
+			</Classroom>
+			<Classroom code="7308" Name="許文龍講堂">
+				<ClassroomName>許文龍講堂</ClassroomName>
+				<ClassroomCode>7308</ClassroomCode>
+			</Classroom>
+			<Classroom code="7309" Name="7309">
+				<ClassroomName>7309</ClassroomName>
+				<ClassroomCode>7309</ClassroomCode>
+			</Classroom>
+			<Classroom code="7311" Name="7311">
+				<ClassroomName>7311</ClassroomName>
+				<ClassroomCode>7311</ClassroomCode>
+			</Classroom>
+			<Classroom code="7313" Name="7313">
+				<ClassroomName>7313</ClassroomName>
+				<ClassroomCode>7313</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="7401" Name="7401">
+				<ClassroomName>7401</ClassroomName>
+				<ClassroomCode>7401</ClassroomCode>
+			</Classroom>
+			<Classroom code="7403" Name="7403">
+				<ClassroomName>7403</ClassroomName>
+				<ClassroomCode>7403</ClassroomCode>
+			</Classroom>
+			<Classroom code="7404" Name="7404">
+				<ClassroomName>7404</ClassroomName>
+				<ClassroomCode>7404</ClassroomCode>
+			</Classroom>
+			<Classroom code="7405" Name="7405">
+				<ClassroomName>7405</ClassroomName>
+				<ClassroomCode>7405</ClassroomCode>
+			</Classroom>
+			<Classroom code="7407" Name="7407">
+				<ClassroomName>7407</ClassroomName>
+				<ClassroomCode>7407</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="12" CHName="會計系館">
+		<BuildingName>會計系館</BuildingName>
+		<BuildingCode>12</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="63101" Name="63101">
+				<ClassroomName>63101</ClassroomName>
+				<ClassroomCode>63101</ClassroomCode>
+			</Classroom>
+			<Classroom code="63102" Name="63102">
+				<ClassroomName>63102</ClassroomName>
+				<ClassroomCode>63102</ClassroomCode>
+			</Classroom>
+			<Classroom code="63104" Name="63104">
+				<ClassroomName>63104</ClassroomName>
+				<ClassroomCode>63104</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="63205" Name="63205">
+				<ClassroomName>63205</ClassroomName>
+				<ClassroomCode>63205</ClassroomCode>
+			</Classroom>
+			<Classroom code="63209" Name="63209">
+				<ClassroomName>63209</ClassroomName>
+				<ClassroomCode>63209</ClassroomCode>
+			</Classroom>
+			<Classroom code="63210" Name="63210">
+				<ClassroomName>63210</ClassroomName>
+				<ClassroomCode>63210</ClassroomCode>
+			</Classroom>
+			<Classroom code="63211" Name="63211">
+				<ClassroomName>63211</ClassroomName>
+				<ClassroomCode>63211</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="63404" Name="63404">
+				<ClassroomName>63404</ClassroomName>
+				<ClassroomCode>63404</ClassroomCode>
+			</Classroom>
+			<Classroom code="63405" Name="63405">
+				<ClassroomName>63405</ClassroomName>
+				<ClassroomCode>63405</ClassroomCode>
+			</Classroom>
+			<Classroom code="63406" Name="63406">
+				<ClassroomName>63406</ClassroomName>
+				<ClassroomCode>63406</ClassroomCode>
+			</Classroom>
+			<Classroom code="63415" Name="63415">
+				<ClassroomName>63415</ClassroomName>
+				<ClassroomCode>63415</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="13" CHName="工管系館">
+		<BuildingName>工管系館</BuildingName>
+		<BuildingCode>13</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="61101" Name="61101">
+				<ClassroomName>61101</ClassroomName>
+				<ClassroomCode>61101</ClassroomCode>
+			</Classroom>
+			<Classroom code="61102" Name="61102">
+				<ClassroomName>61102</ClassroomName>
+				<ClassroomCode>61102</ClassroomCode>
+			</Classroom>
+			<Classroom code="61103" Name="61103">
+				<ClassroomName>61103</ClassroomName>
+				<ClassroomCode>61103</ClassroomCode>
+			</Classroom>
+			<Classroom code="61104" Name="61104">
+				<ClassroomName>61104</ClassroomName>
+				<ClassroomCode>61104</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="61200" Name="61200">
+				<ClassroomName>61200</ClassroomName>
+				<ClassroomCode>61200</ClassroomCode>
+			</Classroom>
+			<Classroom code="61201" Name="61201">
+				<ClassroomName>61201</ClassroomName>
+				<ClassroomCode>61201</ClassroomCode>
+			</Classroom>
+			<Classroom code="61202" Name="61202">
+				<ClassroomName>61202</ClassroomName>
+				<ClassroomCode>61202</ClassroomCode>
+			</Classroom>
+			<Classroom code="61204" Name="61204">
+				<ClassroomName>61204</ClassroomName>
+				<ClassroomCode>61204</ClassroomCode>
+			</Classroom>
+			<Classroom code="61206" Name="61206">
+				<ClassroomName>61206</ClassroomName>
+				<ClassroomCode>61206</ClassroomCode>
+			</Classroom>
+			<Classroom code="61208" Name="61208">
+				<ClassroomName>61208</ClassroomName>
+				<ClassroomCode>61208</ClassroomCode>
+			</Classroom>
+			<Classroom code="61210" Name="61210">
+				<ClassroomName>61210</ClassroomName>
+				<ClassroomCode>61210</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="14" CHName="交管系館">
+		<BuildingName>交管系館</BuildingName>
+		<BuildingCode>14</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="62102" Name="62102">
+				<ClassroomName>62102</ClassroomName>
+				<ClassroomCode>62102</ClassroomCode>
+			</Classroom>
+			<Classroom code="62105" Name="62105">
+				<ClassroomName>62105</ClassroomName>
+				<ClassroomCode>62105</ClassroomCode>
+			</Classroom>
+			<Classroom code="62107" Name="62107">
+				<ClassroomName>62107</ClassroomName>
+				<ClassroomCode>62107</ClassroomCode>
+			</Classroom>
+			<Classroom code="62109" Name="62109">
+				<ClassroomName>62109</ClassroomName>
+				<ClassroomCode>62109</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="62205" Name="62205">
+				<ClassroomName>62205</ClassroomName>
+				<ClassroomCode>62205</ClassroomCode>
+			</Classroom>
+			<Classroom code="62207" Name="62207">
+				<ClassroomName>62207</ClassroomName>
+				<ClassroomCode>62207</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="62307" Name="62307">
+				<ClassroomName>62307</ClassroomName>
+				<ClassroomCode>62307</ClassroomCode>
+			</Classroom>
+			<Classroom code="62315" Name="62315">
+				<ClassroomName>62315</ClassroomName>
+				<ClassroomCode>62315</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="62410" Name="62410">
+				<ClassroomName>62410</ClassroomName>
+				<ClassroomCode>62410</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="15" CHName="企管系館">
+		<BuildingName>企管系館</BuildingName>
+		<BuildingCode>15</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="62121" Name="62121">
+				<ClassroomName>62121</ClassroomName>
+				<ClassroomCode>62121</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="62210" Name="62210">
+				<ClassroomName>62210</ClassroomName>
+				<ClassroomCode>62210</ClassroomCode>
+			</Classroom>
+			<Classroom code="62212" Name="62212">
+				<ClassroomName>62212</ClassroomName>
+				<ClassroomCode>62212</ClassroomCode>
+			</Classroom>
+			<Classroom code="62218" Name="62218">
+				<ClassroomName>62218</ClassroomName>
+				<ClassroomCode>62218</ClassroomCode>
+			</Classroom>
+			<Classroom code="62229" Name="62229">
+				<ClassroomName>62229</ClassroomName>
+				<ClassroomCode>62229</ClassroomCode>
+			</Classroom>
+			<Classroom code="62231" Name="62231">
+				<ClassroomName>62231</ClassroomName>
+				<ClassroomCode>62231</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="62335" Name="62335">
+				<ClassroomName>62335</ClassroomName>
+				<ClassroomCode>62335</ClassroomCode>
+			</Classroom>
+			<Classroom code="62337" Name="62337">
+				<ClassroomName>62337</ClassroomName>
+				<ClassroomCode>62337</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="62422" Name="62422">
+				<ClassroomName>62422</ClassroomName>
+				<ClassroomCode>62422</ClassroomCode>
+			</Classroom>
+			<Classroom code="62424" Name="62424">
+				<ClassroomName>62424</ClassroomName>
+				<ClassroomCode>62424</ClassroomCode>
+			</Classroom>
+			<Classroom code="62453" Name="62453">
+				<ClassroomName>62453</ClassroomName>
+				<ClassroomCode>62453</ClassroomCode>
+			</Classroom>
+			<Classroom code="62455" Name="62455">
+				<ClassroomName>62455</ClassroomName>
+				<ClassroomCode>62455</ClassroomCode>
+			</Classroom>
+			<Classroom code="62457" Name="62457">
+				<ClassroomName>62457</ClassroomName>
+				<ClassroomCode>62457</ClassroomCode>
+			</Classroom>
+			<Classroom code="62459" Name="62459">
+				<ClassroomName>62459</ClassroomName>
+				<ClassroomCode>62459</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="16" CHName="統計系館">
+		<BuildingName>統計系館</BuildingName>
+		<BuildingCode>16</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="62113" Name="62113">
+				<ClassroomName>62113</ClassroomName>
+				<ClassroomCode>62113</ClassroomCode>
+			</Classroom>
+			<Classroom code="62115" Name="62115">
+				<ClassroomName>62115</ClassroomName>
+				<ClassroomCode>62115</ClassroomCode>
+			</Classroom>
+			<Classroom code="62117" Name="62117">
+				<ClassroomName>62117</ClassroomName>
+				<ClassroomCode>62117</ClassroomCode>
+			</Classroom>
+			<Classroom code="62119" Name="62119">
+				<ClassroomName>62119</ClassroomName>
+				<ClassroomCode>62119</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="62225" Name="62225">
+				<ClassroomName>62225</ClassroomName>
+				<ClassroomCode>62225</ClassroomCode>
+			</Classroom>
+			<Classroom code="62227" Name="62227">
+				<ClassroomName>62227</ClassroomName>
+				<ClassroomCode>62227</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="62331" Name="62331">
+				<ClassroomName>62331</ClassroomName>
+				<ClassroomCode>62331</ClassroomCode>
+			</Classroom>
+			<Classroom code="62333" Name="62333">
+				<ClassroomName>62333</ClassroomName>
+				<ClassroomCode>62333</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="62451" Name="62451">
+				<ClassroomName>62451</ClassroomName>
+				<ClassroomCode>62451</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="62223" Name="62223">
+				<ClassroomName>62223</ClassroomName>
+				<ClassroomCode>62223</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="17" CHName="管理學院">
+		<BuildingName>管理學院</BuildingName>
+		<BuildingCode>17</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="61X01" Name="小哈佛教室">
+				<ClassroomName>小哈佛教室</ClassroomName>
+				<ClassroomCode>61X01</ClassroomCode>
+			</Classroom>
+			<Classroom code="61X02" Name="61X02">
+				<ClassroomName>61X02</ClassroomName>
+				<ClassroomCode>61X02</ClassroomCode>
+			</Classroom>
+			<Classroom code="61X03" Name="61X03">
+				<ClassroomName>61X03</ClassroomName>
+				<ClassroomCode>61X03</ClassroomCode>
+			</Classroom>
+			<Classroom code="62X01" Name="62X01">
+				<ClassroomName>62X01</ClassroomName>
+				<ClassroomCode>62X01</ClassroomCode>
+			</Classroom>
+			<Classroom code="62X02" Name="62X02">
+				<ClassroomName>62X02</ClassroomName>
+				<ClassroomCode>62X02</ClassroomCode>
+			</Classroom>
+			<Classroom code="62X10" Name="AMBA討論室">
+				<ClassroomName>AMBA討論室</ClassroomName>
+				<ClassroomCode>62X10</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="62201" Name="62201">
+				<ClassroomName>62201</ClassroomName>
+				<ClassroomCode>62201</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="62401" Name="哈佛教室">
+				<ClassroomName>哈佛教室</ClassroomName>
+				<ClassroomCode>62401</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="62101" Name="62101">
+				<ClassroomName>62101</ClassroomName>
+				<ClassroomCode>62101</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="62203" Name="62203">
+				<ClassroomName>62203</ClassroomName>
+				<ClassroomCode>62203</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="18" CHName="國企所">
+		<BuildingName>國企所</BuildingName>
+		<BuildingCode>18</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="61401" Name="61401">
+				<ClassroomName>61401</ClassroomName>
+				<ClassroomCode>61401</ClassroomCode>
+			</Classroom>
+			<Classroom code="61413" Name="61413">
+				<ClassroomName>61413</ClassroomName>
+				<ClassroomCode>61413</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="19" CHName="台文系館">
+		<BuildingName>台文系館</BuildingName>
+		<BuildingCode>19</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="53310" Name="53310">
+				<ClassroomName>53310</ClassroomName>
+				<ClassroomCode>53310</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="88102" Name="88102">
+				<ClassroomName>88102</ClassroomName>
+				<ClassroomCode>88102</ClassroomCode>
+			</Classroom>
+			<Classroom code="88121" Name="88121">
+				<ClassroomName>88121</ClassroomName>
+				<ClassroomCode>88121</ClassroomCode>
+			</Classroom>
+			<Classroom code="88135" Name="88135">
+				<ClassroomName>88135</ClassroomName>
+				<ClassroomCode>88135</ClassroomCode>
+			</Classroom>
+			<Classroom code="88136" Name="88136">
+				<ClassroomName>88136</ClassroomName>
+				<ClassroomCode>88136</ClassroomCode>
+			</Classroom>
+			<Classroom code="88154" Name="88154">
+				<ClassroomName>88154</ClassroomName>
+				<ClassroomCode>88154</ClassroomCode>
+			</Classroom>
+			<Classroom code="88155" Name="88155">
+				<ClassroomName>88155</ClassroomName>
+				<ClassroomCode>88155</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="20" CHName="中正堂">
+		<BuildingName>中正堂</BuildingName>
+		<BuildingCode>20</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="A205" Name="中正堂羽球場">
+				<ClassroomName>中正堂羽球場</ClassroomName>
+				<ClassroomCode>A205</ClassroomCode>
+			</Classroom>
+			<Classroom code="A223" Name="中正堂桌球場">
+				<ClassroomName>中正堂桌球場</ClassroomName>
+				<ClassroomCode>A223</ClassroomCode>
+			</Classroom>
+			<Classroom code="A224" Name="中正堂視聽室">
+				<ClassroomName>中正堂視聽室</ClassroomName>
+				<ClassroomCode>A224</ClassroomCode>
+			</Classroom>
+			<Classroom code="A225" Name="中正堂前">
+				<ClassroomName>中正堂前</ClassroomName>
+				<ClassroomCode>A225</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="22" CHName="地科系館">
+		<BuildingName>地科系館</BuildingName>
+		<BuildingCode>22</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="C401" Name="研討室一">
+				<ClassroomName>研討室一</ClassroomName>
+				<ClassroomCode>C401</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="3017" Name="3017">
+				<ClassroomName>3017</ClassroomName>
+				<ClassroomCode>3017</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="3031" Name="3031">
+				<ClassroomName>3031</ClassroomName>
+				<ClassroomCode>3031</ClassroomCode>
+			</Classroom>
+			<Classroom code="3035" Name="3035">
+				<ClassroomName>3035</ClassroomName>
+				<ClassroomCode>3035</ClassroomCode>
+			</Classroom>
+			<Classroom code="3036" Name="3036">
+				<ClassroomName>3036</ClassroomName>
+				<ClassroomCode>3036</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="">
+			<FloorName></FloorName>
+			<Classroom code="C402" Name="研討室二">
+				<ClassroomName>研討室二</ClassroomName>
+				<ClassroomCode>C402</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="23" CHName="數學系館">
+		<BuildingName>數學系館</BuildingName>
+		<BuildingCode>23</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="3171" Name="3171">
+				<ClassroomName>3171</ClassroomName>
+				<ClassroomCode>3171</ClassroomCode>
+			</Classroom>
+			<Classroom code="3172" Name="3172">
+				<ClassroomName>3172</ClassroomName>
+				<ClassroomCode>3172</ClassroomCode>
+			</Classroom>
+			<Classroom code="3173" Name="3173">
+				<ClassroomName>3173</ClassroomName>
+				<ClassroomCode>3173</ClassroomCode>
+			</Classroom>
+			<Classroom code="3174" Name="3174">
+				<ClassroomName>3174</ClassroomName>
+				<ClassroomCode>3174</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="3175" Name="3175">
+				<ClassroomName>3175</ClassroomName>
+				<ClassroomCode>3175</ClassroomCode>
+			</Classroom>
+			<Classroom code="3176" Name="3176">
+				<ClassroomName>3176</ClassroomName>
+				<ClassroomCode>3176</ClassroomCode>
+			</Classroom>
+			<Classroom code="3177" Name="3177">
+				<ClassroomName>3177</ClassroomName>
+				<ClassroomCode>3177</ClassroomCode>
+			</Classroom>
+			<Classroom code="C101" Name="研討室一">
+				<ClassroomName>研討室一</ClassroomName>
+				<ClassroomCode>C101</ClassroomCode>
+			</Classroom>
+			<Classroom code="C102" Name="研討室二">
+				<ClassroomName>研討室二</ClassroomName>
+				<ClassroomCode>C102</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="C104" Name="會議討論室">
+				<ClassroomName>會議討論室</ClassroomName>
+				<ClassroomCode>C104</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="3178" Name="3178">
+				<ClassroomName>3178</ClassroomName>
+				<ClassroomCode>3178</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="24" CHName="化學系館">
+		<BuildingName>化學系館</BuildingName>
+		<BuildingCode>24</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="3205" Name="有機實驗室">
+				<ClassroomName>有機實驗室</ClassroomName>
+				<ClassroomCode>3205</ClassroomCode>
+			</Classroom>
+			<Classroom code="3211A" Name="綜合實驗室一">
+				<ClassroomName>綜合實驗室一</ClassroomName>
+				<ClassroomCode>3211A</ClassroomCode>
+			</Classroom>
+			<Classroom code="3211B" Name="綜合實驗室二">
+				<ClassroomName>綜合實驗室二</ClassroomName>
+				<ClassroomCode>3211B</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="3266A" Name="3266A">
+				<ClassroomName>3266A</ClassroomName>
+				<ClassroomCode>3266A</ClassroomCode>
+			</Classroom>
+			<Classroom code="3267" Name="3267">
+				<ClassroomName>3267</ClassroomName>
+				<ClassroomCode>3267</ClassroomCode>
+			</Classroom>
+			<Classroom code="3268" Name="3268">
+				<ClassroomName>3268</ClassroomName>
+				<ClassroomCode>3268</ClassroomCode>
+			</Classroom>
+			<Classroom code="3274" Name="3274">
+				<ClassroomName>3274</ClassroomName>
+				<ClassroomCode>3274</ClassroomCode>
+			</Classroom>
+			<Classroom code="3275" Name="3275">
+				<ClassroomName>3275</ClassroomName>
+				<ClassroomCode>3275</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="25" CHName="生科系館">
+		<BuildingName>生科系館</BuildingName>
+		<BuildingCode>25</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="3404" Name="3404">
+				<ClassroomName>3404</ClassroomName>
+				<ClassroomCode>3404</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="3414" Name="3414">
+				<ClassroomName>3414</ClassroomName>
+				<ClassroomCode>3414</ClassroomCode>
+			</Classroom>
+			<Classroom code="3415" Name="3415">
+				<ClassroomName>3415</ClassroomName>
+				<ClassroomCode>3415</ClassroomCode>
+			</Classroom>
+			<Classroom code="3417" Name="3417">
+				<ClassroomName>3417</ClassroomName>
+				<ClassroomCode>3417</ClassroomCode>
+			</Classroom>
+			<Classroom code="3425" Name="3425">
+				<ClassroomName>3425</ClassroomName>
+				<ClassroomCode>3425</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="3435" Name="3435">
+				<ClassroomName>3435</ClassroomName>
+				<ClassroomCode>3435</ClassroomCode>
+			</Classroom>
+			<Classroom code="3437" Name="3437">
+				<ClassroomName>3437</ClassroomName>
+				<ClassroomCode>3437</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="3458" Name="3458">
+				<ClassroomName>3458</ClassroomName>
+				<ClassroomCode>3458</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="3413" Name="3413">
+				<ClassroomName>3413</ClassroomName>
+				<ClassroomCode>3413</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="">
+			<FloorName></FloorName>
+			<Classroom code="3418" Name="3418">
+				<ClassroomName>3418</ClassroomName>
+				<ClassroomCode>3418</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="26" CHName="理化大樓">
+		<BuildingName>理化大樓</BuildingName>
+		<BuildingCode>26</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="35X01" Name="格致廳小講堂">
+				<ClassroomName>格致廳小講堂</ClassroomName>
+				<ClassroomCode>35X01</ClassroomCode>
+			</Classroom>
+			<Classroom code="75X01" Name="格致廳大講堂">
+				<ClassroomName>格致廳大講堂</ClassroomName>
+				<ClassroomCode>75X01</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="35102" Name="35102">
+				<ClassroomName>35102</ClassroomName>
+				<ClassroomCode>35102</ClassroomCode>
+			</Classroom>
+			<Classroom code="35121" Name="35121">
+				<ClassroomName>35121</ClassroomName>
+				<ClassroomCode>35121</ClassroomCode>
+			</Classroom>
+			<Classroom code="35122" Name="35122">
+				<ClassroomName>35122</ClassroomName>
+				<ClassroomCode>35122</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="C201" Name="普物實驗室">
+				<ClassroomName>普物實驗室</ClassroomName>
+				<ClassroomCode>C201</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="35306" Name="35306">
+				<ClassroomName>35306</ClassroomName>
+				<ClassroomCode>35306</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="27" CHName="工科系館">
+		<BuildingName>工科系館</BuildingName>
+		<BuildingCode>27</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="41X01" Name="41X01">
+				<ClassroomName>41X01</ClassroomName>
+				<ClassroomCode>41X01</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="41101" Name="41101">
+				<ClassroomName>41101</ClassroomName>
+				<ClassroomCode>41101</ClassroomCode>
+			</Classroom>
+			<Classroom code="41102" Name="41102">
+				<ClassroomName>41102</ClassroomName>
+				<ClassroomCode>41102</ClassroomCode>
+			</Classroom>
+			<Classroom code="41103" Name="41103">
+				<ClassroomName>41103</ClassroomName>
+				<ClassroomCode>41103</ClassroomCode>
+			</Classroom>
+			<Classroom code="41104" Name="41104">
+				<ClassroomName>41104</ClassroomName>
+				<ClassroomCode>41104</ClassroomCode>
+			</Classroom>
+			<Classroom code="41107" Name="41107">
+				<ClassroomName>41107</ClassroomName>
+				<ClassroomCode>41107</ClassroomCode>
+			</Classroom>
+			<Classroom code="41111" Name="41111">
+				<ClassroomName>41111</ClassroomName>
+				<ClassroomCode>41111</ClassroomCode>
+			</Classroom>
+			<Classroom code="41122" Name="41122">
+				<ClassroomName>41122</ClassroomName>
+				<ClassroomCode>41122</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="41202" Name="41202">
+				<ClassroomName>41202</ClassroomName>
+				<ClassroomCode>41202</ClassroomCode>
+			</Classroom>
+			<Classroom code="41204" Name="41204">
+				<ClassroomName>41204</ClassroomName>
+				<ClassroomCode>41204</ClassroomCode>
+			</Classroom>
+			<Classroom code="41220" Name="41220">
+				<ClassroomName>41220</ClassroomName>
+				<ClassroomCode>41220</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="28" CHName="資訊系館">
+		<BuildingName>資訊系館</BuildingName>
+		<BuildingCode>28</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="4201" Name="4201">
+				<ClassroomName>4201</ClassroomName>
+				<ClassroomCode>4201</ClassroomCode>
+			</Classroom>
+			<Classroom code="4202" Name="4202">
+				<ClassroomName>4202</ClassroomName>
+				<ClassroomCode>4202</ClassroomCode>
+			</Classroom>
+			<Classroom code="4203" Name="4203">
+				<ClassroomName>4203</ClassroomName>
+				<ClassroomCode>4203</ClassroomCode>
+			</Classroom>
+			<Classroom code="4204" Name="4204">
+				<ClassroomName>4204</ClassroomName>
+				<ClassroomCode>4204</ClassroomCode>
+			</Classroom>
+			<Classroom code="4210A" Name="4210A">
+				<ClassroomName>4210A</ClassroomName>
+				<ClassroomCode>4210A</ClassroomCode>
+			</Classroom>
+			<Classroom code="4215" Name="4215">
+				<ClassroomName>4215</ClassroomName>
+				<ClassroomCode>4215</ClassroomCode>
+			</Classroom>
+			<Classroom code="4217" Name="4217">
+				<ClassroomName>4217</ClassroomName>
+				<ClassroomCode>4217</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="4260" Name="4260">
+				<ClassroomName>4260</ClassroomName>
+				<ClassroomCode>4260</ClassroomCode>
+			</Classroom>
+			<Classroom code="4261" Name="4261">
+				<ClassroomName>4261</ClassroomName>
+				<ClassroomCode>4261</ClassroomCode>
+			</Classroom>
+			<Classroom code="4263" Name="4263">
+				<ClassroomName>4263</ClassroomName>
+				<ClassroomCode>4263</ClassroomCode>
+			</Classroom>
+			<Classroom code="4264" Name="4264">
+				<ClassroomName>4264</ClassroomName>
+				<ClassroomCode>4264</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="29" CHName="資源系館">
+		<BuildingName>資源系館</BuildingName>
+		<BuildingCode>29</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="4301" Name="4301">
+				<ClassroomName>4301</ClassroomName>
+				<ClassroomCode>4301</ClassroomCode>
+			</Classroom>
+			<Classroom code="4302" Name="4302">
+				<ClassroomName>4302</ClassroomName>
+				<ClassroomCode>4302</ClassroomCode>
+			</Classroom>
+			<Classroom code="4307" Name="4307">
+				<ClassroomName>4307</ClassroomName>
+				<ClassroomCode>4307</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="4350" Name="4350">
+				<ClassroomName>4350</ClassroomName>
+				<ClassroomCode>4350</ClassroomCode>
+			</Classroom>
+			<Classroom code="4351" Name="4351">
+				<ClassroomName>4351</ClassroomName>
+				<ClassroomCode>4351</ClassroomCode>
+			</Classroom>
+			<Classroom code="4352" Name="4352">
+				<ClassroomName>4352</ClassroomName>
+				<ClassroomCode>4352</ClassroomCode>
+			</Classroom>
+			<Classroom code="4353" Name="4353">
+				<ClassroomName>4353</ClassroomName>
+				<ClassroomCode>4353</ClassroomCode>
+			</Classroom>
+			<Classroom code="4354" Name="4354">
+				<ClassroomName>4354</ClassroomName>
+				<ClassroomCode>4354</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="43101" Name="43101">
+				<ClassroomName>43101</ClassroomName>
+				<ClassroomCode>43101</ClassroomCode>
+			</Classroom>
+			<Classroom code="43102" Name="43102">
+				<ClassroomName>43102</ClassroomName>
+				<ClassroomCode>43102</ClassroomCode>
+			</Classroom>
+			<Classroom code="43103" Name="43103">
+				<ClassroomName>43103</ClassroomName>
+				<ClassroomCode>43103</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="30" CHName="材料系館">
+		<BuildingName>材料系館</BuildingName>
+		<BuildingCode>30</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="4404" Name="4404">
+				<ClassroomName>4404</ClassroomName>
+				<ClassroomCode>4404</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="4452" Name="4452">
+				<ClassroomName>4452</ClassroomName>
+				<ClassroomCode>4452</ClassroomCode>
+			</Classroom>
+			<Classroom code="4454" Name="4454">
+				<ClassroomName>4454</ClassroomName>
+				<ClassroomCode>4454</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="31" CHName="土木系館">
+		<BuildingName>土木系館</BuildingName>
+		<BuildingCode>31</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="47X52" Name="47X52">
+				<ClassroomName>47X52</ClassroomName>
+				<ClassroomCode>47X52</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="4501" Name="4501">
+				<ClassroomName>4501</ClassroomName>
+				<ClassroomCode>4501</ClassroomCode>
+			</Classroom>
+			<Classroom code="4502" Name="4502">
+				<ClassroomName>4502</ClassroomName>
+				<ClassroomCode>4502</ClassroomCode>
+			</Classroom>
+			<Classroom code="4503" Name="4503">
+				<ClassroomName>4503</ClassroomName>
+				<ClassroomCode>4503</ClassroomCode>
+			</Classroom>
+			<Classroom code="4504" Name="4504">
+				<ClassroomName>4504</ClassroomName>
+				<ClassroomCode>4504</ClassroomCode>
+			</Classroom>
+			<Classroom code="4505" Name="4505">
+				<ClassroomName>4505</ClassroomName>
+				<ClassroomCode>4505</ClassroomCode>
+			</Classroom>
+			<Classroom code="4506" Name="4506">
+				<ClassroomName>4506</ClassroomName>
+				<ClassroomCode>4506</ClassroomCode>
+			</Classroom>
+			<Classroom code="4507" Name="4507">
+				<ClassroomName>4507</ClassroomName>
+				<ClassroomCode>4507</ClassroomCode>
+			</Classroom>
+			<Classroom code="4509" Name="4509">
+				<ClassroomName>4509</ClassroomName>
+				<ClassroomCode>4509</ClassroomCode>
+			</Classroom>
+			<Classroom code="47158" Name="47158">
+				<ClassroomName>47158</ClassroomName>
+				<ClassroomCode>47158</ClassroomCode>
+			</Classroom>
+			<Classroom code="47160" Name="47160">
+				<ClassroomName>47160</ClassroomName>
+				<ClassroomCode>47160</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="210" Name="210">
+				<ClassroomName>210</ClassroomName>
+				<ClassroomCode>210</ClassroomCode>
+			</Classroom>
+			<Classroom code="47240" Name="47240">
+				<ClassroomName>47240</ClassroomName>
+				<ClassroomCode>47240</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="47450" Name="研討室">
+				<ClassroomName>研討室</ClassroomName>
+				<ClassroomCode>47450</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="32" CHName="水利系館">
+		<BuildingName>水利系館</BuildingName>
+		<BuildingCode>32</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="4620" Name="4620">
+				<ClassroomName>4620</ClassroomName>
+				<ClassroomCode>4620</ClassroomCode>
+			</Classroom>
+			<Classroom code="4622" Name="4622">
+				<ClassroomName>4622</ClassroomName>
+				<ClassroomCode>4622</ClassroomCode>
+			</Classroom>
+			<Classroom code="4624" Name="4624">
+				<ClassroomName>4624</ClassroomName>
+				<ClassroomCode>4624</ClassroomCode>
+			</Classroom>
+			<Classroom code="4625" Name="4625">
+				<ClassroomName>4625</ClassroomName>
+				<ClassroomCode>4625</ClassroomCode>
+			</Classroom>
+			<Classroom code="4627" Name="4627">
+				<ClassroomName>4627</ClassroomName>
+				<ClassroomCode>4627</ClassroomCode>
+			</Classroom>
+			<Classroom code="4629" Name="4629">
+				<ClassroomName>4629</ClassroomName>
+				<ClassroomCode>4629</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="4644" Name="4644">
+				<ClassroomName>4644</ClassroomName>
+				<ClassroomCode>4644</ClassroomCode>
+			</Classroom>
+			<Classroom code="4645" Name="4645">
+				<ClassroomName>4645</ClassroomName>
+				<ClassroomCode>4645</ClassroomCode>
+			</Classroom>
+			<Classroom code="4646" Name="4646">
+				<ClassroomName>4646</ClassroomName>
+				<ClassroomCode>4646</ClassroomCode>
+			</Classroom>
+			<Classroom code="4648" Name="4648">
+				<ClassroomName>4648</ClassroomName>
+				<ClassroomCode>4648</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="4671" Name="4671">
+				<ClassroomName>4671</ClassroomName>
+				<ClassroomCode>4671</ClassroomCode>
+			</Classroom>
+			<Classroom code="4678" Name="4678">
+				<ClassroomName>4678</ClassroomName>
+				<ClassroomCode>4678</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="33" CHName="環工系館">
+		<BuildingName>環工系館</BuildingName>
+		<BuildingCode>33</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="47102" Name="47102">
+				<ClassroomName>47102</ClassroomName>
+				<ClassroomCode>47102</ClassroomCode>
+			</Classroom>
+			<Classroom code="47110" Name="47110">
+				<ClassroomName>47110</ClassroomName>
+				<ClassroomCode>47110</ClassroomCode>
+			</Classroom>
+			<Classroom code="47111" Name="47111">
+				<ClassroomName>47111</ClassroomName>
+				<ClassroomCode>47111</ClassroomCode>
+			</Classroom>
+			<Classroom code="47112" Name="47112">
+				<ClassroomName>47112</ClassroomName>
+				<ClassroomCode>47112</ClassroomCode>
+			</Classroom>
+			<Classroom code="47114" Name="47114">
+				<ClassroomName>47114</ClassroomName>
+				<ClassroomCode>47114</ClassroomCode>
+			</Classroom>
+			<Classroom code="47118" Name="47118">
+				<ClassroomName>47118</ClassroomName>
+				<ClassroomCode>47118</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="47207" Name="會議室">
+				<ClassroomName>會議室</ClassroomName>
+				<ClassroomCode>47207</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="47309" Name="47309">
+				<ClassroomName>47309</ClassroomName>
+				<ClassroomCode>47309</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="34" CHName="綜合大樓">
+		<BuildingName>綜合大樓</BuildingName>
+		<BuildingCode>34</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="48312" Name="48312">
+				<ClassroomName>48312</ClassroomName>
+				<ClassroomCode>48312</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="48421" Name="48421">
+				<ClassroomName>48421</ClassroomName>
+				<ClassroomCode>48421</ClassroomCode>
+			</Classroom>
+			<Classroom code="48422" Name="48422">
+				<ClassroomName>48422</ClassroomName>
+				<ClassroomCode>48422</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="48111B" Name="48111B">
+				<ClassroomName>48111B</ClassroomName>
+				<ClassroomCode>48111B</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="48216" Name="48216">
+				<ClassroomName>48216</ClassroomName>
+				<ClassroomCode>48216</ClassroomCode>
+			</Classroom>
+			<Classroom code="48217" Name="48217">
+				<ClassroomName>48217</ClassroomName>
+				<ClassroomCode>48217</ClassroomCode>
+			</Classroom>
+			<Classroom code="48218" Name="48218">
+				<ClassroomName>48218</ClassroomName>
+				<ClassroomCode>48218</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="48424" Name="48424">
+				<ClassroomName>48424</ClassroomName>
+				<ClassroomCode>48424</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="35" CHName="物理二館">
+		<BuildingName>物理二館</BuildingName>
+		<BuildingCode>35</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="49X04" Name="49X04">
+				<ClassroomName>49X04</ClassroomName>
+				<ClassroomCode>49X04</ClassroomCode>
+			</Classroom>
+			<Classroom code="49X06" Name="49X06">
+				<ClassroomName>49X06</ClassroomName>
+				<ClassroomCode>49X06</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="49101" Name="49101">
+				<ClassroomName>49101</ClassroomName>
+				<ClassroomCode>49101</ClassroomCode>
+			</Classroom>
+			<Classroom code="49104" Name="49104">
+				<ClassroomName>49104</ClassroomName>
+				<ClassroomCode>49104</ClassroomCode>
+			</Classroom>
+			<Classroom code="49116" Name="49116">
+				<ClassroomName>49116</ClassroomName>
+				<ClassroomCode>49116</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="49223" Name="49223">
+				<ClassroomName>49223</ClassroomName>
+				<ClassroomCode>49223</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="49312" Name="49312">
+				<ClassroomName>49312</ClassroomName>
+				<ClassroomCode>49312</ClassroomCode>
+			</Classroom>
+			<Classroom code="49322" Name="49322">
+				<ClassroomName>49322</ClassroomName>
+				<ClassroomCode>49322</ClassroomCode>
+			</Classroom>
+			<Classroom code="49323" Name="49323">
+				<ClassroomName>49323</ClassroomName>
+				<ClassroomCode>49323</ClassroomCode>
+			</Classroom>
+			<Classroom code="49324" Name="49324">
+				<ClassroomName>49324</ClassroomName>
+				<ClassroomCode>49324</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="C202" Name="電磁實驗室">
+				<ClassroomName>電磁實驗室</ClassroomName>
+				<ClassroomCode>C202</ClassroomCode>
+			</Classroom>
+			<Classroom code="C204" Name="光學實驗室">
+				<ClassroomName>光學實驗室</ClassroomName>
+				<ClassroomCode>C204</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="36" CHName="測量系館">
+		<BuildingName>測量系館</BuildingName>
+		<BuildingCode>36</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="4001" Name="經緯廳">
+				<ClassroomName>經緯廳</ClassroomName>
+				<ClassroomCode>4001</ClassroomCode>
+			</Classroom>
+			<Classroom code="55150" Name="55150">
+				<ClassroomName>55150</ClassroomName>
+				<ClassroomCode>55150</ClassroomCode>
+			</Classroom>
+			<Classroom code="55160" Name="55160">
+				<ClassroomName>55160</ClassroomName>
+				<ClassroomCode>55160</ClassroomCode>
+			</Classroom>
+			<Classroom code="55170" Name="55170">
+				<ClassroomName>55170</ClassroomName>
+				<ClassroomCode>55170</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="55180" Name="55180">
+				<ClassroomName>55180</ClassroomName>
+				<ClassroomCode>55180</ClassroomCode>
+			</Classroom>
+			<Classroom code="55206" Name="55206">
+				<ClassroomName>55206</ClassroomName>
+				<ClassroomCode>55206</ClassroomCode>
+			</Classroom>
+			<Classroom code="55208" Name="55208">
+				<ClassroomName>55208</ClassroomName>
+				<ClassroomCode>55208</ClassroomCode>
+			</Classroom>
+			<Classroom code="55209" Name="55209">
+				<ClassroomName>55209</ClassroomName>
+				<ClassroomCode>55209</ClassroomCode>
+			</Classroom>
+			<Classroom code="55250" Name="55250">
+				<ClassroomName>55250</ClassroomName>
+				<ClassroomCode>55250</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="55318" Name="55318">
+				<ClassroomName>55318</ClassroomName>
+				<ClassroomCode>55318</ClassroomCode>
+			</Classroom>
+			<Classroom code="55323" Name="55323">
+				<ClassroomName>55323</ClassroomName>
+				<ClassroomCode>55323</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="37" CHName="資訊大樓">
+		<BuildingName>資訊大樓</BuildingName>
+		<BuildingCode>37</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="75201" Name="75201">
+				<ClassroomName>75201</ClassroomName>
+				<ClassroomCode>75201</ClassroomCode>
+			</Classroom>
+			<Classroom code="75209" Name="75209">
+				<ClassroomName>75209</ClassroomName>
+				<ClassroomCode>75209</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="75301" Name="75301">
+				<ClassroomName>75301</ClassroomName>
+				<ClassroomCode>75301</ClassroomCode>
+			</Classroom>
+			<Classroom code="75309" Name="75309">
+				<ClassroomName>75309</ClassroomName>
+				<ClassroomCode>75309</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="6">
+			<FloorName>6</FloorName>
+			<Classroom code="75607" Name="75607">
+				<ClassroomName>75607</ClassroomName>
+				<ClassroomCode>75607</ClassroomCode>
+			</Classroom>
+			<Classroom code="75613" Name="75613">
+				<ClassroomName>75613</ClassroomName>
+				<ClassroomCode>75613</ClassroomCode>
+			</Classroom>
+			<Classroom code="75614" Name="75614">
+				<ClassroomName>75614</ClassroomName>
+				<ClassroomCode>75614</ClassroomCode>
+			</Classroom>
+			<Classroom code="75716" Name="75616">
+				<ClassroomName>75616</ClassroomName>
+				<ClassroomCode>75716</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="8">
+			<FloorName>8</FloorName>
+			<Classroom code="75802" Name="75802">
+				<ClassroomName>75802</ClassroomName>
+				<ClassroomCode>75802</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="7">
+			<FloorName>7</FloorName>
+			<Classroom code="75710" Name="75710">
+				<ClassroomName>75710</ClassroomName>
+				<ClassroomCode>75710</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="75312" Name="75312">
+				<ClassroomName>75312</ClassroomName>
+				<ClassroomCode>75312</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="39" CHName="物理一館">
+		<BuildingName>物理一館</BuildingName>
+		<BuildingCode>39</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="C203" Name="近物實驗室">
+				<ClassroomName>近物實驗室</ClassroomName>
+				<ClassroomCode>C203</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="41" CHName="系統系館">
+		<BuildingName>系統系館</BuildingName>
+		<BuildingCode>41</BuildingCode>
+		<Campus>自強</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="107" Name="視廳教室1F">
+				<ClassroomName>視廳教室1F</ClassroomName>
+				<ClassroomCode>107</ClassroomCode>
+			</Classroom>
+			<Classroom code="56111" Name="56111">
+				<ClassroomName>56111</ClassroomName>
+				<ClassroomCode>56111</ClassroomCode>
+			</Classroom>
+			<Classroom code="56113" Name="56113">
+				<ClassroomName>56113</ClassroomName>
+				<ClassroomCode>56113</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="201A" Name="201A">
+				<ClassroomName>201A</ClassroomName>
+				<ClassroomCode>201A</ClassroomCode>
+			</Classroom>
+			<Classroom code="201B" Name="201B">
+				<ClassroomName>201B</ClassroomName>
+				<ClassroomCode>201B</ClassroomCode>
+			</Classroom>
+			<Classroom code="56222" Name="56222">
+				<ClassroomName>56222</ClassroomName>
+				<ClassroomCode>56222</ClassroomCode>
+			</Classroom>
+			<Classroom code="56224" Name="56224">
+				<ClassroomName>56224</ClassroomName>
+				<ClassroomCode>56224</ClassroomCode>
+			</Classroom>
+			<Classroom code="56226" Name="56226">
+				<ClassroomName>56226</ClassroomName>
+				<ClassroomCode>56226</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="56441" Name="56441">
+				<ClassroomName>56441</ClassroomName>
+				<ClassroomCode>56441</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="6">
+			<FloorName>6</FloorName>
+			<Classroom code="56661" Name="56661">
+				<ClassroomName>56661</ClassroomName>
+				<ClassroomCode>56661</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="407" Name="407">
+				<ClassroomName>407</ClassroomName>
+				<ClassroomCode>407</ClassroomCode>
+			</Classroom>
+			<Classroom code="406" Name="406">
+				<ClassroomName>406</ClassroomName>
+				<ClassroomCode>406</ClassroomCode>
+			</Classroom>
+			<Classroom code="408" Name="408">
+				<ClassroomName>408</ClassroomName>
+				<ClassroomCode>408</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="42" CHName="航太系館">
+		<BuildingName>航太系館</BuildingName>
+		<BuildingCode>42</BuildingCode>
+		<Campus>自強</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="5803" Name="5803">
+				<ClassroomName>5803</ClassroomName>
+				<ClassroomCode>5803</ClassroomCode>
+			</Classroom>
+			<Classroom code="5808" Name="5808">
+				<ClassroomName>5808</ClassroomName>
+				<ClassroomCode>5808</ClassroomCode>
+			</Classroom>
+			<Classroom code="5814" Name="實驗室">
+				<ClassroomName>實驗室</ClassroomName>
+				<ClassroomCode>5814</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="5821" Name="5821">
+				<ClassroomName>5821</ClassroomName>
+				<ClassroomCode>5821</ClassroomCode>
+			</Classroom>
+			<Classroom code="5822" Name="5822">
+				<ClassroomName>5822</ClassroomName>
+				<ClassroomCode>5822</ClassroomCode>
+			</Classroom>
+			<Classroom code="5824" Name="5824">
+				<ClassroomName>5824</ClassroomName>
+				<ClassroomCode>5824</ClassroomCode>
+			</Classroom>
+			<Classroom code="5825" Name="5825">
+				<ClassroomName>5825</ClassroomName>
+				<ClassroomCode>5825</ClassroomCode>
+			</Classroom>
+			<Classroom code="5827" Name="5827">
+				<ClassroomName>5827</ClassroomName>
+				<ClassroomCode>5827</ClassroomCode>
+			</Classroom>
+			<Classroom code="5828" Name="5828">
+				<ClassroomName>5828</ClassroomName>
+				<ClassroomCode>5828</ClassroomCode>
+			</Classroom>
+			<Classroom code="5829" Name="5829">
+				<ClassroomName>5829</ClassroomName>
+				<ClassroomCode>5829</ClassroomCode>
+			</Classroom>
+			<Classroom code="5830" Name="5830">
+				<ClassroomName>5830</ClassroomName>
+				<ClassroomCode>5830</ClassroomCode>
+			</Classroom>
+			<Classroom code="5831" Name="5831">
+				<ClassroomName>5831</ClassroomName>
+				<ClassroomCode>5831</ClassroomCode>
+			</Classroom>
+			<Classroom code="5832" Name="5832">
+				<ClassroomName>5832</ClassroomName>
+				<ClassroomCode>5832</ClassroomCode>
+			</Classroom>
+			<Classroom code="5833" Name="5833">
+				<ClassroomName>5833</ClassroomName>
+				<ClassroomCode>5833</ClassroomCode>
+			</Classroom>
+			<Classroom code="5834" Name="5834">
+				<ClassroomName>5834</ClassroomName>
+				<ClassroomCode>5834</ClassroomCode>
+			</Classroom>
+			<Classroom code="5836" Name="5836">
+				<ClassroomName>5836</ClassroomName>
+				<ClassroomCode>5836</ClassroomCode>
+			</Classroom>
+			<Classroom code="5837" Name="繼昌講堂">
+				<ClassroomName>繼昌講堂</ClassroomName>
+				<ClassroomCode>5837</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="5849" Name="5849">
+				<ClassroomName>5849</ClassroomName>
+				<ClassroomCode>5849</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="5893B" Name="5893B">
+				<ClassroomName>5893B</ClassroomName>
+				<ClassroomCode>5893B</ClassroomCode>
+			</Classroom>
+			<Classroom code="5896A" Name="5896A">
+				<ClassroomName>5896A</ClassroomName>
+				<ClassroomCode>5896A</ClassroomCode>
+			</Classroom>
+			<Classroom code="5896B" Name="5896B">
+				<ClassroomName>5896B</ClassroomName>
+				<ClassroomCode>5896B</ClassroomCode>
+			</Classroom>
+			<Classroom code="5898" Name="5898">
+				<ClassroomName>5898</ClassroomName>
+				<ClassroomCode>5898</ClassroomCode>
+			</Classroom>
+			<Classroom code="5891C" Name="5891C">
+				<ClassroomName>5891C</ClassroomName>
+				<ClassroomCode>5891C</ClassroomCode>
+			</Classroom>
+			<Classroom code="5897" Name="5897">
+				<ClassroomName>5897</ClassroomName>
+				<ClassroomCode>5897</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="43" CHName="機械系館">
+		<BuildingName>機械系館</BuildingName>
+		<BuildingCode>43</BuildingCode>
+		<Campus>自強</Campus>
+		<Floor code="B2">
+			<FloorName>B2</FloorName>
+			<Classroom code="91Y04" Name="91Y04">
+				<ClassroomName>91Y04</ClassroomName>
+				<ClassroomCode>91Y04</ClassroomCode>
+			</Classroom>
+			<Classroom code="91Y01" Name="配電室">
+				<ClassroomName>配電室</ClassroomName>
+				<ClassroomCode>91Y01</ClassroomCode>
+			</Classroom>
+			<Classroom code="91Y02" Name="桌球室">
+				<ClassroomName>桌球室</ClassroomName>
+				<ClassroomCode>91Y02</ClassroomCode>
+			</Classroom>
+			<Classroom code="91Y03" Name="消防室">
+				<ClassroomName>消防室</ClassroomName>
+				<ClassroomCode>91Y03</ClassroomCode>
+			</Classroom>
+			<Classroom code="91Y04" Name="材料實驗室">
+				<ClassroomName>材料實驗室</ClassroomName>
+				<ClassroomCode>91Y04</ClassroomCode>
+			</Classroom>
+			<Classroom code="91Y05" Name="材料實驗室">
+				<ClassroomName>材料實驗室</ClassroomName>
+				<ClassroomCode>91Y05</ClassroomCode>
+			</Classroom>
+			<Classroom code="91Y06" Name="油氣壓實驗室">
+				<ClassroomName>油氣壓實驗室</ClassroomName>
+				<ClassroomCode>91Y06</ClassroomCode>
+			</Classroom>
+			<Classroom code="91Y07" Name="無名稱">
+				<ClassroomName>無名稱</ClassroomName>
+				<ClassroomCode>91Y07</ClassroomCode>
+			</Classroom>
+			<Classroom code="91Y08" Name="無名稱">
+				<ClassroomName>無名稱</ClassroomName>
+				<ClassroomCode>91Y08</ClassroomCode>
+			</Classroom>
+			<Classroom code="91Y09" Name="材料實驗室">
+				<ClassroomName>材料實驗室</ClassroomName>
+				<ClassroomCode>91Y09</ClassroomCode>
+			</Classroom>
+			<Classroom code="91Y10" Name="創意工廠">
+				<ClassroomName>創意工廠</ClassroomName>
+				<ClassroomCode>91Y10</ClassroomCode>
+			</Classroom>
+			<Classroom code="91Y11" Name="微射出成型與電鑄實驗室">
+				<ClassroomName>微射出成型與電鑄實驗室</ClassroomName>
+				<ClassroomCode>91Y11</ClassroomCode>
+			</Classroom>
+			<Classroom code="91Y12" Name="無名稱">
+				<ClassroomName>無名稱</ClassroomName>
+				<ClassroomCode>91Y12</ClassroomCode>
+			</Classroom>
+			<Classroom code="91Y13" Name="報廢品儲藏室">
+				<ClassroomName>報廢品儲藏室</ClassroomName>
+				<ClassroomCode>91Y13</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="91X02" Name="91X02">
+				<ClassroomName>91X02</ClassroomName>
+				<ClassroomCode>91X02</ClassroomCode>
+			</Classroom>
+			<Classroom code="91X08" Name="91X08">
+				<ClassroomName>91X08</ClassroomName>
+				<ClassroomCode>91X08</ClassroomCode>
+			</Classroom>
+			<Classroom code="91X01" Name="熱流科學實驗室">
+				<ClassroomName>熱流科學實驗室</ClassroomName>
+				<ClassroomCode>91X01</ClassroomCode>
+			</Classroom>
+			<Classroom code="91X02" Name="熱流科學實驗室">
+				<ClassroomName>熱流科學實驗室</ClassroomName>
+				<ClassroomCode>91X02</ClassroomCode>
+			</Classroom>
+			<Classroom code="91X03" Name="何清政教授研究室">
+				<ClassroomName>何清政教授研究室</ClassroomName>
+				<ClassroomCode>91X03</ClassroomCode>
+			</Classroom>
+			<Classroom code="91X04" Name="電子顯微鏡研究室">
+				<ClassroomName>電子顯微鏡研究室</ClassroomName>
+				<ClassroomCode>91X04</ClassroomCode>
+			</Classroom>
+			<Classroom code="91X05" Name="創意工廠">
+				<ClassroomName>創意工廠</ClassroomName>
+				<ClassroomCode>91X05</ClassroomCode>
+			</Classroom>
+			<Classroom code="91X06" Name="撞擊力學研究室">
+				<ClassroomName>撞擊力學研究室</ClassroomName>
+				<ClassroomCode>91X06</ClassroomCode>
+			</Classroom>
+			<Classroom code="91X07" Name="熱流科學實驗室">
+				<ClassroomName>熱流科學實驗室</ClassroomName>
+				<ClassroomCode>91X07</ClassroomCode>
+			</Classroom>
+			<Classroom code="91X12" Name="微射出成型與電鑄實驗室">
+				<ClassroomName>微射出成型與電鑄實驗室</ClassroomName>
+				<ClassroomCode>91X12</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="91101" Name="象賢講堂">
+				<ClassroomName>象賢講堂</ClassroomName>
+				<ClassroomCode>91101</ClassroomCode>
+			</Classroom>
+			<Classroom code="91102" Name="102教室">
+				<ClassroomName>102教室</ClassroomName>
+				<ClassroomCode>91102</ClassroomCode>
+			</Classroom>
+			<Classroom code="91103" Name="103教室">
+				<ClassroomName>103教室</ClassroomName>
+				<ClassroomCode>91103</ClassroomCode>
+			</Classroom>
+			<Classroom code="91104" Name="俊銘講堂">
+				<ClassroomName>俊銘講堂</ClassroomName>
+				<ClassroomCode>91104</ClassroomCode>
+			</Classroom>
+			<Classroom code="91105" Name="三星講堂">
+				<ClassroomName>三星講堂</ClassroomName>
+				<ClassroomCode>91105</ClassroomCode>
+			</Classroom>
+			<Classroom code="91106" Name="管理中心">
+				<ClassroomName>管理中心</ClassroomName>
+				<ClassroomCode>91106</ClassroomCode>
+			</Classroom>
+			<Classroom code="91101" Name="象賢講堂">
+				<ClassroomName>象賢講堂</ClassroomName>
+				<ClassroomCode>91101</ClassroomCode>
+			</Classroom>
+			<Classroom code="91102" Name="91102">
+				<ClassroomName>91102</ClassroomName>
+				<ClassroomCode>91102</ClassroomCode>
+			</Classroom>
+			<Classroom code="91103" Name="91103">
+				<ClassroomName>91103</ClassroomName>
+				<ClassroomCode>91103</ClassroomCode>
+			</Classroom>
+			<Classroom code="91104" Name="俊銘講堂">
+				<ClassroomName>俊銘講堂</ClassroomName>
+				<ClassroomCode>91104</ClassroomCode>
+			</Classroom>
+			<Classroom code="91105" Name="三星講堂">
+				<ClassroomName>三星講堂</ClassroomName>
+				<ClassroomCode>91105</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="91201" Name="研討室">
+				<ClassroomName>研討室</ClassroomName>
+				<ClassroomCode>91201</ClassroomCode>
+			</Classroom>
+			<Classroom code="91202" Name="機四教室">
+				<ClassroomName>機四教室</ClassroomName>
+				<ClassroomCode>91202</ClassroomCode>
+			</Classroom>
+			<Classroom code="91203" Name="三甲教室">
+				<ClassroomName>三甲教室</ClassroomName>
+				<ClassroomCode>91203</ClassroomCode>
+			</Classroom>
+			<Classroom code="91204" Name="三乙教室">
+				<ClassroomName>三乙教室</ClassroomName>
+				<ClassroomCode>91204</ClassroomCode>
+			</Classroom>
+			<Classroom code="91205" Name="三丙教室">
+				<ClassroomName>三丙教室</ClassroomName>
+				<ClassroomCode>91205</ClassroomCode>
+			</Classroom>
+			<Classroom code="91206" Name="二甲教室">
+				<ClassroomName>二甲教室</ClassroomName>
+				<ClassroomCode>91206</ClassroomCode>
+			</Classroom>
+			<Classroom code="91207" Name="二乙教室">
+				<ClassroomName>二乙教室</ClassroomName>
+				<ClassroomCode>91207</ClassroomCode>
+			</Classroom>
+			<Classroom code="91208" Name="系會辦公室">
+				<ClassroomName>系會辦公室</ClassroomName>
+				<ClassroomCode>91208</ClassroomCode>
+			</Classroom>
+			<Classroom code="91201" Name="91201">
+				<ClassroomName>91201</ClassroomName>
+				<ClassroomCode>91201</ClassroomCode>
+			</Classroom>
+			<Classroom code="91202" Name="91202">
+				<ClassroomName>91202</ClassroomName>
+				<ClassroomCode>91202</ClassroomCode>
+			</Classroom>
+			<Classroom code="91203" Name="91203">
+				<ClassroomName>91203</ClassroomName>
+				<ClassroomCode>91203</ClassroomCode>
+			</Classroom>
+			<Classroom code="91204" Name="91204">
+				<ClassroomName>91204</ClassroomName>
+				<ClassroomCode>91204</ClassroomCode>
+			</Classroom>
+			<Classroom code="91205" Name="91205">
+				<ClassroomName>91205</ClassroomName>
+				<ClassroomCode>91205</ClassroomCode>
+			</Classroom>
+			<Classroom code="91206" Name="91206">
+				<ClassroomName>91206</ClassroomName>
+				<ClassroomCode>91206</ClassroomCode>
+			</Classroom>
+			<Classroom code="91207" Name="91207">
+				<ClassroomName>91207</ClassroomName>
+				<ClassroomCode>91207</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="91301" Name="研討室">
+				<ClassroomName>研討室</ClassroomName>
+				<ClassroomCode>91301</ClassroomCode>
+			</Classroom>
+			<Classroom code="91302" Name="二丙教室">
+				<ClassroomName>二丙教室</ClassroomName>
+				<ClassroomCode>91302</ClassroomCode>
+			</Classroom>
+			<Classroom code="91303" Name="一甲教室">
+				<ClassroomName>一甲教室</ClassroomName>
+				<ClassroomCode>91303</ClassroomCode>
+			</Classroom>
+			<Classroom code="91305" Name="一乙教室">
+				<ClassroomName>一乙教室</ClassroomName>
+				<ClassroomCode>91305</ClassroomCode>
+			</Classroom>
+			<Classroom code="91306" Name="電子電路教學實驗室">
+				<ClassroomName>電子電路教學實驗室</ClassroomName>
+				<ClassroomCode>91306</ClassroomCode>
+			</Classroom>
+			<Classroom code="91307" Name="製圖教室">
+				<ClassroomName>製圖教室</ClassroomName>
+				<ClassroomCode>91307</ClassroomCode>
+			</Classroom>
+			<Classroom code="91308" Name="一丙教室">
+				<ClassroomName>一丙教室</ClassroomName>
+				<ClassroomCode>91308</ClassroomCode>
+			</Classroom>
+			<Classroom code="91309" Name="模型室">
+				<ClassroomName>模型室</ClassroomName>
+				<ClassroomCode>91309</ClassroomCode>
+			</Classroom>
+			<Classroom code="91301" Name="91301">
+				<ClassroomName>91301</ClassroomName>
+				<ClassroomCode>91301</ClassroomCode>
+			</Classroom>
+			<Classroom code="91302" Name="91302">
+				<ClassroomName>91302</ClassroomName>
+				<ClassroomCode>91302</ClassroomCode>
+			</Classroom>
+			<Classroom code="91303" Name="91303">
+				<ClassroomName>91303</ClassroomName>
+				<ClassroomCode>91303</ClassroomCode>
+			</Classroom>
+			<Classroom code="91305" Name="91305">
+				<ClassroomName>91305</ClassroomName>
+				<ClassroomCode>91305</ClassroomCode>
+			</Classroom>
+			<Classroom code="91306" Name="91306">
+				<ClassroomName>91306</ClassroomName>
+				<ClassroomCode>91306</ClassroomCode>
+			</Classroom>
+			<Classroom code="91307" Name="91307">
+				<ClassroomName>91307</ClassroomName>
+				<ClassroomCode>91307</ClassroomCode>
+			</Classroom>
+			<Classroom code="91308" Name="91308">
+				<ClassroomName>91308</ClassroomName>
+				<ClassroomCode>91308</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="91402" Name="馬承九教授書房">
+				<ClassroomName>馬承九教授書房</ClassroomName>
+				<ClassroomCode>91402</ClassroomCode>
+			</Classroom>
+			<Classroom code="91403" Name="兼任教授室">
+				<ClassroomName>兼任教授室</ClassroomName>
+				<ClassroomCode>91403</ClassroomCode>
+			</Classroom>
+			<Classroom code="91407" Name="夏漢民榮譽教授">
+				<ClassroomName>夏漢民榮譽教授</ClassroomName>
+				<ClassroomCode>91407</ClassroomCode>
+			</Classroom>
+			<Classroom code="91409" Name="討論室">
+				<ClassroomName>討論室</ClassroomName>
+				<ClassroomCode>91409</ClassroomCode>
+			</Classroom>
+			<Classroom code="91410" Name="君地閱覽室">
+				<ClassroomName>君地閱覽室</ClassroomName>
+				<ClassroomCode>91410</ClassroomCode>
+			</Classroom>
+			<Classroom code="91411" Name="會議室">
+				<ClassroomName>會議室</ClassroomName>
+				<ClassroomCode>91411</ClassroomCode>
+			</Classroom>
+			<Classroom code="91412" Name="會議室">
+				<ClassroomName>會議室</ClassroomName>
+				<ClassroomCode>91412</ClassroomCode>
+			</Classroom>
+			<Classroom code="91413" Name="副主任室">
+				<ClassroomName>副主任室</ClassroomName>
+				<ClassroomCode>91413</ClassroomCode>
+			</Classroom>
+			<Classroom code="91414" Name="系主任室">
+				<ClassroomName>系主任室</ClassroomName>
+				<ClassroomCode>91414</ClassroomCode>
+			</Classroom>
+			<Classroom code="91415" Name="系辦公室">
+				<ClassroomName>系辦公室</ClassroomName>
+				<ClassroomCode>91415</ClassroomCode>
+			</Classroom>
+			<Classroom code="91416" Name="系辦公室">
+				<ClassroomName>系辦公室</ClassroomName>
+				<ClassroomCode>91416</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="5">
+			<FloorName>5</FloorName>
+			<Classroom code="91501" Name="張怡伶教授辦公室">
+				<ClassroomName>張怡伶教授辦公室</ClassroomName>
+				<ClassroomCode>91501</ClassroomCode>
+			</Classroom>
+			<Classroom code="91502" Name="李榮顯教授辦公室">
+				<ClassroomName>李榮顯教授辦公室</ClassroomName>
+				<ClassroomCode>91502</ClassroomCode>
+			</Classroom>
+			<Classroom code="91503" Name="張仁宗教授辦公室">
+				<ClassroomName>張仁宗教授辦公室</ClassroomName>
+				<ClassroomCode>91503</ClassroomCode>
+			</Classroom>
+			<Classroom code="91504" Name="陳玉彬教授辦公室">
+				<ClassroomName>陳玉彬教授辦公室</ClassroomName>
+				<ClassroomCode>91504</ClassroomCode>
+			</Classroom>
+			<Classroom code="91505" Name="劉彥辰教授辦公室">
+				<ClassroomName>劉彥辰教授辦公室</ClassroomName>
+				<ClassroomCode>91505</ClassroomCode>
+			</Classroom>
+			<Classroom code="91506" Name="李偉賢教授辦公室">
+				<ClassroomName>李偉賢教授辦公室</ClassroomName>
+				<ClassroomCode>91506</ClassroomCode>
+			</Classroom>
+			<Classroom code="91507" Name="李克讓榮譽教授">
+				<ClassroomName>李克讓榮譽教授</ClassroomName>
+				<ClassroomCode>91507</ClassroomCode>
+			</Classroom>
+			<Classroom code="91508" Name="賴新一教授辦公室">
+				<ClassroomName>賴新一教授辦公室</ClassroomName>
+				<ClassroomCode>91508</ClassroomCode>
+			</Classroom>
+			<Classroom code="91509" Name="林昌進教授辦公室">
+				<ClassroomName>林昌進教授辦公室</ClassroomName>
+				<ClassroomCode>91509</ClassroomCode>
+			</Classroom>
+			<Classroom code="91510" Name="教職員聯誼室">
+				<ClassroomName>教職員聯誼室</ClassroomName>
+				<ClassroomCode>91510</ClassroomCode>
+			</Classroom>
+			<Classroom code="91511" Name="顏鴻森教授辦公室">
+				<ClassroomName>顏鴻森教授辦公室</ClassroomName>
+				<ClassroomCode>91511</ClassroomCode>
+			</Classroom>
+			<Classroom code="91512" Name="楊玉姿教授辦公室">
+				<ClassroomName>楊玉姿教授辦公室</ClassroomName>
+				<ClassroomCode>91512</ClassroomCode>
+			</Classroom>
+			<Classroom code="91513" Name="洪振益教授辦公室">
+				<ClassroomName>洪振益教授辦公室</ClassroomName>
+				<ClassroomCode>91513</ClassroomCode>
+			</Classroom>
+			<Classroom code="91514" Name="機械工程學刊">
+				<ClassroomName>機械工程學刊</ClassroomName>
+				<ClassroomCode>91514</ClassroomCode>
+			</Classroom>
+			<Classroom code="91515" Name="陳聯文教授辦公室">
+				<ClassroomName>陳聯文教授辦公室</ClassroomName>
+				<ClassroomCode>91515</ClassroomCode>
+			</Classroom>
+			<Classroom code="91516" Name="陳寒濤教授辦公室">
+				<ClassroomName>陳寒濤教授辦公室</ClassroomName>
+				<ClassroomCode>91516</ClassroomCode>
+			</Classroom>
+			<Classroom code="91517" Name="陳朝光教授辦公室">
+				<ClassroomName>陳朝光教授辦公室</ClassroomName>
+				<ClassroomCode>91517</ClassroomCode>
+			</Classroom>
+			<Classroom code="91518" Name="蔡明祺教授辦公室">
+				<ClassroomName>蔡明祺教授辦公室</ClassroomName>
+				<ClassroomCode>91518</ClassroomCode>
+			</Classroom>
+			<Classroom code="91519" Name="邱顯堂教授辦公室">
+				<ClassroomName>邱顯堂教授辦公室</ClassroomName>
+				<ClassroomCode>91519</ClassroomCode>
+			</Classroom>
+			<Classroom code="91520" Name="何清政教授辦公室">
+				<ClassroomName>何清政教授辦公室</ClassroomName>
+				<ClassroomCode>91520</ClassroomCode>
+			</Classroom>
+			<Classroom code="91521" Name="黃文敏教授辦公室">
+				<ClassroomName>黃文敏教授辦公室</ClassroomName>
+				<ClassroomCode>91521</ClassroomCode>
+			</Classroom>
+			<Classroom code="91522" Name="林仁輝教授辦公室">
+				<ClassroomName>林仁輝教授辦公室</ClassroomName>
+				<ClassroomCode>91522</ClassroomCode>
+			</Classroom>
+			<Classroom code="91523" Name="研討室">
+				<ClassroomName>研討室</ClassroomName>
+				<ClassroomCode>91523</ClassroomCode>
+			</Classroom>
+			<Classroom code="91524" Name="林大惠教授辦公室">
+				<ClassroomName>林大惠教授辦公室</ClassroomName>
+				<ClassroomCode>91524</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="6">
+			<FloorName>6</FloorName>
+			<Classroom code="91601" Name="伺服器、網路控制室">
+				<ClassroomName>伺服器、網路控制室</ClassroomName>
+				<ClassroomCode>91601</ClassroomCode>
+			</Classroom>
+			<Classroom code="91602" Name="電腦教室">
+				<ClassroomName>電腦教室</ClassroomName>
+				<ClassroomCode>91602</ClassroomCode>
+			</Classroom>
+			<Classroom code="91603" Name="奈米科技實驗室">
+				<ClassroomName>奈米科技實驗室</ClassroomName>
+				<ClassroomCode>91603</ClassroomCode>
+			</Classroom>
+			<Classroom code="91605" Name="機械量測實驗室">
+				<ClassroomName>機械量測實驗室</ClassroomName>
+				<ClassroomCode>91605</ClassroomCode>
+			</Classroom>
+			<Classroom code="91606" Name="邱澄彬教授辦公室">
+				<ClassroomName>邱澄彬教授辦公室</ClassroomName>
+				<ClassroomCode>91606</ClassroomCode>
+			</Classroom>
+			<Classroom code="91607" Name="蘇演良教授辦公室">
+				<ClassroomName>蘇演良教授辦公室</ClassroomName>
+				<ClassroomCode>91607</ClassroomCode>
+			</Classroom>
+			<Classroom code="91608" Name="陳元方教授辦公室">
+				<ClassroomName>陳元方教授辦公室</ClassroomName>
+				<ClassroomCode>91608</ClassroomCode>
+			</Classroom>
+			<Classroom code="91609" Name="藍兆杰教授辦公室">
+				<ClassroomName>藍兆杰教授辦公室</ClassroomName>
+				<ClassroomCode>91609</ClassroomCode>
+			</Classroom>
+			<Classroom code="91610" Name="王俊志教授辦公室">
+				<ClassroomName>王俊志教授辦公室</ClassroomName>
+				<ClassroomCode>91610</ClassroomCode>
+			</Classroom>
+			<Classroom code="91611" Name="鍾震桂教授辦公室">
+				<ClassroomName>鍾震桂教授辦公室</ClassroomName>
+				<ClassroomCode>91611</ClassroomCode>
+			</Classroom>
+			<Classroom code="91613" Name="羅裕龍教授辦公室">
+				<ClassroomName>羅裕龍教授辦公室</ClassroomName>
+				<ClassroomCode>91613</ClassroomCode>
+			</Classroom>
+			<Classroom code="91614" Name="蔡南全教授辦公室">
+				<ClassroomName>蔡南全教授辦公室</ClassroomName>
+				<ClassroomCode>91614</ClassroomCode>
+			</Classroom>
+			<Classroom code="91615" Name="吳俊煌教授辦公室">
+				<ClassroomName>吳俊煌教授辦公室</ClassroomName>
+				<ClassroomCode>91615</ClassroomCode>
+			</Classroom>
+			<Classroom code="91616" Name="李永春教授辦公室">
+				<ClassroomName>李永春教授辦公室</ClassroomName>
+				<ClassroomCode>91616</ClassroomCode>
+			</Classroom>
+			<Classroom code="91617" Name="張錦裕教授辦公室">
+				<ClassroomName>張錦裕教授辦公室</ClassroomName>
+				<ClassroomCode>91617</ClassroomCode>
+			</Classroom>
+			<Classroom code="91618" Name="吳明勳教授辦公室">
+				<ClassroomName>吳明勳教授辦公室</ClassroomName>
+				<ClassroomCode>91618</ClassroomCode>
+			</Classroom>
+			<Classroom code="91601" Name="91601">
+				<ClassroomName>91601</ClassroomName>
+				<ClassroomCode>91601</ClassroomCode>
+			</Classroom>
+			<Classroom code="91602" Name="91602">
+				<ClassroomName>91602</ClassroomName>
+				<ClassroomCode>91602</ClassroomCode>
+			</Classroom>
+			<Classroom code="91605" Name="91605">
+				<ClassroomName>91605</ClassroomName>
+				<ClassroomCode>91605</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="7">
+			<FloorName>7</FloorName>
+			<Classroom code="91701" Name="陳鐵城教授辦公室">
+				<ClassroomName>陳鐵城教授辦公室</ClassroomName>
+				<ClassroomCode>91701</ClassroomCode>
+			</Classroom>
+			<Classroom code="91702" Name="吳志陽教授辦公室">
+				<ClassroomName>吳志陽教授辦公室</ClassroomName>
+				<ClassroomCode>91702</ClassroomCode>
+			</Classroom>
+			<Classroom code="91703" Name="李森墉教授辦公室">
+				<ClassroomName>李森墉教授辦公室</ClassroomName>
+				<ClassroomCode>91703</ClassroomCode>
+			</Classroom>
+			<Classroom code="91704" Name="劉至行教授辦公室">
+				<ClassroomName>劉至行教授辦公室</ClassroomName>
+				<ClassroomCode>91704</ClassroomCode>
+			</Classroom>
+			<Classroom code="91705" Name="李樺登教授辦公室">
+				<ClassroomName>李樺登教授辦公室</ClassroomName>
+				<ClassroomCode>91705</ClassroomCode>
+			</Classroom>
+			<Classroom code="91706" Name="許來興教授辦公室">
+				<ClassroomName>許來興教授辦公室</ClassroomName>
+				<ClassroomCode>91706</ClassroomCode>
+			</Classroom>
+			<Classroom code="91707" Name="翁政義榮譽教授辦公室">
+				<ClassroomName>翁政義榮譽教授辦公室</ClassroomName>
+				<ClassroomCode>91707</ClassroomCode>
+			</Classroom>
+			<Classroom code="91708" Name="田思齊教授辦公室">
+				<ClassroomName>田思齊教授辦公室</ClassroomName>
+				<ClassroomCode>91708</ClassroomCode>
+			</Classroom>
+			<Classroom code="91709" Name="林震銘教授辦公室">
+				<ClassroomName>林震銘教授辦公室</ClassroomName>
+				<ClassroomCode>91709</ClassroomCode>
+			</Classroom>
+			<Classroom code="91710" Name="陳國聲教授辦公室">
+				<ClassroomName>陳國聲教授辦公室</ClassroomName>
+				<ClassroomCode>91710</ClassroomCode>
+			</Classroom>
+			<Classroom code="91711" Name="楊天祥教授辦公室">
+				<ClassroomName>楊天祥教授辦公室</ClassroomName>
+				<ClassroomCode>91711</ClassroomCode>
+			</Classroom>
+			<Classroom code="91712" Name="蔡明俊教授辦公室">
+				<ClassroomName>蔡明俊教授辦公室</ClassroomName>
+				<ClassroomCode>91712</ClassroomCode>
+			</Classroom>
+			<Classroom code="91713" Name="溫昌達教授辦公室">
+				<ClassroomName>溫昌達教授辦公室</ClassroomName>
+				<ClassroomCode>91713</ClassroomCode>
+			</Classroom>
+			<Classroom code="91714" Name="李汶樺教授辦公室">
+				<ClassroomName>李汶樺教授辦公室</ClassroomName>
+				<ClassroomCode>91714</ClassroomCode>
+			</Classroom>
+			<Classroom code="91715" Name="吳馬丁教授辦公室">
+				<ClassroomName>吳馬丁教授辦公室</ClassroomName>
+				<ClassroomCode>91715</ClassroomCode>
+			</Classroom>
+			<Classroom code="91716" Name="褚晴暉教授辦公室">
+				<ClassroomName>褚晴暉教授辦公室</ClassroomName>
+				<ClassroomCode>91716</ClassroomCode>
+			</Classroom>
+			<Classroom code="91717" Name="王逸君教授辦公室">
+				<ClassroomName>王逸君教授辦公室</ClassroomName>
+				<ClassroomCode>91717</ClassroomCode>
+			</Classroom>
+			<Classroom code="91718" Name="黃聖杰教授辦公室">
+				<ClassroomName>黃聖杰教授辦公室</ClassroomName>
+				<ClassroomCode>91718</ClassroomCode>
+			</Classroom>
+			<Classroom code="91719" Name="施明璋教授辦公室">
+				<ClassroomName>施明璋教授辦公室</ClassroomName>
+				<ClassroomCode>91719</ClassroomCode>
+			</Classroom>
+			<Classroom code="91720" Name="施士塵教授辦公室">
+				<ClassroomName>施士塵教授辦公室</ClassroomName>
+				<ClassroomCode>91720</ClassroomCode>
+			</Classroom>
+			<Classroom code="91721" Name="陳家豪教授辦公室">
+				<ClassroomName>陳家豪教授辦公室</ClassroomName>
+				<ClassroomCode>91721</ClassroomCode>
+			</Classroom>
+			<Classroom code="91722" Name="林啟倫教授辦公室">
+				<ClassroomName>林啟倫教授辦公室</ClassroomName>
+				<ClassroomCode>91722</ClassroomCode>
+			</Classroom>
+			<Classroom code="91723" Name="蔡清元教授辦公室">
+				<ClassroomName>蔡清元教授辦公室</ClassroomName>
+				<ClassroomCode>91723</ClassroomCode>
+			</Classroom>
+			<Classroom code="91724" Name="方晶晶教授辦公室">
+				<ClassroomName>方晶晶教授辦公室</ClassroomName>
+				<ClassroomCode>91724</ClassroomCode>
+			</Classroom>
+			<Classroom code="91725" Name="黃才炯教授辦公室">
+				<ClassroomName>黃才炯教授辦公室</ClassroomName>
+				<ClassroomCode>91725</ClassroomCode>
+			</Classroom>
+			<Classroom code="91726" Name="屈子正教授辦公室">
+				<ClassroomName>屈子正教授辦公室</ClassroomName>
+				<ClassroomCode>91726</ClassroomCode>
+			</Classroom>
+			<Classroom code="91727" Name="朱銘祥教授辦公室">
+				<ClassroomName>朱銘祥教授辦公室</ClassroomName>
+				<ClassroomCode>91727</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="8">
+			<FloorName>8</FloorName>
+			<Classroom code="91801" Name="生物擬真安全設計研究室">
+				<ClassroomName>生物擬真安全設計研究室</ClassroomName>
+				<ClassroomCode>91801</ClassroomCode>
+			</Classroom>
+			<Classroom code="91802" Name="藍兆杰教授實驗室">
+				<ClassroomName>藍兆杰教授實驗室</ClassroomName>
+				<ClassroomCode>91802</ClassroomCode>
+			</Classroom>
+			<Classroom code="91803" Name="創造性機器設計教研室">
+				<ClassroomName>創造性機器設計教研室</ClassroomName>
+				<ClassroomCode>91803</ClassroomCode>
+			</Classroom>
+			<Classroom code="91804" Name="研討室">
+				<ClassroomName>研討室</ClassroomName>
+				<ClassroomCode>91804</ClassroomCode>
+			</Classroom>
+			<Classroom code="91805" Name="CAD應用研究室">
+				<ClassroomName>CAD應用研究室</ClassroomName>
+				<ClassroomCode>91805</ClassroomCode>
+			</Classroom>
+			<Classroom code="91806" Name="虛擬實境與多媒體研究室">
+				<ClassroomName>虛擬實境與多媒體研究室</ClassroomName>
+				<ClassroomCode>91806</ClassroomCode>
+			</Classroom>
+			<Classroom code="91807" Name="機器人與自動化研究室">
+				<ClassroomName>機器人與自動化研究室</ClassroomName>
+				<ClassroomCode>91807</ClassroomCode>
+			</Classroom>
+			<Classroom code="91808" Name="劉至行教授實驗室">
+				<ClassroomName>劉至行教授實驗室</ClassroomName>
+				<ClassroomCode>91808</ClassroomCode>
+			</Classroom>
+			<Classroom code="91809" Name="邱顯堂教授研究室">
+				<ClassroomName>邱顯堂教授研究室</ClassroomName>
+				<ClassroomCode>91809</ClassroomCode>
+			</Classroom>
+			<Classroom code="91810" Name="陳家豪教授研究室">
+				<ClassroomName>陳家豪教授研究室</ClassroomName>
+				<ClassroomCode>91810</ClassroomCode>
+			</Classroom>
+			<Classroom code="91811" Name="機構設計研究室">
+				<ClassroomName>機構設計研究室</ClassroomName>
+				<ClassroomCode>91811</ClassroomCode>
+			</Classroom>
+			<Classroom code="91812" Name="奈米磨潤研究室">
+				<ClassroomName>奈米磨潤研究室</ClassroomName>
+				<ClassroomCode>91812</ClassroomCode>
+			</Classroom>
+			<Classroom code="91804" Name="91804">
+				<ClassroomName>91804</ClassroomName>
+				<ClassroomCode>91804</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="9">
+			<FloorName>9</FloorName>
+			<Classroom code="91901" Name="顯微分析與失效診斷研究室">
+				<ClassroomName>顯微分析與失效診斷研究室</ClassroomName>
+				<ClassroomCode>91901</ClassroomCode>
+			</Classroom>
+			<Classroom code="91902a" Name="金屬成型研究室">
+				<ClassroomName>金屬成型研究室</ClassroomName>
+				<ClassroomCode>91902a</ClassroomCode>
+			</Classroom>
+			<Classroom code="91902b" Name="無名稱">
+				<ClassroomName>無名稱</ClassroomName>
+				<ClassroomCode>91902b</ClassroomCode>
+			</Classroom>
+			<Classroom code="91904" Name="研討室">
+				<ClassroomName>研討室</ClassroomName>
+				<ClassroomCode>91904</ClassroomCode>
+			</Classroom>
+			<Classroom code="91905" Name="CAD高分子材料加工研究室">
+				<ClassroomName>CAD高分子材料加工研究室</ClassroomName>
+				<ClassroomCode>91905</ClassroomCode>
+			</Classroom>
+			<Classroom code="91906" Name="雷射精密工程研究室">
+				<ClassroomName>雷射精密工程研究室</ClassroomName>
+				<ClassroomCode>91906</ClassroomCode>
+			</Classroom>
+			<Classroom code="91907" Name="材料科技暨磨潤研究室">
+				<ClassroomName>材料科技暨磨潤研究室</ClassroomName>
+				<ClassroomCode>91907</ClassroomCode>
+			</Classroom>
+			<Classroom code="91908" Name="無名稱">
+				<ClassroomName>無名稱</ClassroomName>
+				<ClassroomCode>91908</ClassroomCode>
+			</Classroom>
+			<Classroom code="91909" Name="塑膠模具研究室">
+				<ClassroomName>塑膠模具研究室</ClassroomName>
+				<ClassroomCode>91909</ClassroomCode>
+			</Classroom>
+			<Classroom code="91910" Name="林昌進教授研究室">
+				<ClassroomName>林昌進教授研究室</ClassroomName>
+				<ClassroomCode>91910</ClassroomCode>
+			</Classroom>
+			<Classroom code="91911" Name="微奈米材料與加工研究室">
+				<ClassroomName>微奈米材料與加工研究室</ClassroomName>
+				<ClassroomCode>91911</ClassroomCode>
+			</Classroom>
+			<Classroom code="91912" Name="系統工程研究室">
+				<ClassroomName>系統工程研究室</ClassroomName>
+				<ClassroomCode>91912</ClassroomCode>
+			</Classroom>
+			<Classroom code="91904" Name="91904">
+				<ClassroomName>91904</ClassroomName>
+				<ClassroomCode>91904</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="10">
+			<FloorName>10</FloorName>
+			<Classroom code="91A01" Name="熱應力分析研究室">
+				<ClassroomName>熱應力分析研究室</ClassroomName>
+				<ClassroomCode>91A01</ClassroomCode>
+			</Classroom>
+			<Classroom code="91A02" Name="吳馬丁教授實驗室">
+				<ClassroomName>吳馬丁教授實驗室</ClassroomName>
+				<ClassroomCode>91A02</ClassroomCode>
+			</Classroom>
+			<Classroom code="91A04" Name="控制與自動化教學實驗室">
+				<ClassroomName>控制與自動化教學實驗室</ClassroomName>
+				<ClassroomCode>91A04</ClassroomCode>
+			</Classroom>
+			<Classroom code="91A05" Name="光測力學研究室">
+				<ClassroomName>光測力學研究室</ClassroomName>
+				<ClassroomCode>91A05</ClassroomCode>
+			</Classroom>
+			<Classroom code="91A06" Name="計算力學研究室">
+				<ClassroomName>計算力學研究室</ClassroomName>
+				<ClassroomCode>91A06</ClassroomCode>
+			</Classroom>
+			<Classroom code="91A07" Name="機電與微系統動態實驗室">
+				<ClassroomName>機電與微系統動態實驗室</ClassroomName>
+				<ClassroomCode>91A07</ClassroomCode>
+			</Classroom>
+			<Classroom code="91A08" Name="非破壞性檢測研究室">
+				<ClassroomName>非破壞性檢測研究室</ClassroomName>
+				<ClassroomCode>91A08</ClassroomCode>
+			</Classroom>
+			<Classroom code="91A09" Name="陳聯文教授研究室">
+				<ClassroomName>陳聯文教授研究室</ClassroomName>
+				<ClassroomCode>91A09</ClassroomCode>
+			</Classroom>
+			<Classroom code="91A10" Name="微光電感測研究室">
+				<ClassroomName>微光電感測研究室</ClassroomName>
+				<ClassroomCode>91A10</ClassroomCode>
+			</Classroom>
+			<Classroom code="91A11" Name="力學與系統研究室">
+				<ClassroomName>力學與系統研究室</ClassroomName>
+				<ClassroomCode>91A11</ClassroomCode>
+			</Classroom>
+			<Classroom code="91A12" Name="破壞力學研究室">
+				<ClassroomName>破壞力學研究室</ClassroomName>
+				<ClassroomCode>91A12</ClassroomCode>
+			</Classroom>
+			<Classroom code="91A03" Name="91A03">
+				<ClassroomName>91A03</ClassroomName>
+				<ClassroomCode>91A03</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="11">
+			<FloorName>11</FloorName>
+			<Classroom code="91B01" Name="熱交換器研究室">
+				<ClassroomName>熱交換器研究室</ClassroomName>
+				<ClassroomCode>91B01</ClassroomCode>
+			</Classroom>
+			<Classroom code="91B02" Name="吳志陽研究室">
+				<ClassroomName>吳志陽研究室</ClassroomName>
+				<ClassroomCode>91B02</ClassroomCode>
+			</Classroom>
+			<Classroom code="91B03" Name="B尖端材料與製程實驗室">
+				<ClassroomName>B尖端材料與製程實驗室</ClassroomName>
+				<ClassroomCode>91B03</ClassroomCode>
+			</Classroom>
+			<Classroom code="91B04" Name="研討室">
+				<ClassroomName>研討室</ClassroomName>
+				<ClassroomCode>91B04</ClassroomCode>
+			</Classroom>
+			<Classroom code="91B05" Name="楊天祥教授研究室">
+				<ClassroomName>楊天祥教授研究室</ClassroomName>
+				<ClassroomCode>91B05</ClassroomCode>
+			</Classroom>
+			<Classroom code="91B06" Name="生物擬真安全設計研究室">
+				<ClassroomName>生物擬真安全設計研究室</ClassroomName>
+				<ClassroomCode>91B06</ClassroomCode>
+			</Classroom>
+			<Classroom code="91B07" Name="微系統與控制研究室">
+				<ClassroomName>微系統與控制研究室</ClassroomName>
+				<ClassroomCode>91B07</ClassroomCode>
+			</Classroom>
+			<Classroom code="91B08" Name="逆向問題研究室">
+				<ClassroomName>逆向問題研究室</ClassroomName>
+				<ClassroomCode>91B08</ClassroomCode>
+			</Classroom>
+			<Classroom code="91B09" Name="熱流與機電整合研究室">
+				<ClassroomName>熱流與機電整合研究室</ClassroomName>
+				<ClassroomCode>91B09</ClassroomCode>
+			</Classroom>
+			<Classroom code="91B10" Name="熱流計算研究室">
+				<ClassroomName>熱流計算研究室</ClassroomName>
+				<ClassroomCode>91B10</ClassroomCode>
+			</Classroom>
+			<Classroom code="91B11" Name="生醫粒子影像測速儀研究室">
+				<ClassroomName>生醫粒子影像測速儀研究室</ClassroomName>
+				<ClassroomCode>91B11</ClassroomCode>
+			</Classroom>
+			<Classroom code="91B12" Name="磨潤及傳動研究室">
+				<ClassroomName>磨潤及傳動研究室</ClassroomName>
+				<ClassroomCode>91B12</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="12">
+			<FloorName>12</FloorName>
+			<Classroom code="91C01" Name="製程與系統實驗室">
+				<ClassroomName>製程與系統實驗室</ClassroomName>
+				<ClassroomCode>91C01</ClassroomCode>
+			</Classroom>
+			<Classroom code="91C02" Name="溫昌達教授研究室">
+				<ClassroomName>溫昌達教授研究室</ClassroomName>
+				<ClassroomCode>91C02</ClassroomCode>
+			</Classroom>
+			<Classroom code="91C03" Name="焚而不燬研究室">
+				<ClassroomName>焚而不燬研究室</ClassroomName>
+				<ClassroomCode>91C03</ClassroomCode>
+			</Classroom>
+			<Classroom code="91C04" Name="研討室">
+				<ClassroomName>研討室</ClassroomName>
+				<ClassroomCode>91C04</ClassroomCode>
+			</Classroom>
+			<Classroom code="91C05" Name="多相流研究室">
+				<ClassroomName>多相流研究室</ClassroomName>
+				<ClassroomCode>91C05</ClassroomCode>
+			</Classroom>
+			<Classroom code="91C06" Name="生物機械工程公共實驗室">
+				<ClassroomName>生物機械工程公共實驗室</ClassroomName>
+				<ClassroomCode>91C06</ClassroomCode>
+			</Classroom>
+			<Classroom code="91C07" Name="機器人系統與控制研究室">
+				<ClassroomName>機器人系統與控制研究室</ClassroomName>
+				<ClassroomCode>91C07</ClassroomCode>
+			</Classroom>
+			<Classroom code="91C08" Name="伺服控制實驗室">
+				<ClassroomName>伺服控制實驗室</ClassroomName>
+				<ClassroomCode>91C08</ClassroomCode>
+			</Classroom>
+			<Classroom code="91C09" Name="光機電系統控制實驗室">
+				<ClassroomName>光機電系統控制實驗室</ClassroomName>
+				<ClassroomCode>91C09</ClassroomCode>
+			</Classroom>
+			<Classroom code="91C10" Name="流體傳動與控制實驗室">
+				<ClassroomName>流體傳動與控制實驗室</ClassroomName>
+				<ClassroomCode>91C10</ClassroomCode>
+			</Classroom>
+			<Classroom code="91C11" Name="人機系統研究室">
+				<ClassroomName>人機系統研究室</ClassroomName>
+				<ClassroomCode>91C11</ClassroomCode>
+			</Classroom>
+			<Classroom code="91C12" Name="準分子雷射公共實驗室">
+				<ClassroomName>準分子雷射公共實驗室</ClassroomName>
+				<ClassroomCode>91C12</ClassroomCode>
+			</Classroom>
+			<Classroom code="91C04" Name="91C04">
+				<ClassroomName>91C04</ClassroomName>
+				<ClassroomCode>91C04</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="A228" Name="自強棒球場">
+				<ClassroomName>自強棒球場</ClassroomName>
+				<ClassroomCode>A228</ClassroomCode>
+			</Classroom>
+			<Classroom code="A229" Name="自強壘球場">
+				<ClassroomName>自強壘球場</ClassroomName>
+				<ClassroomCode>A229</ClassroomCode>
+			</Classroom>
+			<Classroom code="A230" Name="自強橄欖球場">
+				<ClassroomName>自強橄欖球場</ClassroomName>
+				<ClassroomCode>A230</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="10">
+			<FloorName>10</FloorName>
+			<Classroom code="91A04" Name="91A04">
+				<ClassroomName>91A04</ClassroomName>
+				<ClassroomCode>91A04</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="11">
+			<FloorName>11</FloorName>
+			<Classroom code="91B04" Name="91B04">
+				<ClassroomName>91B04</ClassroomName>
+				<ClassroomCode>91B04</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="91X01" Name="91X01">
+				<ClassroomName>91X01</ClassroomName>
+				<ClassroomCode>91X01</ClassroomCode>
+			</Classroom>
+			<Classroom code="91X07" Name="91X07">
+				<ClassroomName>91X07</ClassroomName>
+				<ClassroomCode>91X07</ClassroomCode>
+			</Classroom>
+			<Classroom code="62X17" Name="62X17">
+				<ClassroomName>62X17</ClassroomName>
+				<ClassroomCode>62X17</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="44" CHName="電機系館">
+		<BuildingName>電機系館</BuildingName>
+		<BuildingCode>44</BuildingCode>
+		<Campus>自強</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="92X18" Name="迅慧講堂">
+				<ClassroomName>迅慧講堂</ClassroomName>
+				<ClassroomCode>92X18</ClassroomCode>
+			</Classroom>
+			<Classroom code="92X31" Name="令洋廳">
+				<ClassroomName>令洋廳</ClassroomName>
+				<ClassroomCode>92X31</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="92119" Name="靄雲廳">
+				<ClassroomName>靄雲廳</ClassroomName>
+				<ClassroomCode>92119</ClassroomCode>
+			</Classroom>
+			<Classroom code="92127" Name="繁城講堂">
+				<ClassroomName>繁城講堂</ClassroomName>
+				<ClassroomCode>92127</ClassroomCode>
+			</Classroom>
+			<Classroom code="92171" Name="92171">
+				<ClassroomName>92171</ClassroomName>
+				<ClassroomCode>92171</ClassroomCode>
+			</Classroom>
+			<Classroom code="92177" Name="92177">
+				<ClassroomName>92177</ClassroomName>
+				<ClassroomCode>92177</ClassroomCode>
+			</Classroom>
+			<Classroom code="92185" Name="92185">
+				<ClassroomName>92185</ClassroomName>
+				<ClassroomCode>92185</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="92219" Name="92219">
+				<ClassroomName>92219</ClassroomName>
+				<ClassroomCode>92219</ClassroomCode>
+			</Classroom>
+			<Classroom code="92225" Name="92225">
+				<ClassroomName>92225</ClassroomName>
+				<ClassroomCode>92225</ClassroomCode>
+			</Classroom>
+			<Classroom code="92231" Name="92231">
+				<ClassroomName>92231</ClassroomName>
+				<ClassroomCode>92231</ClassroomCode>
+			</Classroom>
+			<Classroom code="92271" Name="92271">
+				<ClassroomName>92271</ClassroomName>
+				<ClassroomCode>92271</ClassroomCode>
+			</Classroom>
+			<Classroom code="92277" Name="92277">
+				<ClassroomName>92277</ClassroomName>
+				<ClassroomCode>92277</ClassroomCode>
+			</Classroom>
+			<Classroom code="92283" Name="92283">
+				<ClassroomName>92283</ClassroomName>
+				<ClassroomCode>92283</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="92325" Name="92325">
+				<ClassroomName>92325</ClassroomName>
+				<ClassroomCode>92325</ClassroomCode>
+			</Classroom>
+			<Classroom code="92331" Name="92331">
+				<ClassroomName>92331</ClassroomName>
+				<ClassroomCode>92331</ClassroomCode>
+			</Classroom>
+			<Classroom code="92371" Name="92371">
+				<ClassroomName>92371</ClassroomName>
+				<ClassroomCode>92371</ClassroomCode>
+			</Classroom>
+			<Classroom code="92377" Name="92377">
+				<ClassroomName>92377</ClassroomName>
+				<ClassroomCode>92377</ClassroomCode>
+			</Classroom>
+			<Classroom code="92383" Name="92383">
+				<ClassroomName>92383</ClassroomName>
+				<ClassroomCode>92383</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="92417" Name="92417">
+				<ClassroomName>92417</ClassroomName>
+				<ClassroomCode>92417</ClassroomCode>
+			</Classroom>
+			<Classroom code="92423" Name="92423">
+				<ClassroomName>92423</ClassroomName>
+				<ClassroomCode>92423</ClassroomCode>
+			</Classroom>
+			<Classroom code="92425" Name="92425">
+				<ClassroomName>92425</ClassroomName>
+				<ClassroomCode>92425</ClassroomCode>
+			</Classroom>
+			<Classroom code="92433" Name="92433">
+				<ClassroomName>92433</ClassroomName>
+				<ClassroomCode>92433</ClassroomCode>
+			</Classroom>
+			<Classroom code="92453" Name="92453">
+				<ClassroomName>92453</ClassroomName>
+				<ClassroomCode>92453</ClassroomCode>
+			</Classroom>
+			<Classroom code="92473" Name="92473">
+				<ClassroomName>92473</ClassroomName>
+				<ClassroomCode>92473</ClassroomCode>
+			</Classroom>
+			<Classroom code="92491" Name="92491">
+				<ClassroomName>92491</ClassroomName>
+				<ClassroomCode>92491</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="5">
+			<FloorName>5</FloorName>
+			<Classroom code="92523" Name="92523">
+				<ClassroomName>92523</ClassroomName>
+				<ClassroomCode>92523</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="7">
+			<FloorName>7</FloorName>
+			<Classroom code="92720" Name="92720">
+				<ClassroomName>92720</ClassroomName>
+				<ClassroomCode>92720</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="8">
+			<FloorName>8</FloorName>
+			<Classroom code="92820" Name="92820">
+				<ClassroomName>92820</ClassroomName>
+				<ClassroomCode>92820</ClassroomCode>
+			</Classroom>
+			<Classroom code="92879" Name="92879">
+				<ClassroomName>92879</ClassroomName>
+				<ClassroomCode>92879</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="10">
+			<FloorName>10</FloorName>
+			<Classroom code="92A02" Name="92A02">
+				<ClassroomName>92A02</ClassroomName>
+				<ClassroomCode>92A02</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="12">
+			<FloorName>12</FloorName>
+			<Classroom code="92C01" Name="92C01">
+				<ClassroomName>92C01</ClassroomName>
+				<ClassroomCode>92C01</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="7">
+			<FloorName>7</FloorName>
+			<Classroom code="92712" Name="俊銘講堂">
+				<ClassroomName>俊銘講堂</ClassroomName>
+				<ClassroomCode>92712</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="B">
+			<FloorName>B</FloorName>
+			<Classroom code="92X25" Name="92X25">
+				<ClassroomName>92X25</ClassroomName>
+				<ClassroomCode>92X25</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="">
+			<FloorName></FloorName>
+			<Classroom code="92926" Name="92926">
+				<ClassroomName>92926</ClassroomName>
+				<ClassroomCode>92926</ClassroomCode>
+			</Classroom>
+			<Classroom code="92B28" Name="92B28">
+				<ClassroomName>92B28</ClassroomName>
+				<ClassroomCode>92B28</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="45" CHName="化工系館">
+		<BuildingName>化工系館</BuildingName>
+		<BuildingCode>45</BuildingCode>
+		<Campus>自強</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="93X57" Name="華立廳">
+				<ClassroomName>華立廳</ClassroomName>
+				<ClassroomCode>93X57</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="93127" Name="93127">
+				<ClassroomName>93127</ClassroomName>
+				<ClassroomCode>93127</ClassroomCode>
+			</Classroom>
+			<Classroom code="93152" Name="柏林講堂">
+				<ClassroomName>柏林講堂</ClassroomName>
+				<ClassroomCode>93152</ClassroomCode>
+			</Classroom>
+			<Classroom code="93156" Name="93156">
+				<ClassroomName>93156</ClassroomName>
+				<ClassroomCode>93156</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="93223" Name="93223">
+				<ClassroomName>93223</ClassroomName>
+				<ClassroomCode>93223</ClassroomCode>
+			</Classroom>
+			<Classroom code="93226" Name="93226">
+				<ClassroomName>93226</ClassroomName>
+				<ClassroomCode>93226</ClassroomCode>
+			</Classroom>
+			<Classroom code="93252" Name="93252">
+				<ClassroomName>93252</ClassroomName>
+				<ClassroomCode>93252</ClassroomCode>
+			</Classroom>
+			<Classroom code="93256" Name="93256">
+				<ClassroomName>93256</ClassroomName>
+				<ClassroomCode>93256</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="93316" Name="93316">
+				<ClassroomName>93316</ClassroomName>
+				<ClassroomCode>93316</ClassroomCode>
+			</Classroom>
+			<Classroom code="93322" Name="93322">
+				<ClassroomName>93322</ClassroomName>
+				<ClassroomCode>93322</ClassroomCode>
+			</Classroom>
+			<Classroom code="93326" Name="93326">
+				<ClassroomName>93326</ClassroomName>
+				<ClassroomCode>93326</ClassroomCode>
+			</Classroom>
+			<Classroom code="93352" Name="93352">
+				<ClassroomName>93352</ClassroomName>
+				<ClassroomCode>93352</ClassroomCode>
+			</Classroom>
+			<Classroom code="93356" Name="93356">
+				<ClassroomName>93356</ClassroomName>
+				<ClassroomCode>93356</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="93406" Name="93406">
+				<ClassroomName>93406</ClassroomName>
+				<ClassroomCode>93406</ClassroomCode>
+			</Classroom>
+			<Classroom code="93420" Name="93420">
+				<ClassroomName>93420</ClassroomName>
+				<ClassroomCode>93420</ClassroomCode>
+			</Classroom>
+			<Classroom code="93422" Name="93422">
+				<ClassroomName>93422</ClassroomName>
+				<ClassroomCode>93422</ClassroomCode>
+			</Classroom>
+			<Classroom code="93426" Name="93426">
+				<ClassroomName>93426</ClassroomName>
+				<ClassroomCode>93426</ClassroomCode>
+			</Classroom>
+			<Classroom code="93450" Name="93450">
+				<ClassroomName>93450</ClassroomName>
+				<ClassroomCode>93450</ClassroomCode>
+			</Classroom>
+			<Classroom code="93452" Name="93452">
+				<ClassroomName>93452</ClassroomName>
+				<ClassroomCode>93452</ClassroomCode>
+			</Classroom>
+			<Classroom code="93456" Name="93456">
+				<ClassroomName>93456</ClassroomName>
+				<ClassroomCode>93456</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="5">
+			<FloorName>5</FloorName>
+			<Classroom code="93526" Name="93526">
+				<ClassroomName>93526</ClassroomName>
+				<ClassroomCode>93526</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="7">
+			<FloorName>7</FloorName>
+			<Classroom code="93706" Name="93706">
+				<ClassroomName>93706</ClassroomName>
+				<ClassroomCode>93706</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="8">
+			<FloorName>8</FloorName>
+			<Classroom code="93806" Name="93806">
+				<ClassroomName>93806</ClassroomName>
+				<ClassroomCode>93806</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="9">
+			<FloorName>9</FloorName>
+			<Classroom code="93910" Name="93910">
+				<ClassroomName>93910</ClassroomName>
+				<ClassroomCode>93910</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="10">
+			<FloorName>10</FloorName>
+			<Classroom code="93A10" Name="93A10">
+				<ClassroomName>93A10</ClassroomName>
+				<ClassroomCode>93A10</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="11">
+			<FloorName>11</FloorName>
+			<Classroom code="93B10" Name="93B10">
+				<ClassroomName>93B10</ClassroomName>
+				<ClassroomCode>93B10</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="47" CHName="照坤精密儀器大樓">
+		<BuildingName>照坤精密儀器大樓</BuildingName>
+		<BuildingCode>47</BuildingCode>
+		<Campus>自強</Campus>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="95403" Name="95403">
+				<ClassroomName>95403</ClassroomName>
+				<ClassroomCode>95403</ClassroomCode>
+			</Classroom>
+			<Classroom code="95405" Name="95405">
+				<ClassroomName>95405</ClassroomName>
+				<ClassroomCode>95405</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="5">
+			<FloorName>5</FloorName>
+			<Classroom code="95509" Name="95509">
+				<ClassroomName>95509</ClassroomName>
+				<ClassroomCode>95509</ClassroomCode>
+			</Classroom>
+			<Classroom code="95519" Name="95519">
+				<ClassroomName>95519</ClassroomName>
+				<ClassroomCode>95519</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="7">
+			<FloorName>7</FloorName>
+			<Classroom code="95703" Name="95703">
+				<ClassroomName>95703</ClassroomName>
+				<ClassroomCode>95703</ClassroomCode>
+			</Classroom>
+			<Classroom code="95713" Name="95713">
+				<ClassroomName>95713</ClassroomName>
+				<ClassroomCode>95713</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="10">
+			<FloorName>10</FloorName>
+			<Classroom code="95A02" Name="95A02">
+				<ClassroomName>95A02</ClassroomName>
+				<ClassroomCode>95A02</ClassroomCode>
+			</Classroom>
+			<Classroom code="95A021" Name="95A021">
+				<ClassroomName>95A021</ClassroomName>
+				<ClassroomCode>95A021</ClassroomCode>
+			</Classroom>
+			<Classroom code="95A09" Name="95A09">
+				<ClassroomName>95A09</ClassroomName>
+				<ClassroomCode>95A09</ClassroomCode>
+			</Classroom>
+			<Classroom code="95A14" Name="95A14">
+				<ClassroomName>95A14</ClassroomName>
+				<ClassroomCode>95A14</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="48" CHName="資訊新館">
+		<BuildingName>資訊新館</BuildingName>
+		<BuildingCode>48</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="65104" Name="65104">
+				<ClassroomName>65104</ClassroomName>
+				<ClassroomCode>65104</ClassroomCode>
+			</Classroom>
+			<Classroom code="65105" Name="65105">
+				<ClassroomName>65105</ClassroomName>
+				<ClassroomCode>65105</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="10">
+			<FloorName>10</FloorName>
+			<Classroom code="65A13" Name="65A13">
+				<ClassroomName>65A13</ClassroomName>
+				<ClassroomCode>65A13</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="65203" Name="65203">
+				<ClassroomName>65203</ClassroomName>
+				<ClassroomCode>65203</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="65304" Name="65304">
+				<ClassroomName>65304</ClassroomName>
+				<ClassroomCode>65304</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="65405" Name="65405">
+				<ClassroomName>65405</ClassroomName>
+				<ClassroomCode>65405</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="5">
+			<FloorName>5</FloorName>
+			<Classroom code="65504" Name="65504">
+				<ClassroomName>65504</ClassroomName>
+				<ClassroomCode>65504</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="6">
+			<FloorName>6</FloorName>
+			<Classroom code="65605" Name="65605">
+				<ClassroomName>65605</ClassroomName>
+				<ClassroomCode>65605</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="8">
+			<FloorName>8</FloorName>
+			<Classroom code="65805" Name="65805">
+				<ClassroomName>65805</ClassroomName>
+				<ClassroomCode>65805</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="51" CHName="醫技醫工館">
+		<BuildingName>醫技醫工館</BuildingName>
+		<BuildingCode>51</BuildingCode>
+		<Campus>成杏</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="5723" Name="5723">
+				<ClassroomName>5723</ClassroomName>
+				<ClassroomCode>5723</ClassroomCode>
+			</Classroom>
+			<Classroom code="5725" Name="5725">
+				<ClassroomName>5725</ClassroomName>
+				<ClassroomCode>5725</ClassroomCode>
+			</Classroom>
+			<Classroom code="5730" Name="5730">
+				<ClassroomName>5730</ClassroomName>
+				<ClassroomCode>5730</ClassroomCode>
+			</Classroom>
+			<Classroom code="5734" Name="5734">
+				<ClassroomName>5734</ClassroomName>
+				<ClassroomCode>5734</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="5761" Name="5761">
+				<ClassroomName>5761</ClassroomName>
+				<ClassroomCode>5761</ClassroomCode>
+			</Classroom>
+			<Classroom code="5772" Name="5772">
+				<ClassroomName>5772</ClassroomName>
+				<ClassroomCode>5772</ClassroomCode>
+			</Classroom>
+			<Classroom code="5776" Name="5776">
+				<ClassroomName>5776</ClassroomName>
+				<ClassroomCode>5776</ClassroomCode>
+			</Classroom>
+			<Classroom code="5777" Name="5777">
+				<ClassroomName>5777</ClassroomName>
+				<ClassroomCode>5777</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="5791" Name="5791">
+				<ClassroomName>5791</ClassroomName>
+				<ClassroomCode>5791</ClassroomCode>
+			</Classroom>
+			<Classroom code="5792" Name="5792">
+				<ClassroomName>5792</ClassroomName>
+				<ClassroomCode>5792</ClassroomCode>
+			</Classroom>
+			<Classroom code="5795" Name="5795">
+				<ClassroomName>5795</ClassroomName>
+				<ClassroomCode>5795</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="5731" Name="5731">
+				<ClassroomName>5731</ClassroomName>
+				<ClassroomCode>5731</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="5748" Name="5748">
+				<ClassroomName>5748</ClassroomName>
+				<ClassroomCode>5748</ClassroomCode>
+			</Classroom>
+			<Classroom code="5756" Name="5756">
+				<ClassroomName>5756</ClassroomName>
+				<ClassroomCode>5756</ClassroomCode>
+			</Classroom>
+			<Classroom code="5757" Name="5757">
+				<ClassroomName>5757</ClassroomName>
+				<ClassroomCode>5757</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="52" CHName="醫學院">
+		<BuildingName>醫學院</BuildingName>
+		<BuildingCode>52</BuildingCode>
+		<Campus>成杏</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="I701" Name="技術學教室">
+				<ClassroomName>技術學教室</ClassroomName>
+				<ClassroomCode>I701</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="0101" Name="第二講堂">
+				<ClassroomName>第二講堂</ClassroomName>
+				<ClassroomCode>0101</ClassroomCode>
+			</Classroom>
+			<Classroom code="0102" Name="第一講堂">
+				<ClassroomName>第一講堂</ClassroomName>
+				<ClassroomCode>0102</ClassroomCode>
+			</Classroom>
+			<Classroom code="0103" Name="第三講堂">
+				<ClassroomName>第三講堂</ClassroomName>
+				<ClassroomCode>0103</ClassroomCode>
+			</Classroom>
+			<Classroom code="0105" Name="成杏廳">
+				<ClassroomName>成杏廳</ClassroomName>
+				<ClassroomCode>0105</ClassroomCode>
+			</Classroom>
+			<Classroom code="010C" Name="醫圖電腦教室">
+				<ClassroomName>醫圖電腦教室</ClassroomName>
+				<ClassroomCode>010C</ClassroomCode>
+			</Classroom>
+			<Classroom code="104" Name="物治104">
+				<ClassroomName>物治104</ClassroomName>
+				<ClassroomCode>104</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="0104" Name="第四講堂">
+				<ClassroomName>第四講堂</ClassroomName>
+				<ClassroomCode>0104</ClassroomCode>
+			</Classroom>
+			<Classroom code="201D" Name="201D">
+				<ClassroomName>201D</ClassroomName>
+				<ClassroomCode>201D</ClassroomCode>
+			</Classroom>
+			<Classroom code="202D" Name="202D">
+				<ClassroomName>202D</ClassroomName>
+				<ClassroomCode>202D</ClassroomCode>
+			</Classroom>
+			<Classroom code="203D" Name="203D">
+				<ClassroomName>203D</ClassroomName>
+				<ClassroomCode>203D</ClassroomCode>
+			</Classroom>
+			<Classroom code="204D" Name="204D">
+				<ClassroomName>204D</ClassroomName>
+				<ClassroomCode>204D</ClassroomCode>
+			</Classroom>
+			<Classroom code="205D" Name="205D">
+				<ClassroomName>205D</ClassroomName>
+				<ClassroomCode>205D</ClassroomCode>
+			</Classroom>
+			<Classroom code="207" Name="物治207">
+				<ClassroomName>物治207</ClassroomName>
+				<ClassroomCode>207</ClassroomCode>
+			</Classroom>
+			<Classroom code="208" Name="208">
+				<ClassroomName>208</ClassroomName>
+				<ClassroomCode>208</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="0301" Name="0301">
+				<ClassroomName>0301</ClassroomName>
+				<ClassroomCode>0301</ClassroomCode>
+			</Classroom>
+			<Classroom code="0302" Name="0302">
+				<ClassroomName>0302</ClassroomName>
+				<ClassroomCode>0302</ClassroomCode>
+			</Classroom>
+			<Classroom code="0303" Name="0303">
+				<ClassroomName>0303</ClassroomName>
+				<ClassroomCode>0303</ClassroomCode>
+			</Classroom>
+			<Classroom code="0304" Name="0304">
+				<ClassroomName>0304</ClassroomName>
+				<ClassroomCode>0304</ClassroomCode>
+			</Classroom>
+			<Classroom code="0305" Name="0305">
+				<ClassroomName>0305</ClassroomName>
+				<ClassroomCode>0305</ClassroomCode>
+			</Classroom>
+			<Classroom code="301D" Name="301D">
+				<ClassroomName>301D</ClassroomName>
+				<ClassroomCode>301D</ClassroomCode>
+			</Classroom>
+			<Classroom code="302D" Name="302D">
+				<ClassroomName>302D</ClassroomName>
+				<ClassroomCode>302D</ClassroomCode>
+			</Classroom>
+			<Classroom code="303D" Name="303D">
+				<ClassroomName>303D</ClassroomName>
+				<ClassroomCode>303D</ClassroomCode>
+			</Classroom>
+			<Classroom code="304D" Name="304D">
+				<ClassroomName>304D</ClassroomName>
+				<ClassroomCode>304D</ClassroomCode>
+			</Classroom>
+			<Classroom code="307" Name="307">
+				<ClassroomName>307</ClassroomName>
+				<ClassroomCode>307</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="0401" Name="0401">
+				<ClassroomName>0401</ClassroomName>
+				<ClassroomCode>0401</ClassroomCode>
+			</Classroom>
+			<Classroom code="0402" Name="0402">
+				<ClassroomName>0402</ClassroomName>
+				<ClassroomCode>0402</ClassroomCode>
+			</Classroom>
+			<Classroom code="0403" Name="0403">
+				<ClassroomName>0403</ClassroomName>
+				<ClassroomCode>0403</ClassroomCode>
+			</Classroom>
+			<Classroom code="0404" Name="0404">
+				<ClassroomName>0404</ClassroomName>
+				<ClassroomCode>0404</ClassroomCode>
+			</Classroom>
+			<Classroom code="0405" Name="0405">
+				<ClassroomName>0405</ClassroomName>
+				<ClassroomCode>0405</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="5">
+			<FloorName>5</FloorName>
+			<Classroom code="0511" Name="0511">
+				<ClassroomName>0511</ClassroomName>
+				<ClassroomCode>0511</ClassroomCode>
+			</Classroom>
+			<Classroom code="501" Name="501">
+				<ClassroomName>501</ClassroomName>
+				<ClassroomCode>501</ClassroomCode>
+			</Classroom>
+			<Classroom code="810502" Name="810502">
+				<ClassroomName>810502</ClassroomName>
+				<ClassroomCode>810502</ClassroomCode>
+			</Classroom>
+			<Classroom code="810503" Name="810503">
+				<ClassroomName>810503</ClassroomName>
+				<ClassroomCode>810503</ClassroomCode>
+			</Classroom>
+			<Classroom code="810507" Name="810507">
+				<ClassroomName>810507</ClassroomName>
+				<ClassroomCode>810507</ClassroomCode>
+			</Classroom>
+			<Classroom code="820523" Name="820523">
+				<ClassroomName>820523</ClassroomName>
+				<ClassroomCode>820523</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="6">
+			<FloorName>6</FloorName>
+			<Classroom code="0624" Name="0624">
+				<ClassroomName>0624</ClassroomName>
+				<ClassroomCode>0624</ClassroomCode>
+			</Classroom>
+			<Classroom code="602" Name="602">
+				<ClassroomName>602</ClassroomName>
+				<ClassroomCode>602</ClassroomCode>
+			</Classroom>
+			<Classroom code="604" Name="604">
+				<ClassroomName>604</ClassroomName>
+				<ClassroomCode>604</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="7">
+			<FloorName>7</FloorName>
+			<Classroom code="0711" Name="0711">
+				<ClassroomName>0711</ClassroomName>
+				<ClassroomCode>0711</ClassroomCode>
+			</Classroom>
+			<Classroom code="0724" Name="0724">
+				<ClassroomName>0724</ClassroomName>
+				<ClassroomCode>0724</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="8">
+			<FloorName>8</FloorName>
+			<Classroom code="0811" Name="0811">
+				<ClassroomName>0811</ClassroomName>
+				<ClassroomCode>0811</ClassroomCode>
+			</Classroom>
+			<Classroom code="0824" Name="0824">
+				<ClassroomName>0824</ClassroomName>
+				<ClassroomCode>0824</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="9">
+			<FloorName>9</FloorName>
+			<Classroom code="0929" Name="0929">
+				<ClassroomName>0929</ClassroomName>
+				<ClassroomCode>0929</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="10">
+			<FloorName>10</FloorName>
+			<Classroom code="1024" Name="1024">
+				<ClassroomName>1024</ClassroomName>
+				<ClassroomCode>1024</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="11">
+			<FloorName>11</FloorName>
+			<Classroom code="1124" Name="1124">
+				<ClassroomName>1124</ClassroomName>
+				<ClassroomCode>1124</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="6F">
+			<FloorName>6F</FloorName>
+			<Classroom code="601" Name="601">
+				<ClassroomName>601</ClassroomName>
+				<ClassroomCode>601</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="">
+			<FloorName></FloorName>
+			<Classroom code="81305" Name="81305">
+				<ClassroomName>81305</ClassroomName>
+				<ClassroomCode>81305</ClassroomCode>
+			</Classroom>
+			<Classroom code="820611" Name="820611">
+				<ClassroomName>820611</ClassroomName>
+				<ClassroomCode>820611</ClassroomCode>
+			</Classroom>
+			<Classroom code="821024" Name="821024">
+				<ClassroomName>821024</ClassroomName>
+				<ClassroomCode>821024</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="53" CHName="護理系館">
+		<BuildingName>護理系館</BuildingName>
+		<BuildingCode>53</BuildingCode>
+		<Campus>成杏</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="85X09" Name="85X09">
+				<ClassroomName>85X09</ClassroomName>
+				<ClassroomCode>85X09</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="85101" Name="85101">
+				<ClassroomName>85101</ClassroomName>
+				<ClassroomCode>85101</ClassroomCode>
+			</Classroom>
+			<Classroom code="85102" Name="85102">
+				<ClassroomName>85102</ClassroomName>
+				<ClassroomCode>85102</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="85309" Name="85309">
+				<ClassroomName>85309</ClassroomName>
+				<ClassroomCode>85309</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="54" CHName="物治系館">
+		<BuildingName>物治系館</BuildingName>
+		<BuildingCode>54</BuildingCode>
+		<Campus>成杏</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="B02" Name="B02">
+				<ClassroomName>B02</ClassroomName>
+				<ClassroomCode>B02</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="206" Name="206">
+				<ClassroomName>206</ClassroomName>
+				<ClassroomCode>206</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="55" CHName="職治系館">
+		<BuildingName>職治系館</BuildingName>
+		<BuildingCode>55</BuildingCode>
+		<Campus>成杏</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="86110" Name="86110">
+				<ClassroomName>86110</ClassroomName>
+				<ClassroomCode>86110</ClassroomCode>
+			</Classroom>
+			<Classroom code="I702" Name="專業教室">
+				<ClassroomName>專業教室</ClassroomName>
+				<ClassroomCode>I702</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="86302" Name="86302">
+				<ClassroomName>86302</ClassroomName>
+				<ClassroomCode>86302</ClassroomCode>
+			</Classroom>
+			<Classroom code="86303" Name="86303">
+				<ClassroomName>86303</ClassroomName>
+				<ClassroomCode>86303</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="57" CHName="門診大樓">
+		<BuildingName>門診大樓</BuildingName>
+		<BuildingCode>57</BuildingCode>
+		<Campus>力行</Campus>
+		<Floor code="7">
+			<FloorName>7</FloorName>
+			<Classroom code="7023" Name="7023">
+				<ClassroomName>7023</ClassroomName>
+				<ClassroomCode>7023</ClassroomCode>
+			</Classroom>
+			<Classroom code="7027" Name="7027">
+				<ClassroomName>7027</ClassroomName>
+				<ClassroomCode>7027</ClassroomCode>
+			</Classroom>
+			<Classroom code="7050" Name="7050">
+				<ClassroomName>7050</ClassroomName>
+				<ClassroomCode>7050</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="58" CHName="材料新館">
+		<BuildingName>材料新館</BuildingName>
+		<BuildingCode>58</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="44101" Name="44101">
+				<ClassroomName>44101</ClassroomName>
+				<ClassroomCode>44101</ClassroomCode>
+			</Classroom>
+			<Classroom code="44122" Name="44122">
+				<ClassroomName>44122</ClassroomName>
+				<ClassroomCode>44122</ClassroomCode>
+			</Classroom>
+			<Classroom code="44124" Name="44124">
+				<ClassroomName>44124</ClassroomName>
+				<ClassroomCode>44124</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="44201" Name="44201">
+				<ClassroomName>44201</ClassroomName>
+				<ClassroomCode>44201</ClassroomCode>
+			</Classroom>
+			<Classroom code="44202" Name="44202">
+				<ClassroomName>44202</ClassroomName>
+				<ClassroomCode>44202</ClassroomCode>
+			</Classroom>
+			<Classroom code="44203" Name="44203">
+				<ClassroomName>44203</ClassroomName>
+				<ClassroomCode>44203</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="6">
+			<FloorName>6</FloorName>
+			<Classroom code="44609" Name="44609">
+				<ClassroomName>44609</ClassroomName>
+				<ClassroomCode>44609</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="7">
+			<FloorName>7</FloorName>
+			<Classroom code="44709" Name="44709">
+				<ClassroomName>44709</ClassroomName>
+				<ClassroomCode>44709</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="62" CHName="工程中心">
+		<BuildingName>工程中心</BuildingName>
+		<BuildingCode>62</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="4036" Name="4036">
+				<ClassroomName>4036</ClassroomName>
+				<ClassroomCode>4036</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="63" CHName="統一健康大樓">
+		<BuildingName>統一健康大樓</BuildingName>
+		<BuildingCode>63</BuildingCode>
+		<Campus>力行</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="T1B003" Name="T1B003">
+				<ClassroomName>T1B003</ClassroomName>
+				<ClassroomCode>T1B003</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="T13214" Name="T13214">
+				<ClassroomName>T13214</ClassroomName>
+				<ClassroomCode>T13214</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4F">
+			<FloorName>4F</FloorName>
+			<Classroom code="T14214" Name="T14214">
+				<ClassroomName>T14214</ClassroomName>
+				<ClassroomCode>T14214</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="65" CHName="社科院大樓">
+		<BuildingName>社科院大樓</BuildingName>
+		<BuildingCode>65</BuildingCode>
+		<Campus>力行</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="80101" Name="80101">
+				<ClassroomName>80101</ClassroomName>
+				<ClassroomCode>80101</ClassroomCode>
+			</Classroom>
+			<Classroom code="80103" Name="80103">
+				<ClassroomName>80103</ClassroomName>
+				<ClassroomCode>80103</ClassroomCode>
+			</Classroom>
+			<Classroom code="80105" Name="80105">
+				<ClassroomName>80105</ClassroomName>
+				<ClassroomCode>80105</ClassroomCode>
+			</Classroom>
+			<Classroom code="80106" Name="80106">
+				<ClassroomName>80106</ClassroomName>
+				<ClassroomCode>80106</ClassroomCode>
+			</Classroom>
+			<Classroom code="80107" Name="80107">
+				<ClassroomName>80107</ClassroomName>
+				<ClassroomCode>80107</ClassroomCode>
+			</Classroom>
+			<Classroom code="80109" Name="80109">
+				<ClassroomName>80109</ClassroomName>
+				<ClassroomCode>80109</ClassroomCode>
+			</Classroom>
+			<Classroom code="D401" Name="階梯教室-政治">
+				<ClassroomName>階梯教室-政治</ClassroomName>
+				<ClassroomCode>D401</ClassroomCode>
+			</Classroom>
+			<Classroom code="D501" Name="階梯教室-經濟">
+				<ClassroomName>階梯教室-經濟</ClassroomName>
+				<ClassroomCode>D501</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="80201" Name="80201">
+				<ClassroomName>80201</ClassroomName>
+				<ClassroomCode>80201</ClassroomCode>
+			</Classroom>
+			<Classroom code="80203" Name="80203">
+				<ClassroomName>80203</ClassroomName>
+				<ClassroomCode>80203</ClassroomCode>
+			</Classroom>
+			<Classroom code="80204" Name="80204">
+				<ClassroomName>80204</ClassroomName>
+				<ClassroomCode>80204</ClassroomCode>
+			</Classroom>
+			<Classroom code="80205" Name="80205">
+				<ClassroomName>80205</ClassroomName>
+				<ClassroomCode>80205</ClassroomCode>
+			</Classroom>
+			<Classroom code="80209" Name="80209">
+				<ClassroomName>80209</ClassroomName>
+				<ClassroomCode>80209</ClassroomCode>
+			</Classroom>
+			<Classroom code="80211" Name="80211">
+				<ClassroomName>80211</ClassroomName>
+				<ClassroomCode>80211</ClassroomCode>
+			</Classroom>
+			<Classroom code="D201" Name="實習法庭">
+				<ClassroomName>實習法庭</ClassroomName>
+				<ClassroomCode>D201</ClassroomCode>
+			</Classroom>
+			<Classroom code="D801" Name="階梯教室-心理">
+				<ClassroomName>階梯教室-心理</ClassroomName>
+				<ClassroomCode>D801</ClassroomCode>
+			</Classroom>
+			<Classroom code="U301" Name="團體諮商室">
+				<ClassroomName>團體諮商室</ClassroomName>
+				<ClassroomCode>U301</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="80305" Name="80305">
+				<ClassroomName>80305</ClassroomName>
+				<ClassroomCode>80305</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="4">
+			<FloorName>4</FloorName>
+			<Classroom code="A420" Name="A420">
+				<ClassroomName>A420</ClassroomName>
+				<ClassroomCode>A420</ClassroomCode>
+			</Classroom>
+			<Classroom code="A422" Name="A422">
+				<ClassroomName>A422</ClassroomName>
+				<ClassroomCode>A422</ClassroomCode>
+			</Classroom>
+			<Classroom code="A424" Name="A424">
+				<ClassroomName>A424</ClassroomName>
+				<ClassroomCode>A424</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="5">
+			<FloorName>5</FloorName>
+			<Classroom code="B520" Name="B520研究室">
+				<ClassroomName>B520研究室</ClassroomName>
+				<ClassroomCode>B520</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="6">
+			<FloorName>6</FloorName>
+			<Classroom code="U10A" Name="六樓研討室A">
+				<ClassroomName>六樓研討室A</ClassroomName>
+				<ClassroomCode>U10A</ClassroomCode>
+			</Classroom>
+			<Classroom code="U10B" Name="六樓研討室B">
+				<ClassroomName>六樓研討室B</ClassroomName>
+				<ClassroomCode>U10B</ClassroomCode>
+			</Classroom>
+			<Classroom code="U10C" Name="六樓研討室C">
+				<ClassroomName>六樓研討室C</ClassroomName>
+				<ClassroomCode>U10C</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="7">
+			<FloorName>7</FloorName>
+			<Classroom code="D202" Name="七樓會議室">
+				<ClassroomName>七樓會議室</ClassroomName>
+				<ClassroomCode>D202</ClassroomCode>
+			</Classroom>
+			<Classroom code="D20A" Name="七樓研討室A">
+				<ClassroomName>七樓研討室A</ClassroomName>
+				<ClassroomCode>D20A</ClassroomCode>
+			</Classroom>
+			<Classroom code="D20B" Name="七樓研討室B">
+				<ClassroomName>七樓研討室B</ClassroomName>
+				<ClassroomCode>D20B</ClassroomCode>
+			</Classroom>
+			<Classroom code="D20C" Name="七樓研討室C">
+				<ClassroomName>七樓研討室C</ClassroomName>
+				<ClassroomCode>D20C</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="8">
+			<FloorName>8</FloorName>
+			<Classroom code="D50A" Name="八樓研討室A">
+				<ClassroomName>八樓研討室A</ClassroomName>
+				<ClassroomCode>D50A</ClassroomCode>
+			</Classroom>
+			<Classroom code="D50C" Name="八樓研討室C">
+				<ClassroomName>八樓研討室C</ClassroomName>
+				<ClassroomCode>D50C</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="80301" Name="心智教室">
+				<ClassroomName>心智教室</ClassroomName>
+				<ClassroomCode>80301</ClassroomCode>
+			</Classroom>
+			<Classroom code="80303" Name="社科院電腦室">
+				<ClassroomName>社科院電腦室</ClassroomName>
+				<ClassroomCode>80303</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="5">
+			<FloorName>5</FloorName>
+			<Classroom code="A509" Name="心理系A509室">
+				<ClassroomName>心理系A509室</ClassroomName>
+				<ClassroomCode>A509</ClassroomCode>
+			</Classroom>
+			<Classroom code="B509" Name="B509">
+				<ClassroomName>B509</ClassroomName>
+				<ClassroomCode>B509</ClassroomCode>
+			</Classroom>
+			<Classroom code="B528" Name="B528">
+				<ClassroomName>B528</ClassroomName>
+				<ClassroomCode>B528</ClassroomCode>
+			</Classroom>
+			<Classroom code="B530" Name="B530研究室">
+				<ClassroomName>B530研究室</ClassroomName>
+				<ClassroomCode>B530</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="81" CHName="K館後棟圖書部上方">
+		<BuildingName>K館後棟圖書部上方</BuildingName>
+		<BuildingCode>81</BuildingCode>
+		<Campus>勝利</Campus>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="81201" Name="81201">
+				<ClassroomName>81201</ClassroomName>
+				<ClassroomCode>81201</ClassroomCode>
+			</Classroom>
+			<Classroom code="81202" Name="81202">
+				<ClassroomName>81202</ClassroomName>
+				<ClassroomCode>81202</ClassroomCode>
+			</Classroom>
+			<Classroom code="81210" Name="81210">
+				<ClassroomName>81210</ClassroomName>
+				<ClassroomCode>81210</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="82" CHName="勝八">
+		<BuildingName>勝八</BuildingName>
+		<BuildingCode>82</BuildingCode>
+		<Campus>勝利</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="A216" Name="健休體適能">
+				<ClassroomName>健休體適能</ClassroomName>
+				<ClassroomCode>A216</ClassroomCode>
+			</Classroom>
+			<Classroom code="A218" Name="健休韻律教室">
+				<ClassroomName>健休韻律教室</ClassroomName>
+				<ClassroomCode>A218</ClassroomCode>
+			</Classroom>
+			<Classroom code="A219" Name="健休視聽室">
+				<ClassroomName>健休視聽室</ClassroomName>
+				<ClassroomCode>A219</ClassroomCode>
+			</Classroom>
+			<Classroom code="A227" Name="飛輪教室">
+				<ClassroomName>飛輪教室</ClassroomName>
+				<ClassroomCode>A227</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="83" CHName="空中大學">
+		<BuildingName>空中大學</BuildingName>
+		<BuildingCode>83</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="53101" Name="53101">
+				<ClassroomName>53101</ClassroomName>
+				<ClassroomCode>53101</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="99" CHName="無">
+		<BuildingName>無</BuildingName>
+		<BuildingCode>99</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="53X02" Name="53X02">
+				<ClassroomName>53X02</ClassroomName>
+				<ClassroomCode>53X02</ClassroomCode>
+			</Classroom>
+			<Classroom code="A209" Name="光操視聽室">
+				<ClassroomName>光操視聽室</ClassroomName>
+				<ClassroomCode>A209</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="A201" Name="光復體育場">
+				<ClassroomName>光復體育場</ClassroomName>
+				<ClassroomCode>A201</ClassroomCode>
+			</Classroom>
+			<Classroom code="A202" Name="光復排球場">
+				<ClassroomName>光復排球場</ClassroomName>
+				<ClassroomCode>A202</ClassroomCode>
+			</Classroom>
+			<Classroom code="A204" Name="光復網球場">
+				<ClassroomName>光復網球場</ClassroomName>
+				<ClassroomCode>A204</ClassroomCode>
+			</Classroom>
+			<Classroom code="A206" Name="中正堂東側">
+				<ClassroomName>中正堂東側</ClassroomName>
+				<ClassroomCode>A206</ClassroomCode>
+			</Classroom>
+			<Classroom code="A207" Name="光操健訓室">
+				<ClassroomName>光操健訓室</ClassroomName>
+				<ClassroomCode>A207</ClassroomCode>
+			</Classroom>
+			<Classroom code="A208" Name="體育室前">
+				<ClassroomName>體育室前</ClassroomName>
+				<ClassroomCode>A208</ClassroomCode>
+			</Classroom>
+			<Classroom code="A210" Name="敬業網球場">
+				<ClassroomName>敬業網球場</ClassroomName>
+				<ClassroomCode>A210</ClassroomCode>
+			</Classroom>
+			<Classroom code="A211" Name="自強體育場">
+				<ClassroomName>自強體育場</ClassroomName>
+				<ClassroomCode>A211</ClassroomCode>
+			</Classroom>
+			<Classroom code="A212" Name="自強籃球場">
+				<ClassroomName>自強籃球場</ClassroomName>
+				<ClassroomCode>A212</ClassroomCode>
+			</Classroom>
+			<Classroom code="A214" Name="勝利游泳池">
+				<ClassroomName>勝利游泳池</ClassroomName>
+				<ClassroomCode>A214</ClassroomCode>
+			</Classroom>
+			<Classroom code="A215" Name="游泳池前">
+				<ClassroomName>游泳池前</ClassroomName>
+				<ClassroomCode>A215</ClassroomCode>
+			</Classroom>
+			<Classroom code="A217" Name="自強排球場">
+				<ClassroomName>自強排球場</ClassroomName>
+				<ClassroomCode>A217</ClassroomCode>
+			</Classroom>
+			<Classroom code="U7N38" Name="38號實驗室">
+				<ClassroomName>38號實驗室</ClassroomName>
+				<ClassroomCode>U7N38</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="53211" Name="53211">
+				<ClassroomName>53211</ClassroomName>
+				<ClassroomCode>53211</ClassroomCode>
+			</Classroom>
+			<Classroom code="53202" Name="53202">
+				<ClassroomName>53202</ClassroomName>
+				<ClassroomCode>53202</ClassroomCode>
+			</Classroom>
+			<Classroom code="53205" Name="53205">
+				<ClassroomName>53205</ClassroomName>
+				<ClassroomCode>53205</ClassroomCode>
+			</Classroom>
+			<Classroom code="A213" Name="自強韻律室">
+				<ClassroomName>自強韻律室</ClassroomName>
+				<ClassroomCode>A213</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="53306" Name="53306">
+				<ClassroomName>53306</ClassroomName>
+				<ClassroomCode>53306</ClassroomCode>
+			</Classroom>
+			<Classroom code="53307" Name="53307">
+				<ClassroomName>53307</ClassroomName>
+				<ClassroomCode>53307</ClassroomCode>
+			</Classroom>
+			<Classroom code="53308" Name="53308">
+				<ClassroomName>53308</ClassroomName>
+				<ClassroomCode>53308</ClassroomCode>
+			</Classroom>
+			<Classroom code="53309" Name="53309">
+				<ClassroomName>53309</ClassroomName>
+				<ClassroomCode>53309</ClassroomCode>
+			</Classroom>
+			<Classroom code="53311" Name="53311">
+				<ClassroomName>53311</ClassroomName>
+				<ClassroomCode>53311</ClassroomCode>
+			</Classroom>
+			<Classroom code="53313" Name="53313">
+				<ClassroomName>53313</ClassroomName>
+				<ClassroomCode>53313</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="">
+			<FloorName></FloorName>
+			<Classroom code="A226" Name="光復排球高場">
+				<ClassroomName>光復排球高場</ClassroomName>
+				<ClassroomCode>A226</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="A222" Name="光復籃球低場">
+				<ClassroomName>光復籃球低場</ClassroomName>
+				<ClassroomCode>A222</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="53204" Name="53204">
+				<ClassroomName>53204</ClassroomName>
+				<ClassroomCode>53204</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="53302" Name="53302">
+				<ClassroomName>53302</ClassroomName>
+				<ClassroomCode>53302</ClassroomCode>
+			</Classroom>
+			<Classroom code="53304" Name="53304">
+				<ClassroomName>53304</ClassroomName>
+				<ClassroomCode>53304</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="53X08" Name="53X08">
+				<ClassroomName>53X08</ClassroomName>
+				<ClassroomCode>53X08</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="半">
+			<FloorName>半</FloorName>
+			<Classroom code="A203" Name="光復籃球高場">
+				<ClassroomName>光復籃球高場</ClassroomName>
+				<ClassroomCode>A203</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="1A" CHName="學生活動中心">
+		<BuildingName>學生活動中心</BuildingName>
+		<BuildingCode>1A</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="B1">
+			<FloorName>B1</FloorName>
+			<Classroom code="B06" Name="音樂教室">
+				<ClassroomName>音樂教室</ClassroomName>
+				<ClassroomCode>B06</ClassroomCode>
+			</Classroom>
+			<Classroom code="X101" Name="舞蹈練習室">
+				<ClassroomName>舞蹈練習室</ClassroomName>
+				<ClassroomCode>X101</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="A221" Name="活動中心騎樓">
+				<ClassroomName>活動中心騎樓</ClassroomName>
+				<ClassroomCode>A221</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="1B" CHName="耐震大樓(建築研究大樓旁)">
+		<BuildingName>耐震大樓(建築研究大樓旁)</BuildingName>
+		<BuildingCode>1B</BuildingCode>
+		<Campus>光復</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="5118" Name="5118">
+				<ClassroomName>5118</ClassroomName>
+				<ClassroomCode>5118</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="2">
+			<FloorName>2</FloorName>
+			<Classroom code="5127" Name="5127">
+				<ClassroomName>5127</ClassroomName>
+				<ClassroomCode>5127</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="5">
+			<FloorName>5</FloorName>
+			<Classroom code="5152" Name="5152">
+				<ClassroomName>5152</ClassroomName>
+				<ClassroomCode>5152</ClassroomCode>
+			</Classroom>
+			<Classroom code="5153" Name="5153">
+				<ClassroomName>5153</ClassroomName>
+				<ClassroomCode>5153</ClassroomCode>
+			</Classroom>
+			<Classroom code="5154" Name="5154">
+				<ClassroomName>5154</ClassroomName>
+				<ClassroomCode>5154</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+	<Building code="A1" CHName="共同教室">
+		<BuildingName>共同教室</BuildingName>
+		<BuildingCode>A1</BuildingCode>
+		<Campus>成功</Campus>
+		<Floor code="">
+			<FloorName></FloorName>
+			<Classroom code="A1305" Name="A1305">
+				<ClassroomName>A1305</ClassroomName>
+				<ClassroomCode>A1305</ClassroomCode>
+			</Classroom>
+		</Floor>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="A1302" Name="成功共同300">
+				<ClassroomName>成功共同300</ClassroomName>
+				<ClassroomCode>A1302</ClassroomCode>
+			</Classroom>
+			<Classroom code="A1303" Name="A1303">
+				<ClassroomName>A1303</ClassroomName>
+				<ClassroomCode>A1303</ClassroomCode>
+			</Classroom>
+			<Classroom code="A1304" Name="A1304">
+				<ClassroomName>A1304</ClassroomName>
+				<ClassroomCode>A1304</ClassroomCode>
+			</Classroom>
+			<Classroom code="A1306" Name="A1306(資源後)">
+				<ClassroomName>A1306(資源後)</ClassroomName>
+				<ClassroomCode>A1306</ClassroomCode>
+			</Classroom>
+			<Classroom code="A1307" Name="A1307(資源後)">
+				<ClassroomName>A1307(資源後)</ClassroomName>
+				<ClassroomCode>A1307</ClassroomCode>
+			</Classroom>
+		</Floor>
+	</Building>
+</NCKUClassroomDatabase>
