@@ -7,6 +7,8 @@ import android.view.MotionEvent;
 
 import com.example.miles.ncku3dguide.Calculator.VectorCal;
 
+import java.util.Vector;
+
 /**
  * Created by miles on 2015/7/21.
  */
@@ -107,5 +109,7 @@ public class MyGLSurfaceView extends GLSurfaceView {
     }
 
     public void setUserPosition(float[] position){ mRenderer.setUserPosition(position); }
+
+    public void setRoutObject(Vector<Integer> in_number){mRenderer.setRoutObject(in_number);}
 
 }

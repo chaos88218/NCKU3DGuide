@@ -32,22 +32,22 @@ public class Model {
     //Loaded flag
     private boolean Loaded = false;
 
-    public Model(){}
+    public Model() {
+    }
 
     public Model(String string, float alpha, Context context) {
         vertex = ReadStlBinary(string, context);
 
-        if(!Float.isNaN(vertex[0])) {
+        if (!Float.isNaN(vertex[0])) {
             float[] normals = VectorCal.getNormByPtArray(vertex);
             setColor(new float[]{1.0f, 1.0f, 1.0f}, alpha);
-            //Log.v(string + " loaded: ", "Loaded");
             Loaded = true;
 
             vertexBuffer = RenderUtils.buildFloatBuffer(vertex);
             normalBuffer = RenderUtils.buildFloatBuffer(normals);
             colorBuffer = RenderUtils.buildFloatBuffer(color);
 
-        }else {
+        } else {
             Log.v(string + "loaded E*: ", "UnLoaded");
         }
     }
@@ -57,13 +57,13 @@ public class Model {
         setColor(in_color, alpha);
     }
 
-    public boolean isLoaded(){
+    public boolean isLoaded() {
         return Loaded;
     }
 
-    protected void setColor(float[] in_color, float alpha){
+    protected void setColor(float[] in_color, float alpha) {
         in_color = new float[]{in_color[0], in_color[1], in_color[2], alpha};
-        color = new float[vertex.length/3*4];
+        color = new float[vertex.length / 3 * 4];
 
         for (int i = 0; i < color.length; i++) {
             color[i] = in_color[i % 4];
@@ -74,7 +74,6 @@ public class Model {
     }
 
     public void draw(GL10 gl) {
-
         gl.glColorPointer(4, GL10.GL_FLOAT, 0, colorBuffer);
         gl.glVertexPointer(3, GL10.GL_FLOAT, 0, vertexBuffer);
         gl.glNormalPointer(GL10.GL_FLOAT, 0, normalBuffer);
@@ -82,8 +81,9 @@ public class Model {
         gl.glEnableClientState(GL10.GL_COLOR_ARRAY);
         gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
         gl.glEnableClientState(GL10.GL_NORMAL_ARRAY);
-
-        gl.glDrawArrays(GL10.GL_TRIANGLES, 0, vertex.length / 3);
+        if (Loaded) {
+            gl.glDrawArrays(GL10.GL_TRIANGLES, 0, vertex.length / 3);
+        }
 
         gl.glDisableClientState(GL10.GL_COLOR_ARRAY);
         gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
@@ -127,5 +127,17 @@ public class Model {
         }
 
         return ospVert;
+    }
+
+    public void clearAllData() {
+        if (Loaded) {
+            Loaded = false;
+            vertexBuffer.clear();
+            colorBuffer.clear();
+            normalBuffer.clear();
+
+            vertex = null;
+            color = null;
+        }
     }
 }

@@ -3,17 +3,15 @@ import android.content.Context;
 import android.content.res.AssetManager;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-//import java.util.Scanner;
-import java.util.Vector;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 //import javax.print.DocFlavor.INPUT_STREAM;
@@ -28,13 +26,12 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
-import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 public class SearchClassroom {
 	
 	
-	public static String RoomInfo[]=new String[3]; //教室資訊
+	public static String RoomInfo[]=new String[4]; //教室資訊
 	public static ArrayList<String> realNameList; //真正包含搜尋字串的教室名稱
 	
 	private ArrayList<String> allNameList;	//所有東西的名稱，所有建築物加教室名稱加教室代號(名稱跟代號不重複)
@@ -42,18 +39,17 @@ public class SearchClassroom {
 	private DocumentBuilderFactory dbFactory;	
 	private DocumentBuilder dBuilder;
 	private Document doc ;
-	
+
 	SearchClassroom(Context context){
 		Initialize(context);
 	}
-	
+
 	public void Initialize(Context context){
 		try {
 			allNameList = new ArrayList<String>();
 			realNameList = new ArrayList<String>();
 			AssetManager am = context.getAssets();
 			inputFile = am.open("NCKUBuildingDatabase.xml");
-
 			dbFactory = DocumentBuilderFactory.newInstance();
 
 			dBuilder = dbFactory.newDocumentBuilder();
@@ -99,7 +95,7 @@ public class SearchClassroom {
 			RoomInfo[0]="找不到該地點"; //預設回傳格式
 			RoomInfo[1]="";
 			RoomInfo[2]="";
-			
+			RoomInfo[3]="";
 			
 			
 			
@@ -124,10 +120,14 @@ public class SearchClassroom {
 
 			String expression = "/NCKUClassroomDatabase/Building[@CHName='" + code + "']";//先尋找系館名稱
 			NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(doc, XPathConstants.NODESET);
-			if (nodeList.getLength() != 0) {//如果找到就直接回傳							
-				RoomInfo[0]=code;
-				RoomInfo[1]="";
-				RoomInfo[2]="";				
+			
+
+			if (nodeList.getLength() != 0) {//如果找到就直接回傳	
+				Element eElement = (Element)nodeList.item(0); 
+				RoomInfo[0]=eElement.getElementsByTagName("Campus").item(0).getTextContent();//先取得校區名稱				
+				RoomInfo[1]=code;
+				RoomInfo[2]="";
+				RoomInfo[3]="";	
 				return RoomInfo;
 			}
 
@@ -143,20 +143,22 @@ public class SearchClassroom {
 					RoomInfo[0]="找不到該地點";
 					RoomInfo[1]="";
 					RoomInfo[2]="";
+					RoomInfo[3]="";
 					return RoomInfo;
 				}
 			}
 			
 			Element eElement = (Element)nodeList.item(0); 
-			RoomInfo[2]=eElement.getElementsByTagName("ClassroomName").item(0).getTextContent();//先取得教室名稱
+			RoomInfo[3]=eElement.getElementsByTagName("ClassroomName").item(0).getTextContent();//先取得教室名稱
 			
 		    Node nNode = nodeList.item(0).getParentNode();//到上一層node，為了取得樓層
 		    
 		    eElement = (Element) nNode;
-		    RoomInfo[1]=eElement.getElementsByTagName("FloorName").item(0).getTextContent(); //取得教室樓層
+		    RoomInfo[2]=eElement.getElementsByTagName("FloorName").item(0).getTextContent(); //取得教室樓層
 		    nNode=nNode.getParentNode();
 		    eElement = (Element) nNode;
-		    RoomInfo[0]=eElement.getElementsByTagName("BuildingName").item(0).getTextContent();//取得建築名稱
+		    RoomInfo[1]=eElement.getElementsByTagName("BuildingName").item(0).getTextContent();//取得建築名稱
+		    RoomInfo[0]=eElement.getElementsByTagName("Campus").item(0).getTextContent();//取得建築名稱
 
 		    return RoomInfo;
 
@@ -215,6 +217,36 @@ public class SearchClassroom {
         }
                        
 	    return realNameList;
+	}
+
+	public void buildBuildingTXT(){
+		String eachBuildingName;
+		try {
+			FileWriter fw = new FileWriter("C://Users//Adam/Desktop//ForJacob.txt");
+			
+			XPath xPath = XPathFactory.newInstance().newXPath();
+	
+			String expression = "/NCKUClassroomDatabase/Building";//先尋找系館名稱
+			NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(doc, XPathConstants.NODESET);
+			
+			
+
+			for(int i=0;i<nodeList.getLength();i++){
+				Node nNode = nodeList.item(i);
+				Element eElement = (Element) nNode;
+				eachBuildingName=eElement.getElementsByTagName("BuildingName").item(0).getTextContent();
+				fw.write(eachBuildingName+"\r\n");
+				//System.out.println(eElement.getElementsByTagName("BuildingName").item(0).getTextContent());//取得建築名稱
+	
+			}	
+			fw.flush();
+			fw.close();
+		} catch (XPathExpressionException e) {
+		    e.printStackTrace();		    
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
 	}
 }
 

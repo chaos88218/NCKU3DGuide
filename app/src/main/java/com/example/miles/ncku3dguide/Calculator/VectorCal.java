@@ -6,7 +6,7 @@ package com.example.miles.ncku3dguide.Calculator;
 public class VectorCal {
 
     public static float[] getMapPosition(double latitude, double longitude) {
-        float[] gps_zero = new float[]{22.996597f, 120.219615f};
+        float[] gps_zero = new float[]{22.996914f, 120.218973f};
         float gps_scale = 153000f;
 
         float x = (float) (longitude - gps_zero[1]) * gps_scale;

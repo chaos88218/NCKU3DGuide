@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">NCKU 3D Guide</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">操作說明</string>
+    <string name="bug_report">錯誤回報及回饋</string>
+    <string name="info_all_name">軟體資訊</string>
+    <string name="all_crew">\t
+        籌畫功能整合 : 黃子軒\n\t
+        教室資料查詢 : 陳紀融, 周秉諭\n\t
+        校園立體建模 : 林俊仲, 林德佑, 周秉諭\n\t
+        導航路徑規劃 : 林德佑\n\t
+        上架版本控制 : 周秉諭\n\t
+        2017/02, ver a1.0.0
+    </string>
+    <string name="action_info">\t
+        單指 左/右滑動 : 順/逆時針旋轉\n\t
+        雙指 張開/收合 : 放大/縮小\n\t
+        雙指 左/右滑動 : 左/右移動\n\t
+    </string>
 </resources>

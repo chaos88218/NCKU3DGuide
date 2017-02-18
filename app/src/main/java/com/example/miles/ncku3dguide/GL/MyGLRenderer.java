@@ -10,8 +10,10 @@ import com.example.miles.ncku3dguide.Calculator.VectorCal;
 import com.example.miles.ncku3dguide.MainActivity;
 import com.example.miles.ncku3dguide.Model.AllCampusData;
 import com.example.miles.ncku3dguide.Model.RenderUtils;
+import com.example.miles.ncku3dguide.Model.Route;
 
 import java.nio.FloatBuffer;
+import java.util.Vector;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
@@ -27,7 +29,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     //light 0
     private float[] ambientLight = new float[]{0f, 0f, 0f, 1.0f};
     private float[] diffuseLight = new float[]{0.35f, 0.35f, 0.35f, 1.0f};
-    private float[] lightPos = new float[]{250, -300, 600, 0.0f};
+    private float[] lightPos = new float[]{400, -100, 800, 0.0f};
     //light 1
     private float[] lightPos1 = new float[]{-250, +300, -600, 0.0f};
 
@@ -39,6 +41,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
 
     //personal posi
     private float[] per_posi = new float[]{0, 0};
+    private Route route;
 
     public MyGLRenderer() {
         super();
@@ -95,6 +98,19 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         gl.glMatrixMode(GL10.GL_MODELVIEW);
         gl.glPushMatrix();
         load_matrix(gl);
+
+        AllCampusData.cc.drawBuilding(gl);
+        AllCampusData.ck.drawBuilding(gl);
+        AllCampusData.sl.drawBuilding(gl);
+        AllCampusData.kf.drawBuilding(gl);
+        AllCampusData.jy.drawBuilding(gl);
+        AllCampusData.ls.drawBuilding(gl);
+        AllCampusData.cs.drawBuilding(gl);
+
+        if (MainActivity.navi) {
+            route.draw(gl);
+        }
+
         if (AllCampusData.cc.isLoaded()) {
             AllCampusData.cc.draw(gl);
         }
@@ -110,22 +126,21 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         if (AllCampusData.jy.isLoaded()) {
             AllCampusData.jy.draw(gl);
         }
+        if (AllCampusData.ls.isLoaded()) {
+            AllCampusData.ls.draw(gl);
+        }
+        if (AllCampusData.cs.isLoaded()) {
+            AllCampusData.cs.draw(gl);
+        }
         if (MainActivity.stop_info) {
-            AllCampusData.stop.draw(gl);
             AllCampusData.stop_sign.draw(gl);
         }
 
         per_posi = VectorCal.getMapPosition(AllCampusData.gpsTracker.getLatitude(), AllCampusData.gpsTracker.getLongitude());
-        gl.glTranslatef(per_posi[0] + AllCampusData.map_zero[0], per_posi[1] + AllCampusData.map_zero[1], 0);
+        gl.glTranslatef(per_posi[0] + AllCampusData.map_zero[0], per_posi[1] + AllCampusData.map_zero[1], 10);
         AllCampusData.loco.draw(gl);
 
         gl.glPopMatrix();
-
-        load_matrix(gl);
-        if (MainActivity.navi) {
-            gl.glTranslatef(AllCampusData.cc.loactions[2 * MainActivity.navi_num], AllCampusData.cc.loactions[2 * MainActivity.navi_num + 1], 0);
-            AllCampusData.navi.draw(gl);
-        }
 
     }
 
@@ -190,5 +205,9 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
 
     void setZoom(float in_z) {
         mDistZ += in_z;
+    }
+
+    public void setRoutObject(Vector<Integer> in_number) {
+        route = new Route(in_number);
     }
 }

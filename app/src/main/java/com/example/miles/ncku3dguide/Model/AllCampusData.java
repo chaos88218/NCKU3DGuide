@@ -3,6 +3,7 @@ package com.example.miles.ncku3dguide.Model;
 import android.content.Context;
 
 import com.example.miles.ncku3dguide.GPSTracker.GPSTracker;
+import com.example.miles.ncku3dguide.MapNavi.MyMap;
 
 
 /**
@@ -14,7 +15,6 @@ public class AllCampusData {
     private Context loco_Context;
     public static Model loco;
     public static Model navi;
-    public static Model stop;
     public static Model stop_sign;
 
     public static Campus cc;
@@ -22,8 +22,11 @@ public class AllCampusData {
     public static Campus sl;
     public static Campus kf;
     public static Campus jy;
+    public static Campus ls;
+    public static Campus cs;
+    public static MyMap myMap;
 
-    public static float[] map_zero = new float[]{989.285767f, 817.882629f};
+    public static float[] map_zero = new float[]{894.598267f, 810.448181f};
 
     //GPS
     public static GPSTracker gpsTracker;
@@ -56,22 +59,6 @@ public class AllCampusData {
             "自強校區大門", "自強圓形地標",
             "橄欖球架1", "橄欖球架2"
     };
-
-    private float[] cc_location = new float[]{
-            (1600.377075f + 1515.377441f) / 2.0f, (636.360596f + 631.251709f) / 2.0f,
-            1519.189575f, 949.409790f,
-            (1462.624512f + 1397.700684f) / 2.0f, (1030.356689f + 1030.614380f) / 2.0f,
-            1430.713989f, 765.698914f,
-            1513.539551f, 833.509949f,
-            1413.427368f, 873.227173f,
-            (1573.982422f + 1638.929321f) / 2.0f, (1067.892285f + 1064.965698f) / 2.0f,
-            1457.405640f, 724.407837f,
-            (1623.792358f + 1566.833496f) / 2.0f, (935.426331f + 936.034851f) / 2.0f,
-            (1572.755371f + 1623.416382f) / 2.0f, (772.066956f + 819.998108f) / 2.0f,
-            (1521.236084f + 1512.470825f) / 2.0f, (1035.904053f + 1026.375366f) / 2.0f,
-            (1445.920166f + 1403.801025f) / 2.0f, (545.191345f + 482.413269f) / 2.0f
-    };
-
 
     //campus ck
     private float[] ck_map = new float[]{
@@ -183,6 +170,24 @@ public class AllCampusData {
     };
 
 
+    //campus ls
+    private String ls_filepath = "LS_C/";
+    private String[] ls_files = new String[]{
+            ls_filepath + "C_A.STL",
+            ls_filepath + "C_B.STL",
+            ls_filepath + "C_C.STL",
+            ls_filepath + "C_D.STL",
+            ls_filepath + "C_E.STL"
+    };
+    private String[] ls_name = new String[]{
+            "綠色魔法學院",
+            "社會科學大樓",
+            "台文系館",
+            "公衛大樓",
+            "成大醫院"
+    };
+
+    //campus jy
     private String jy_filepath = "JY_Y/";
     private String[] jy_files = new String[]{
             jy_filepath + "Y_A.STL", jy_filepath + "Y_B.STL",
@@ -199,39 +204,81 @@ public class AllCampusData {
             "教職員單身宿舍", "網球場"
     };
 
-    public AllCampusData(Context mContext) {
+    //campus cs
+    private String cs_filepath = "CS_J/";
+    private String[] cs_files = new String[]{
+            cs_filepath + "J_A.STL",
+            cs_filepath + "J_B.STL",
+            cs_filepath + "J_C.STL",
+            cs_filepath + "J_D.STL",
+            cs_filepath + "J_E.STL",
+            cs_filepath + "J_F.STL"
+    };
+    private String[] cs_name = new String[]{
+            "護理",
+            "醫學",
+            "醫技",
+            "物職治",
+            "神秘建築1",
+            "神秘建築2"
+    };
 
+    public AllCampusData(Context mContext) {
         loco_Context = mContext;
 
-        loco = new Model("loco.STL", new float[]{1, 0, 0}, 1.0f, mContext);
-        navi = new Model("loco.STL", new float[]{0, 0, 1}, 1.0f, mContext);
-        stop = new Model("O_A.STL", new float[]{0, 0, 1}, 1.0f, mContext);
-        stop_sign = new Model("O_A.STL", new float[]{0, 0, 1}, 1.0f, mContext);
+        loco = new Model("loco.STL", new float[]{1, 0, 0}, 1.0f, loco_Context);
+        navi = new Model("loco.STL", new float[]{0, 0, 1}, 1.0f, loco_Context);
 
-        cc = new Campus(cc_filepath + "M.STL", 1.0f, mContext, cc_name.length);
+        stop_sign = new Model("moto.STL", new float[]{0, 0, 1}, 1.0f, loco_Context);
+
+        cc = new Campus(cc_filepath + "M.STL", 1.0f, loco_Context, cc_name.length);
         cc.set_Models(cc_name, cc_files, new float[]{189 / 255.0f, 252 / 255.0f, 201 / 255.0f});
         cc.set_corner(cc_map);
-        cc.set_location(cc_location);
 
-        ck = new Campus(ck_filepath + "S.STL", 1.0f, mContext, ck_name.length);
+        ck = new Campus(ck_filepath + "S.STL", 1.0f, loco_Context, ck_name.length);
         ck.set_Models(ck_name, ck_files, new float[]{255 / 255.0f, 227 / 255.0f, 132 / 255.0f});
         ck.set_corner(ck_map);
 
-        sl = new Campus(sl_filepath + "V.STL", 1.0f, mContext, sl_name.length);
+        sl = new Campus(sl_filepath + "V.STL", 1.0f, loco_Context, sl_name.length);
         sl.set_Models(sl_name, sl_files, new float[]{255 / 255.0f, 192 / 255.0f, 203 / 255.0f});
         sl.set_corner(sl_map);
 
-        kf = new Campus(kf_filepath + "L.STL", 1.0f, mContext, kf_name.length);
+        kf = new Campus(kf_filepath + "L.STL", 1.0f, loco_Context, kf_name.length);
         kf.set_Models(kf_name, kf_files, new float[]{255 / 255.0f, 248 / 255.0f, 220 / 255.0f});
         kf.set_corner(kf_map);
 
-        jy = new Campus(jy_filepath + "Y.STL", 1.0f, mContext, jy_name.length);
-        jy.set_Models(jy_name, jy_files, new float[]{108 / 255.0f, 90 / 255.0f, 90 / 255.0f});
+        jy = new Campus(jy_filepath + "Y.STL", 1.0f, loco_Context, jy_name.length);
+        jy.set_Models(jy_name, jy_files, new float[]{128 / 255.0f, 110 / 255.0f, 110 / 255.0f});
 
+        ls = new Campus(ls_filepath + "C.STL", 1.0f, loco_Context, ls_name.length);
+        ls.set_Models(ls_name, ls_files, new float[]{255 / 255.0f, 150 / 255.0f, 150 / 255.0f});
+
+        cs = new Campus(cs_filepath + "J.STL", 1.0f, loco_Context, cs_name.length);
+        cs.set_Models(cs_name, cs_files, new float[]{222 / 255.0f, 222 / 255.0f, 222 / 255.0f});
+        map_Navi.start();
     }
 
     public void newGPSTracker() {
         gpsTracker = new GPSTracker(loco_Context);
+    }
+
+    private Thread map_Navi = new Thread(new Runnable() {
+        @Override
+        public void run() {
+            myMap = new MyMap();
+            myMap.LoadMap("campus1.txt", loco_Context);
+        }
+    });
+
+    public void clearAllData() {
+        cc.clearAllData();
+        ck.clearAllData();
+        sl.clearAllData();
+        kf.clearAllData();
+        jy.clearAllData();
+        ls.clearAllData();
+        cs.clearAllData();
+        myMap.clearAllData();
     }
 
 }

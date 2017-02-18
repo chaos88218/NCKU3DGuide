@@ -25,7 +25,7 @@ public class Campus extends Model {
 
     private float[] model_corner;
 
-    public Campus(){
+    public Campus() {
         super();
     }
 
@@ -89,14 +89,14 @@ public class Campus extends Model {
         return true;
     }
 
-    public String get_nearest(float[] per_posi){
+    public String get_nearest(float[] per_posi) {
         int min_index = 0;
         float now_dist = 10000;
         Log.d("Now_posi", (per_posi[0] + AllCampusData.map_zero[0]) + " " + (per_posi[1] + AllCampusData.map_zero[1]));
-        for(int i = 0; i < model_name.length; i++){
-            float temp = VectorCal.magnitude(new float[]{per_posi[0] + AllCampusData.map_zero[0] - this.loactions[2*i]
-                    , per_posi[1] + + AllCampusData.map_zero[1] - this.loactions[2*i + 1], 0});
-            if(temp < now_dist){
+        for (int i = 0; i < model_name.length; i++) {
+            float temp = VectorCal.magnitude(new float[]{per_posi[0] + AllCampusData.map_zero[0] - this.loactions[2 * i]
+                    , per_posi[1] + +AllCampusData.map_zero[1] - this.loactions[2 * i + 1], 0});
+            if (temp < now_dist) {
                 now_dist = temp;
                 min_index = i;
             }
@@ -110,18 +110,30 @@ public class Campus extends Model {
             for (int i = 0; i < model_num; i++) {
                 all_models[i] = new Model(model_files[i], model_color, 1.0f, mContext);
                 allisLoaded[i] = all_models[i].isLoaded();
-                Log.d(model_files[i], all_models[i].isLoaded()+"");
             }
         }
     });
 
-    @Override
-    public void draw(GL10 gl) {
+    public void drawBuilding(GL10 gl) {
         for (int i = 0; i < model_num; i++) {
             if (allisLoaded[i]) {
                 all_models[i].draw(gl);
             }
         }
-        super.draw(gl);
+    }
+
+    @Override
+    public void clearAllData() {
+        super.clearAllData();
+        for (int i = 0; i < model_num; i++) {
+            if (allisLoaded[i]) {
+                all_models[i].clearAllData();
+            }
+        }
+        model_name = null;
+        model_files = null;
+        model_color = null;
+        loactions = null;
+        model_corner = null;
     }
 }

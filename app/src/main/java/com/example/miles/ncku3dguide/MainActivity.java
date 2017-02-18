@@ -1,6 +1,7 @@
 package com.example.miles.ncku3dguide;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -26,9 +27,13 @@ import android.widget.Toast;
 
 import com.example.miles.ncku3dguide.Calculator.VectorCal;
 import com.example.miles.ncku3dguide.GL.MyGLSurfaceView;
+import com.example.miles.ncku3dguide.MapNavi.MyMap;
 import com.example.miles.ncku3dguide.Model.AllCampusData;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Objects;
+import java.util.Vector;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -54,14 +59,13 @@ public class MainActivity extends AppCompatActivity {
     private String[] classroom_ans;
 
     private AllCampusData app;
+    private boolean navi_mode;
     public static boolean stop_info = false;
     public static boolean navi = false;
-    public static int navi_num = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        app = new AllCampusData(MainActivity.this);
         myGLSurfaceView = new MyGLSurfaceView(MainActivity.this);
         searchClassroom = new SearchClassroom(MainActivity.this);
 
@@ -130,11 +134,51 @@ public class MainActivity extends AppCompatActivity {
         search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                qu = search_text.getText().toString();
-                classroom_ans = searchClassroom.getRoomInfo(qu);
 
-                Toast.makeText(v.getContext(), classroom_ans[0] + ", " + classroom_ans[1] + ", " + classroom_ans[2], Toast.LENGTH_LONG).show();
+                if (navi_mode) {
+                    {
+                        if (AllCampusData.myMap.isLoaded()) {
+                            qu = search_text.getText().toString();
+                            int end_index = -1;
+                            if (!qu.matches("")) {
+                                end_index = AllCampusData.myMap.get_location_index(first_ad.getText().toString());
+                            }
+                            if (end_index == -1) {
+                                Toast.makeText(v.getContext(), "無法定位", Toast.LENGTH_LONG).show();
+                            } else {
+                                Toast.makeText(v.getContext(), "導航至 "
+                                        + AllCampusData.myMap.myNodes.get(end_index).name, Toast.LENGTH_LONG).show();
 
+                                float now_posi[] = VectorCal.getMapPosition(AllCampusData.gpsTracker.getLatitude()
+                                        , AllCampusData.gpsTracker.getLongitude());
+                                int start_index = AllCampusData.myMap.get_nearest_location_index(
+                                        new float[]{(now_posi[0] + AllCampusData.map_zero[0]), (now_posi[1] + AllCampusData.map_zero[1])}
+                                );
+                                Vector<Integer> tempbuf = AllCampusData.myMap.setRoute(start_index, end_index);
+                                myGLSurfaceView.setRoutObject(tempbuf);
+                                navi = true;
+                            }
+                        } else {
+                            Toast.makeText(v.getContext(), "導航初始化未完成，稍後重試", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                } else {
+                    qu = search_text.getText().toString();
+                    classroom_ans = searchClassroom.getRoomInfo(qu);
+
+                    String ans = classroom_ans[0];
+                    if (!classroom_ans[1].matches("")) {
+                        ans += ("\n" + classroom_ans[1]);
+                    }
+                    if (!classroom_ans[2].matches("")) {
+                        ans += ("\n" + classroom_ans[2]);
+                    }
+                    if (!classroom_ans[3].matches("")) {
+                        ans += ("\n" + classroom_ans[3]);
+                    }
+
+                    Toast.makeText(v.getContext(), ans, Toast.LENGTH_LONG).show();
+                }
                 InputMethodManager imm = (InputMethodManager) getSystemService(MainActivity.INPUT_METHOD_SERVICE);
                 imm.hideSoftInputFromWindow(search_text.getWindowToken(), 0);
                 search_text.setVisibility(View.GONE);
@@ -142,17 +186,15 @@ public class MainActivity extends AppCompatActivity {
                 ad_layout.setVisibility(View.GONE);
             }
         });
+
         //image button
         classroom_image = (ImageView) findViewById(R.id.classroom_image);
         classroom_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
-                search_text.setVisibility(View.VISIBLE);
-                ad_layout.setVisibility(View.VISIBLE);
-                search_button.setVisibility(View.VISIBLE);
-                search_text.requestFocus();
-                InputMethodManager imm = (InputMethodManager) getSystemService(MainActivity.INPUT_METHOD_SERVICE);
-                imm.showSoftInput(search_text, InputMethodManager.SHOW_IMPLICIT);
+                navi_mode = false;
+                search_button.setText("搜尋");
+                UIopen();
             }
         });
 
@@ -160,7 +202,9 @@ public class MainActivity extends AppCompatActivity {
         navi_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                navi_mode = true;
+                search_button.setText("導航");
+                UIopen();
             }
         });
         parking_image = (ImageView) findViewById(R.id.parking_image);
@@ -175,6 +219,77 @@ public class MainActivity extends AppCompatActivity {
         glViewLayout = (RelativeLayout) findViewById(R.id.GL_view);
         glViewLayout.addView(myGLSurfaceView);
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        app = new AllCampusData(MainActivity.this);
+        app.newGPSTracker();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        app.clearAllData();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            final View search_view = LayoutInflater.from(MainActivity.this).inflate(R.layout.action_info_dlg, null);
+            new AlertDialog.Builder(MainActivity.this)
+                    .setTitle("操作方法:")
+                    .setView(search_view)
+                    .setPositiveButton("確認", null)
+                    .show();
+            return true;
+        }
+        if (id == R.id.bug_report) {
+            final View search_view = LayoutInflater.from(MainActivity.this).inflate(R.layout.bug_report_dlg, null);
+            new AlertDialog.Builder(MainActivity.this)
+                    .setTitle("回報錯誤:")
+                    .setView(search_view)
+                    .setPositiveButton("確認", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            EditText editText = (EditText) search_view.findViewById(R.id.report_text);
+                            Intent intent = new Intent(Intent.ACTION_SEND);
+                            intent.setType("plain/text");
+                            intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"chaos88218@gmail.com"});
+                            intent.putExtra(Intent.EXTRA_SUBJECT, "NCKU 3D Guide回饋");
+                            intent.putExtra(Intent.EXTRA_TEXT, editText.getText());
+                            startActivity(Intent.createChooser(intent, "選擇電子郵件"));
+                        }
+                    })
+                    .show();
+            return true;
+        }
+        if (id == R.id.info_all_name) {
+            final View search_view = LayoutInflater.from(MainActivity.this).inflate(R.layout.app_infromation, null);
+            new AlertDialog.Builder(MainActivity.this)
+                    .setTitle("軟體資訊:")
+                    .setView(search_view)
+                    .setPositiveButton("確認", null)
+                    .show();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     //text change
@@ -206,31 +321,12 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        app.newGPSTracker();
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
+    private void UIopen() {
+        search_text.setVisibility(View.VISIBLE);
+        ad_layout.setVisibility(View.VISIBLE);
+        search_button.setVisibility(View.VISIBLE);
+        search_text.requestFocus();
+        InputMethodManager imm = (InputMethodManager) getSystemService(MainActivity.INPUT_METHOD_SERVICE);
+        imm.showSoftInput(search_text, InputMethodManager.SHOW_IMPLICIT);
     }
 }
