@@ -6,7 +6,6 @@ import android.util.Log;
 
 
 import com.example.miles.ncku3dguide.Calculator.VectorCal;
-import com.example.miles.ncku3dguide.Model.AllCampusData;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,9 +15,7 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Vector;
 
-/**
- * Created by Jacob on 2017/1/28.
- */
+
 public class MyMap {
     public int Node_num; /// 此地圖點數量
     String filepath;  // 讀取締圖路徑
@@ -28,6 +25,7 @@ public class MyMap {
     public Vector<Double> Dist = new Vector<Double>();
     public Vector<Double> Dist2 = new Vector<Double>();
     Vector<Integer> tempbuf = new Vector<Integer>();
+
     boolean isLoaded;
 
     public MyMap() {
@@ -42,10 +40,13 @@ public class MyMap {
         Integer tp1 = p1, tp2 = p2;
         Double minF = MaxDist;
         Double distance = 0.0;
-        Double tempd = 0.0;
+        Double tempd = getDistance(Dist2, p1, p2, Node_num);
         Integer tempind = -1;
         Boolean finish = false;
         String tempstring = "";
+        if (tempd >= MaxDist) {
+            return tempbuf;
+        }
         while (true) {
             minF = MaxDist;
             for (int i = 0; i < Node_num; i++) {
@@ -61,20 +62,20 @@ public class MyMap {
                         tempind = tp2;
                         break;
                     }
-                    tempd = distance;
+                    //tempd = distance;
                     Double g = getDistance(Dist, tp1, i, Node_num);
                     Double H = getDistance(Dist2, i, tp2, Node_num);
-                    tempd += getDistance(Dist, tp1, i, Node_num); // 原有distance 加上到分支個點距離 = F
+                    //tempd += getDistance(Dist, tp1, i, Node_num); // 原有distance 加上到分支個點距離 = F
 
-                    if (minF >= tempd + H) // G + H
+                    if (minF >= g + H) // G + H
                     {
-                        minF = tempd + getDistance(Dist2, i, tp2, Node_num);
+                        minF = g + H;
                         tempind = i;
                         //break;
                     }
                 }
             }
-            distance += tempd;
+            distance += minF;
             last = tp1;
             tempbuf.add(tempind);
             tempstring += String.valueOf(tempind) + ",";
@@ -233,5 +234,4 @@ public class MyMap {
     public boolean isLoaded() {
         return isLoaded;
     }
-
 }

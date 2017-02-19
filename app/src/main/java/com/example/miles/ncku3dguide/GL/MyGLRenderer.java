@@ -33,7 +33,6 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     //light 1
     private float[] lightPos1 = new float[]{-250, +300, -600, 0.0f};
 
-    private float mAngleX = 0;
     private float mAngleY = 0;
     private float mDistX = 0;
     private float mDistY = 0;
@@ -51,18 +50,17 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
         //Render settings
         gl.glEnable(GL10.GL_CULL_FACE);
-        //gl.glShadeModel(GL10.GL_SMOOTH);
         gl.glEnable(GL10.GL_DEPTH_TEST);
         gl.glFrontFace(GL10.GL_CCW);
 
         gl.glMatrixMode(GL10.GL_PROJECTION);
+
         //Light setting and bind buffer
         FloatBuffer ambientBuffer = RenderUtils.buildFloatBuffer(ambientLight);
         FloatBuffer diffuseBuffer = RenderUtils.buildFloatBuffer(diffuseLight);
         FloatBuffer lightPosBuffer = RenderUtils.buildFloatBuffer(lightPos);
 
-        //light 0, 1
-
+        //light
         gl.glEnable(GL10.GL_LIGHTING);
         gl.glEnable(GL10.GL_LIGHT0);
         gl.glLightModelfv(GL10.GL_LIGHT_MODEL_AMBIENT, ambientBuffer);
@@ -94,11 +92,12 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
         gl.glClearColor(223 / 255.0f, 1, 1, 1.0f);
 
-        //
+
         gl.glMatrixMode(GL10.GL_MODELVIEW);
         gl.glPushMatrix();
         load_matrix(gl);
 
+        //先畫校區模型
         AllCampusData.cc.drawBuilding(gl);
         AllCampusData.ck.drawBuilding(gl);
         AllCampusData.sl.drawBuilding(gl);
@@ -111,6 +110,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
             route.draw(gl);
         }
 
+        //地板後畫不然會破圖
         if (AllCampusData.cc.isLoaded()) {
             AllCampusData.cc.draw(gl);
         }
@@ -135,22 +135,29 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         if (MainActivity.stop_info) {
             AllCampusData.stop_sign.draw(gl);
         }
-
+        //定位使用者位置
         per_posi = VectorCal.getMapPosition(AllCampusData.gpsTracker.getLatitude(), AllCampusData.gpsTracker.getLongitude());
         gl.glTranslatef(per_posi[0] + AllCampusData.map_zero[0], per_posi[1] + AllCampusData.map_zero[1], 10);
         AllCampusData.loco.draw(gl);
 
         gl.glPopMatrix();
 
+        load_matrix(gl);
+        if (MainActivity.navi) {
+            float[] desti_location = route.getDestination();
+            gl.glTranslatef(desti_location[0], desti_location[1], 10);
+            AllCampusData.navi.draw(gl);
+        }
+
     }
 
     private void load_matrix(GL10 gl) {
         //drawing Matrix
-        //World
+        //世界操作
         gl.glLoadIdentity();
         gl.glTranslatef(0, 0, mDistZ);
 
-        //Model
+        //模型操作
         gl.glTranslatef(0, 0, -range);
         gl.glRotatef(-50, 1, 0, 0);
         gl.glRotatef(mAngleY, 0, 0, 1);
@@ -169,17 +176,11 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         mDistY = 0;
         mDistZ = 0;
     }
-
     void setRIdendity() {
-        mAngleX = 0;
         mAngleY = 0;
     }
 
-    void setAngleX(float angle) {
-        mAngleX += angle;
-
-    }
-
+    //使用者旋轉
     void setAngleY(float angle) {
         mAngleY += angle;
         if (Math.abs(mAngleY) > 360) {
@@ -192,6 +193,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
 
     }
 
+    //使用者平移
     void setDist(float in_x, float in_y) {
         float[] temp = new float[16];
         Matrix.setIdentityM(temp, 0);

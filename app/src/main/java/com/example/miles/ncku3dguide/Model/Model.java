@@ -21,8 +21,9 @@ import javax.microedition.khronos.opengles.GL10;
  */
 public class Model {
 
-    FloatBuffer vertexBuffer;
-    FloatBuffer colorBuffer;
+    //OpenGL Buffer
+    private FloatBuffer vertexBuffer;
+    private FloatBuffer colorBuffer;
     private FloatBuffer normalBuffer;
 
     //STL and render data
@@ -32,10 +33,11 @@ public class Model {
     //Loaded flag
     private boolean Loaded = false;
 
-    public Model() {
+    Model() {
     }
 
-    public Model(String string, float alpha, Context context) {
+    //模型讀stl初始化
+    Model(String string, float alpha, Context context) {
         vertex = ReadStlBinary(string, context);
 
         if (!Float.isNaN(vertex[0])) {
@@ -52,7 +54,8 @@ public class Model {
         }
     }
 
-    public Model(String string, float[] in_color, float alpha, Context context) {
+    //模型讀stl初始化加顏色
+    Model(String string, float[] in_color, float alpha, Context context) {
         this(string, alpha, context);
         setColor(in_color, alpha);
     }
@@ -129,6 +132,7 @@ public class Model {
         return ospVert;
     }
 
+    //清除暫存
     public void clearAllData() {
         if (Loaded) {
             Loaded = false;

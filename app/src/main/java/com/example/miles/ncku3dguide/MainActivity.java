@@ -38,71 +38,97 @@ import java.util.Vector;
 
 public class MainActivity extends AppCompatActivity {
 
+    //OpenGL layouts
     private MyGLSurfaceView myGLSurfaceView;
     private RelativeLayout glViewLayout;
 
+    //搜尋導航自標按鈕
     private EditText search_text;
     private Button search_button;
 
+    //搜尋建議UI
     private LinearLayout ad_layout;
     private TextView first_ad;
     private TextView second_ad;
     private TextView third_ad;
 
+    //圖形UI
     private ImageView classroom_image;
     private ImageView navi_image;
     private ImageView parking_image;
+    private ImageView navi_done;
 
+    //教室搜尋
     private SearchClassroom searchClassroom;
-
     private String qu;
     private String[] classroom_ans;
 
+    //模型節點與控制
     private AllCampusData app;
     private boolean navi_mode;
     public static boolean stop_info = false;
     public static boolean navi = false;
 
     @Override
+    protected void onResume() {
+        super.onResume();
+
+        app = new AllCampusData(MainActivity.this);
+        app.newGPSTracker();
+    }
+
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //初始化
         myGLSurfaceView = new MyGLSurfaceView(MainActivity.this);
         searchClassroom = new SearchClassroom(MainActivity.this);
-
         setContentView(R.layout.activity_main);
+
+        //UI
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        //目前位置定位按鈕
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (AllCampusData.gpsTracker.canGetLocation()) {
 
+                    //刷新GPS位置
                     AllCampusData.gpsTracker.getLocation();
 
+                    //重製目前位置指標
                     myGLSurfaceView.setTranslationIdentity();
                     myGLSurfaceView.setRotationIdendity();
                     float[] temp = VectorCal.getMapPosition(AllCampusData.gpsTracker.getLatitude(), AllCampusData.gpsTracker.getLongitude());
                     myGLSurfaceView.setUserPosition(temp);
-                    if (AllCampusData.cc.inside_this(temp)) {
-//                        String str = AllCampusData.cc.get_nearest(temp);
-//                        campus_text.setText("自強校區, " + str);
-                    }
-                    if (AllCampusData.ck.inside_this(temp)) {
-//                        campus_text.setText("成功校區");
-                    }
-                    if (AllCampusData.sl.inside_this(temp)) {
-//                        campus_text.setText("勝利校區");
-                    }
 
+                    //查詢最近節點位置
+                    int index = AllCampusData.myMap.get_nearest_location_index(
+                            new float[]{(temp[0] + AllCampusData.map_zero[0]), (temp[1] + AllCampusData.map_zero[1])});
+                    classroom_ans = searchClassroom.getRoomInfo(AllCampusData.myMap.myNodes.get(index).name);
+
+                    String ans = "";
+                    if (!classroom_ans[0].matches("找不到該地點")) {
+                        ans  = "位於 " + classroom_ans[0] + "校區";
+                    }
+                    if (!classroom_ans[1].matches("")) {
+                        ans += (", " + classroom_ans[1]);
+                    }
+                    if (!ans.matches("")) {
+                        Toast.makeText(view.getContext(), ans, Toast.LENGTH_LONG).show();
+                    }
                 } else {
                     AllCampusData.gpsTracker.showSettingsAlert();
                 }
             }
         });
 
-        //adavise
+        //搜尋建議
         ad_layout = (LinearLayout) findViewById(R.id.ad_layout);
         first_ad = (TextView) findViewById(R.id.first_ad);
         first_ad.setOnClickListener(new View.OnClickListener() {
@@ -126,7 +152,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //search
+        //教室搜尋
         search_text = (EditText) findViewById(R.id.search_text);
         search_text.addTextChangedListener(filterTextWatcher);
 
@@ -134,14 +160,19 @@ public class MainActivity extends AppCompatActivity {
         search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //資料庫搜尋
+                qu = search_text.getText().toString();
+                classroom_ans = searchClassroom.getRoomInfo(qu);
 
-                if (navi_mode) {
+                //導航或搜尋
+              if (navi_mode) {
                     {
                         if (AllCampusData.myMap.isLoaded()) {
-                            qu = search_text.getText().toString();
                             int end_index = -1;
-                            if (!qu.matches("")) {
-                                end_index = AllCampusData.myMap.get_location_index(first_ad.getText().toString());
+
+                            //利用教室查詢找到節點
+                            if (!classroom_ans[0].matches("找不到該地點")) {
+                                end_index = AllCampusData.myMap.get_location_index(classroom_ans[1]);
                             }
                             if (end_index == -1) {
                                 Toast.makeText(v.getContext(), "無法定位", Toast.LENGTH_LONG).show();
@@ -157,21 +188,20 @@ public class MainActivity extends AppCompatActivity {
                                 Vector<Integer> tempbuf = AllCampusData.myMap.setRoute(start_index, end_index);
                                 myGLSurfaceView.setRoutObject(tempbuf);
                                 navi = true;
+                                navi_done.setVisibility(View.VISIBLE);
                             }
                         } else {
                             Toast.makeText(v.getContext(), "導航初始化未完成，稍後重試", Toast.LENGTH_LONG).show();
                         }
                     }
                 } else {
-                    qu = search_text.getText().toString();
-                    classroom_ans = searchClassroom.getRoomInfo(qu);
-
+                    //過濾教室資訊
                     String ans = classroom_ans[0];
                     if (!classroom_ans[1].matches("")) {
                         ans += ("\n" + classroom_ans[1]);
                     }
                     if (!classroom_ans[2].matches("")) {
-                        ans += ("\n" + classroom_ans[2]);
+                        ans += ("\n" + classroom_ans[2] + "樓");
                     }
                     if (!classroom_ans[3].matches("")) {
                         ans += ("\n" + classroom_ans[3]);
@@ -179,6 +209,8 @@ public class MainActivity extends AppCompatActivity {
 
                     Toast.makeText(v.getContext(), ans, Toast.LENGTH_LONG).show();
                 }
+
+                //關掉軟鍵盤以及搜尋介面
                 InputMethodManager imm = (InputMethodManager) getSystemService(MainActivity.INPUT_METHOD_SERVICE);
                 imm.hideSoftInputFromWindow(search_text.getWindowToken(), 0);
                 search_text.setVisibility(View.GONE);
@@ -207,6 +239,7 @@ public class MainActivity extends AppCompatActivity {
                 UIopen();
             }
         });
+
         parking_image = (ImageView) findViewById(R.id.parking_image);
         parking_image.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -215,18 +248,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        navi_done = (ImageView) findViewById(R.id.navi_done);
+        navi_done.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                navi = false;
+                navi_done.setVisibility(View.GONE);
+            }
+        });
+
         //gl layout
         glViewLayout = (RelativeLayout) findViewById(R.id.GL_view);
         glViewLayout.addView(myGLSurfaceView);
 
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        app = new AllCampusData(MainActivity.this);
-        app.newGPSTracker();
     }
 
     @Override
@@ -292,7 +326,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    //text change
+    //text change搜尋系統建議 輸入偵測
     private TextWatcher filterTextWatcher = new TextWatcher() {
         @Override
         public void onTextChanged(CharSequence s, int start, int before, int count) {

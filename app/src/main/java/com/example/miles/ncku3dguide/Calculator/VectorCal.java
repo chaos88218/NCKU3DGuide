@@ -1,10 +1,12 @@
 package com.example.miles.ncku3dguide.Calculator;
 
-/**
- * Created by miles on 2015/8/11.
- */
+/*
+    向量計算函示庫
+*/
+
 public class VectorCal {
 
+    //經緯度轉換模型位置(減去地圖中心)
     public static float[] getMapPosition(double latitude, double longitude) {
         float[] gps_zero = new float[]{22.996914f, 120.218973f};
         float gps_scale = 153000f;
@@ -32,6 +34,7 @@ public class VectorCal {
         return result;
     }
 
+    //STL計算法向量
     public static float[] getNormByPtArray(float[] ptArray) {
         float[] result = new float[ptArray.length];
         for (int i = 0; i < ptArray.length / 9; i++) {

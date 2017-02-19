@@ -12,7 +12,7 @@
         2017/02, ver a1.0.0
     </string>
     <string name="action_info">\t
-        單指 左/右滑動 : 順/逆時針旋轉\n\t
+        單指 旋轉滑動  : 地圖旋轉\n\t
         雙指 張開/收合 : 放大/縮小\n\t
         雙指 左/右滑動 : 左/右移動\n\t
     </string>

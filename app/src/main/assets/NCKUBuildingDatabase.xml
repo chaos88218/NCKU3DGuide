@@ -5213,5 +5213,10 @@
 				<ClassroomCode>A1307</ClassroomCode>
 			</Classroom>
 		</Floor>
+	</Building>	
+	<Building code="10000" CHName="德祐的家">
+		<BuildingName>德祐的家</BuildingName>
+		<BuildingCode>10000</BuildingCode>
+		<Campus>勝利</Campus>
 	</Building>
 </NCKUClassroomDatabase>
