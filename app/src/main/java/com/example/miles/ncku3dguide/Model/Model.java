@@ -93,7 +93,26 @@ public class Model {
         gl.glDisableClientState(GL10.GL_NORMAL_ARRAY);
 
     }
+    public void draw(GL10 gl, float addRotZ) {
+        gl.glColorPointer(4, GL10.GL_FLOAT, 0, colorBuffer);
+        gl.glVertexPointer(3, GL10.GL_FLOAT, 0, vertexBuffer);
+        gl.glNormalPointer(GL10.GL_FLOAT, 0, normalBuffer);
 
+        gl.glEnableClientState(GL10.GL_COLOR_ARRAY);
+        gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
+        gl.glEnableClientState(GL10.GL_NORMAL_ARRAY);
+        if (Loaded) {
+            gl.glPushMatrix();
+            gl.glRotatef(addRotZ, 0,0,1);
+            gl.glDrawArrays(GL10.GL_TRIANGLES, 0, vertex.length / 3);
+            gl.glPopMatrix();
+        }
+
+        gl.glDisableClientState(GL10.GL_COLOR_ARRAY);
+        gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
+        gl.glDisableClientState(GL10.GL_NORMAL_ARRAY);
+
+    }
     public float[] ReadStlBinary(String fileName, Context context) {
         float[] ospVert = new float[0];
 

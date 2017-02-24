@@ -1109,14 +1109,7 @@
 	<Building code="19" CHName="台文系館">
 		<BuildingName>台文系館</BuildingName>
 		<BuildingCode>19</BuildingCode>
-		<Campus>光復</Campus>
-		<Floor code="3">
-			<FloorName>3</FloorName>
-			<Classroom code="53310" Name="53310">
-				<ClassroomName>53310</ClassroomName>
-				<ClassroomCode>53310</ClassroomCode>
-			</Classroom>
-		</Floor>
+		<Campus>力行</Campus>
 		<Floor code="1">
 			<FloorName>1</FloorName>
 			<Classroom code="88102" Name="88102">
@@ -1142,30 +1135,6 @@
 			<Classroom code="88155" Name="88155">
 				<ClassroomName>88155</ClassroomName>
 				<ClassroomCode>88155</ClassroomCode>
-			</Classroom>
-		</Floor>
-	</Building>
-	<Building code="20" CHName="中正堂">
-		<BuildingName>中正堂</BuildingName>
-		<BuildingCode>20</BuildingCode>
-		<Campus>光復</Campus>
-		<Floor code="1">
-			<FloorName>1</FloorName>
-			<Classroom code="A205" Name="中正堂羽球場">
-				<ClassroomName>中正堂羽球場</ClassroomName>
-				<ClassroomCode>A205</ClassroomCode>
-			</Classroom>
-			<Classroom code="A223" Name="中正堂桌球場">
-				<ClassroomName>中正堂桌球場</ClassroomName>
-				<ClassroomCode>A223</ClassroomCode>
-			</Classroom>
-			<Classroom code="A224" Name="中正堂視聽室">
-				<ClassroomName>中正堂視聽室</ClassroomName>
-				<ClassroomCode>A224</ClassroomCode>
-			</Classroom>
-			<Classroom code="A225" Name="中正堂前">
-				<ClassroomName>中正堂前</ClassroomName>
-				<ClassroomCode>A225</ClassroomCode>
 			</Classroom>
 		</Floor>
 	</Building>
@@ -3121,21 +3090,6 @@
 				<ClassroomCode>91C04</ClassroomCode>
 			</Classroom>
 		</Floor>
-		<Floor code="1">
-			<FloorName>1</FloorName>
-			<Classroom code="A228" Name="自強棒球場">
-				<ClassroomName>自強棒球場</ClassroomName>
-				<ClassroomCode>A228</ClassroomCode>
-			</Classroom>
-			<Classroom code="A229" Name="自強壘球場">
-				<ClassroomName>自強壘球場</ClassroomName>
-				<ClassroomCode>A229</ClassroomCode>
-			</Classroom>
-			<Classroom code="A230" Name="自強橄欖球場">
-				<ClassroomName>自強橄欖球場</ClassroomName>
-				<ClassroomCode>A230</ClassroomCode>
-			</Classroom>
-		</Floor>
 		<Floor code="10">
 			<FloorName>10</FloorName>
 			<Classroom code="91A04" Name="91A04">
@@ -3159,10 +3113,6 @@
 			<Classroom code="91X07" Name="91X07">
 				<ClassroomName>91X07</ClassroomName>
 				<ClassroomCode>91X07</ClassroomCode>
-			</Classroom>
-			<Classroom code="62X17" Name="62X17">
-				<ClassroomName>62X17</ClassroomName>
-				<ClassroomCode>62X17</ClassroomCode>
 			</Classroom>
 		</Floor>
 	</Building>
@@ -4408,26 +4358,6 @@
 				<ClassroomName>敬業網球場</ClassroomName>
 				<ClassroomCode>A210</ClassroomCode>
 			</Classroom>
-			<Classroom code="A211" Name="自強體育場">
-				<ClassroomName>自強體育場</ClassroomName>
-				<ClassroomCode>A211</ClassroomCode>
-			</Classroom>
-			<Classroom code="A212" Name="自強籃球場">
-				<ClassroomName>自強籃球場</ClassroomName>
-				<ClassroomCode>A212</ClassroomCode>
-			</Classroom>
-			<Classroom code="A214" Name="勝利游泳池">
-				<ClassroomName>勝利游泳池</ClassroomName>
-				<ClassroomCode>A214</ClassroomCode>
-			</Classroom>
-			<Classroom code="A215" Name="游泳池前">
-				<ClassroomName>游泳池前</ClassroomName>
-				<ClassroomCode>A215</ClassroomCode>
-			</Classroom>
-			<Classroom code="A217" Name="自強排球場">
-				<ClassroomName>自強排球場</ClassroomName>
-				<ClassroomCode>A217</ClassroomCode>
-			</Classroom>
 			<Classroom code="U7N38" Name="38號實驗室">
 				<ClassroomName>38號實驗室</ClassroomName>
 				<ClassroomCode>U7N38</ClassroomCode>
@@ -4479,15 +4409,12 @@
 				<ClassroomCode>53313</ClassroomCode>
 			</Classroom>
 		</Floor>
-		<Floor code="">
-			<FloorName></FloorName>
+		<Floor code="1">
+			<FloorName>1</FloorName>
 			<Classroom code="A226" Name="光復排球高場">
 				<ClassroomName>光復排球高場</ClassroomName>
 				<ClassroomCode>A226</ClassroomCode>
 			</Classroom>
-		</Floor>
-		<Floor code="1">
-			<FloorName>1</FloorName>
 			<Classroom code="A222" Name="光復籃球低場">
 				<ClassroomName>光復籃球低場</ClassroomName>
 				<ClassroomCode>A222</ClassroomCode>
@@ -4531,6 +4458,11 @@
 		<BuildingCode>100</BuildingCode>
 		<Campus>光復</Campus>
 	</Building>
+	<Building code="10000" CHName="德祐的家">
+		<BuildingName>德祐的家</BuildingName>
+		<BuildingCode>10000</BuildingCode>
+		<Campus>勝利</Campus>
+	</Building>
 	<Building code="101" CHName="詩人">
 		<BuildingName>詩人</BuildingName>
 		<BuildingCode>101</BuildingCode>
@@ -4561,29 +4493,9 @@
 		<BuildingCode>106</BuildingCode>
 		<Campus>光復</Campus>
 	</Building>
-	<Building code="107" CHName="光復球場">
-		<BuildingName>光復球場</BuildingName>
-		<BuildingCode>107</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
 	<Building code="108" CHName="中正堂">
 		<BuildingName>中正堂</BuildingName>
 		<BuildingCode>108</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="109" CHName="EMBA">
-		<BuildingName>EMBA</BuildingName>
-		<BuildingCode>109</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="110" CHName="AMBA">
-		<BuildingName>AMBA</BuildingName>
-		<BuildingCode>110</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="111" CHName="人之初">
-		<BuildingName>人之初</BuildingName>
-		<BuildingCode>111</BuildingCode>
 		<Campus>光復</Campus>
 	</Building>
 	<Building code="112" CHName="光一舍">
@@ -4611,28 +4523,18 @@
 		<BuildingCode>116</BuildingCode>
 		<Campus>光復</Campus>
 	</Building>
-	<Building code="117" CHName="台灣府城城垣小東門段城垣">
-		<BuildingName>台灣府城城垣小東門段城垣</BuildingName>
-		<BuildingCode>117</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="118" CHName="格致堂-原高等工業學校講堂">
-		<BuildingName>格致堂-原高等工業學校講堂</BuildingName>
+	<Building code="118" CHName="格致堂">
+		<BuildingName>格致堂</BuildingName>
 		<BuildingCode>118</BuildingCode>
 		<Campus>成功</Campus>
 	</Building>
-	<Building code="119" CHName="物理系館-原高等工業學校校舍">
-		<BuildingName>物理系館-原高等工業學校校舍</BuildingName>
-		<BuildingCode>119</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="120" CHName="禮賢樓-原日軍步兵第二聯隊營舍">
-		<BuildingName>禮賢樓-原日軍步兵第二聯隊營舍</BuildingName>
+	<Building code="120" CHName="禮賢樓">
+		<BuildingName>禮賢樓</BuildingName>
 		<BuildingCode>120</BuildingCode>
 		<Campus>光復</Campus>
 	</Building>
-	<Building code="121" CHName="舊文學院大樓-原日軍步兵第二聯隊營舍">
-		<BuildingName>舊文學院大樓-原日軍步兵第二聯隊營舍</BuildingName>
+	<Building code="121" CHName="舊文學院大樓">
+		<BuildingName>舊文學院大樓</BuildingName>
 		<BuildingCode>121</BuildingCode>
 		<Campus>光復</Campus>
 	</Building>
@@ -4640,301 +4542,6 @@
 		<BuildingName>原日軍台南衛戍病院(804軍醫院)</BuildingName>
 		<BuildingCode>122</BuildingCode>
 		<Campus>力行</Campus>
-	</Building>
-	<Building code="123" CHName="綠動的雋永">
-		<BuildingName>綠動的雋永</BuildingName>
-		<BuildingCode>123</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="124" CHName="懸">
-		<BuildingName>懸</BuildingName>
-		<BuildingCode>124</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="125" CHName="太陽的眼睛">
-		<BuildingName>太陽的眼睛</BuildingName>
-		<BuildingCode>125</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="126" CHName="蔓延">
-		<BuildingName>蔓延</BuildingName>
-		<BuildingCode>126</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="127" CHName="天堂鳥">
-		<BuildingName>天堂鳥</BuildingName>
-		<BuildingCode>127</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="128" CHName="自轉">
-		<BuildingName>自轉</BuildingName>
-		<BuildingCode>128</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="129" CHName="蒼穹之窗">
-		<BuildingName>蒼穹之窗</BuildingName>
-		<BuildingCode>129</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="130" CHName="家和萬事興">
-		<BuildingName>家和萬事興</BuildingName>
-		<BuildingCode>130</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="131" CHName="生命之愛">
-		<BuildingName>生命之愛</BuildingName>
-		<BuildingCode>131</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="132" CHName="水牛群像">
-		<BuildingName>水牛群像</BuildingName>
-		<BuildingCode>132</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="133" CHName="台灣橫著看">
-		<BuildingName>台灣橫著看</BuildingName>
-		<BuildingCode>133</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="134" CHName="等待維納斯">
-		<BuildingName>等待維納斯</BuildingName>
-		<BuildingCode>134</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="135" CHName="琵琶飛天">
-		<BuildingName>琵琶飛天</BuildingName>
-		<BuildingCode>135</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="136" CHName="源">
-		<BuildingName>源</BuildingName>
-		<BuildingCode>136</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="137" CHName="展翅">
-		<BuildingName>展翅</BuildingName>
-		<BuildingCode>137</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="138" CHName="虛擬成大">
-		<BuildingName>虛擬成大</BuildingName>
-		<BuildingCode>138</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="139" CHName="愛的反應式">
-		<BuildingName>愛的反應式</BuildingName>
-		<BuildingCode>139</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="140" CHName="思量">
-		<BuildingName>思量</BuildingName>
-		<BuildingCode>140</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="141" CHName="擎">
-		<BuildingName>擎</BuildingName>
-		<BuildingCode>141</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="142" CHName="販賣擁抱">
-		<BuildingName>販賣擁抱</BuildingName>
-		<BuildingCode>142</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="143" CHName="碎形">
-		<BuildingName>碎形</BuildingName>
-		<BuildingCode>143</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="144" CHName="守護">
-		<BuildingName>守護</BuildingName>
-		<BuildingCode>144</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="145" CHName="灰階">
-		<BuildingName>灰階</BuildingName>
-		<BuildingCode>145</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="146" CHName="祕密花園">
-		<BuildingName>祕密花園</BuildingName>
-		<BuildingCode>146</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="147" CHName="就是Park">
-		<BuildingName>就是Park</BuildingName>
-		<BuildingCode>147</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="148" CHName="大對招">
-		<BuildingName>大對招</BuildingName>
-		<BuildingCode>148</BuildingCode>
-		<Campus>自強</Campus>
-	</Building>
-	<Building code="149" CHName="律動">
-		<BuildingName>律動</BuildingName>
-		<BuildingCode>149</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="150" CHName="水牛">
-		<BuildingName>水牛</BuildingName>
-		<BuildingCode>150</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="151" CHName="東西門">
-		<BuildingName>東西門</BuildingName>
-		<BuildingCode>151</BuildingCode>
-		<Campus>自強</Campus>
-	</Building>
-	<Building code="152" CHName="苦難的人民">
-		<BuildingName>苦難的人民</BuildingName>
-		<BuildingCode>152</BuildingCode>
-		<Campus>自強</Campus>
-	</Building>
-	<Building code="153" CHName="門神">
-		<BuildingName>門神</BuildingName>
-		<BuildingCode>153</BuildingCode>
-		<Campus>自強</Campus>
-	</Building>
-	<Building code="154" CHName="門">
-		<BuildingName>門</BuildingName>
-		<BuildingCode>154</BuildingCode>
-		<Campus>自強</Campus>
-	</Building>
-	<Building code="155" CHName="圓算盤">
-		<BuildingName>圓算盤</BuildingName>
-		<BuildingCode>155</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="156" CHName="思想者">
-		<BuildingName>思想者</BuildingName>
-		<BuildingCode>156</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="157" CHName="三朵會思考的花">
-		<BuildingName>三朵會思考的花</BuildingName>
-		<BuildingCode>157</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="158" CHName="蠕沐春風">
-		<BuildingName>蠕沐春風</BuildingName>
-		<BuildingCode>158</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="159" CHName="LoveNCKU">
-		<BuildingName>LoveNCKU</BuildingName>
-		<BuildingCode>159</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="160" CHName="浮生十帖-歡愉">
-		<BuildingName>浮生十帖-歡愉</BuildingName>
-		<BuildingCode>160</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="161" CHName="旋">
-		<BuildingName>旋</BuildingName>
-		<BuildingCode>161</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="162" CHName="蝶舞">
-		<BuildingName>蝶舞</BuildingName>
-		<BuildingCode>162</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="163" CHName="行走的女人">
-		<BuildingName>行走的女人</BuildingName>
-		<BuildingCode>163</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="164" CHName="花瓶">
-		<BuildingName>花瓶</BuildingName>
-		<BuildingCode>164</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="165" CHName="泉水">
-		<BuildingName>泉水</BuildingName>
-		<BuildingCode>165</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="166" CHName="天地人">
-		<BuildingName>天地人</BuildingName>
-		<BuildingCode>166</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="167" CHName="浮雲歌">
-		<BuildingName>浮雲歌</BuildingName>
-		<BuildingCode>167</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="168" CHName="愛">
-		<BuildingName>愛</BuildingName>
-		<BuildingCode>168</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="169" CHName="鳳凰呈祥">
-		<BuildingName>鳳凰呈祥</BuildingName>
-		<BuildingCode>169</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="170" CHName="舞動">
-		<BuildingName>舞動</BuildingName>
-		<BuildingCode>170</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="171" CHName="大地子民">
-		<BuildingName>大地子民</BuildingName>
-		<BuildingCode>171</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="172" CHName="夢之塔">
-		<BuildingName>夢之塔</BuildingName>
-		<BuildingCode>172</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="173" CHName="浮雲樹影-風刻痕">
-		<BuildingName>浮雲樹影-風刻痕</BuildingName>
-		<BuildingCode>173</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="174" CHName="蛋">
-		<BuildingName>蛋</BuildingName>
-		<BuildingCode>174</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="175" CHName="水蓮">
-		<BuildingName>水蓮</BuildingName>
-		<BuildingCode>175</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="176" CHName="知了">
-		<BuildingName>知了</BuildingName>
-		<BuildingCode>176</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="177" CHName="祈禱">
-		<BuildingName>祈禱</BuildingName>
-		<BuildingCode>177</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="178" CHName="慈悲">
-		<BuildingName>慈悲</BuildingName>
-		<BuildingCode>178</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="179" CHName="天空">
-		<BuildingName>天空</BuildingName>
-		<BuildingCode>179</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="180" CHName="午後的心願">
-		<BuildingName>午後的心願</BuildingName>
-		<BuildingCode>180</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="181" CHName="世紀之誕生">
-		<BuildingName>世紀之誕生</BuildingName>
-		<BuildingCode>181</BuildingCode>
-		<Campus>光復</Campus>
 	</Building>
 	<Building code="182" CHName="鳳凰樹劇場">
 		<BuildingName>鳳凰樹劇場</BuildingName>
@@ -4956,26 +4563,6 @@
 		<BuildingCode>185</BuildingCode>
 		<Campus>光復</Campus>
 	</Building>
-	<Building code="186" CHName="鎮北門額">
-		<BuildingName>鎮北門額</BuildingName>
-		<BuildingCode>186</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="187" CHName="小南門額">
-		<BuildingName>小南門額</BuildingName>
-		<BuildingCode>187</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="188" CHName="旗桿夾石">
-		<BuildingName>旗桿夾石</BuildingName>
-		<BuildingCode>188</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
-	<Building code="189" CHName="牛埔定界示禁碑">
-		<BuildingName>牛埔定界示禁碑</BuildingName>
-		<BuildingCode>189</BuildingCode>
-		<Campus>光復</Campus>
-	</Building>
 	<Building code="190" CHName="成大附設高工">
 		<BuildingName>成大附設高工</BuildingName>
 		<BuildingCode>190</BuildingCode>
@@ -4991,19 +4578,9 @@
 		<BuildingCode>192</BuildingCode>
 		<Campus>光復</Campus>
 	</Building>
-	<Building code="193" CHName="力行校區大門石雕">
-		<BuildingName>力行校區大門石雕</BuildingName>
-		<BuildingCode>193</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
 	<Building code="194" CHName="綠色魔法學校">
 		<BuildingName>綠色魔法學校</BuildingName>
 		<BuildingCode>194</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="195" CHName="孫運璿像">
-		<BuildingName>孫運璿像</BuildingName>
-		<BuildingCode>195</BuildingCode>
 		<Campus>力行</Campus>
 	</Building>
 	<Building code="196" CHName="台灣文學系館">
@@ -5011,46 +4588,13 @@
 		<BuildingCode>196</BuildingCode>
 		<Campus>力行</Campus>
 	</Building>
-	<Building code="197" CHName="兩小無猜">
-		<BuildingName>兩小無猜</BuildingName>
-		<BuildingCode>197</BuildingCode>
-		<Campus>力行</Campus>
-	</Building>
-	<Building code="198" CHName="工程之父大禹像">
-		<BuildingName>工程之父大禹像</BuildingName>
-		<BuildingCode>198</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="199" CHName="圖書館">
-		<BuildingName>圖書館</BuildingName>
+	<Building code="199" CHName="總圖書館">
+		<BuildingName>總圖書館</BuildingName>
 		<BuildingCode>199</BuildingCode>
 		<Campus>成功</Campus>
 	</Building>
-	<Building code="1A" CHName="學生活動中心">
-		<BuildingName>學生活動中心</BuildingName>
-		<BuildingCode>1A</BuildingCode>
-		<Campus>光復</Campus>
-		<Floor code="B1">
-			<FloorName>B1</FloorName>
-			<Classroom code="B06" Name="音樂教室">
-				<ClassroomName>音樂教室</ClassroomName>
-				<ClassroomCode>B06</ClassroomCode>
-			</Classroom>
-			<Classroom code="X101" Name="舞蹈練習室">
-				<ClassroomName>舞蹈練習室</ClassroomName>
-				<ClassroomCode>X101</ClassroomCode>
-			</Classroom>
-		</Floor>
-		<Floor code="1">
-			<FloorName>1</FloorName>
-			<Classroom code="A221" Name="活動中心騎樓">
-				<ClassroomName>活動中心騎樓</ClassroomName>
-				<ClassroomCode>A221</ClassroomCode>
-			</Classroom>
-		</Floor>
-	</Building>
-	<Building code="1B" CHName="耐震大樓(建築研究大樓旁)">
-		<BuildingName>耐震大樓(建築研究大樓旁)</BuildingName>
+	<Building code="1B" CHName="耐震大樓">
+		<BuildingName>耐震大樓</BuildingName>
 		<BuildingCode>1B</BuildingCode>
 		<Campus>光復</Campus>
 		<Floor code="1">
@@ -5083,26 +4627,6 @@
 			</Classroom>
 		</Floor>
 	</Building>
-	<Building code="200" CHName="互持(圖書館)">
-		<BuildingName>互持(圖書館)</BuildingName>
-		<BuildingCode>200</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="201" CHName="出浴(圖書館)">
-		<BuildingName>出浴(圖書館)</BuildingName>
-		<BuildingCode>201</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="202" CHName="展翅(圖書館)">
-		<BuildingName>展翅(圖書館)</BuildingName>
-		<BuildingCode>202</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
-	<Building code="203" CHName="圖書館(內)">
-		<BuildingName>圖書館(內)</BuildingName>
-		<BuildingCode>203</BuildingCode>
-		<Campus>成功</Campus>
-	</Building>
 	<Building code="209" CHName="敬業第一學生宿舍">
 		<BuildingName>敬業第一學生宿舍</BuildingName>
 		<BuildingCode>209</BuildingCode>
@@ -5128,74 +4652,96 @@
 		<BuildingCode>213</BuildingCode>
 		<Campus>自強</Campus>
 	</Building>
-	<Building code="214" CHName="太陽追蹤控制系統">
-		<BuildingName>太陽追蹤控制系統</BuildingName>
+	<Building code="214" CHName="自強籃球場">
+		<BuildingName>自強籃球場</BuildingName>
 		<BuildingCode>214</BuildingCode>
 		<Campus>自強</Campus>
 	</Building>
-	<Building code="215" CHName="自強籃球場">
-		<BuildingName>自強籃球場</BuildingName>
+	<Building code="215" CHName="自強排球場">
+		<BuildingName>自強排球場</BuildingName>
 		<BuildingCode>215</BuildingCode>
 		<Campus>自強</Campus>
 	</Building>
-	<Building code="216" CHName="自強排球場">
-		<BuildingName>自強排球場</BuildingName>
+	<Building code="216" CHName="自強棒球場">
+		<BuildingName>自強棒球場</BuildingName>
 		<BuildingCode>216</BuildingCode>
 		<Campus>自強</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="A228" Name="">
+				<ClassroomName></ClassroomName>
+				<ClassroomCode>A228</ClassroomCode>
+			</Classroom>
+		</Floor>
 	</Building>
-	<Building code="217" CHName="奇美樓">
-		<BuildingName>奇美樓</BuildingName>
+	<Building code="217" CHName="自強壘球場">
+		<BuildingName>自強壘球場</BuildingName>
 		<BuildingCode>217</BuildingCode>
 		<Campus>自強</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="A229" Name="">
+				<ClassroomName></ClassroomName>
+				<ClassroomCode>A229</ClassroomCode>
+			</Classroom>
+		</Floor>
 	</Building>
-	<Building code="218" CHName="航太宿舍">
-		<BuildingName>航太宿舍</BuildingName>
+	<Building code="218" CHName="自強橄欖球場">
+		<BuildingName>自強橄欖球場</BuildingName>
 		<BuildingCode>218</BuildingCode>
 		<Campus>自強</Campus>
+		<Floor code="1">
+			<FloorName>1</FloorName>
+			<Classroom code="A230" Name="">
+				<ClassroomName></ClassroomName>
+				<ClassroomCode>A230</ClassroomCode>
+			</Classroom>
+		</Floor>
 	</Building>
-	<Building code="219" CHName="技轉育成中心">
-		<BuildingName>技轉育成中心</BuildingName>
+	<Building code="219" CHName="奇美樓">
+		<BuildingName>奇美樓</BuildingName>
 		<BuildingCode>219</BuildingCode>
-		<Campus>勝利</Campus>
+		<Campus>自強</Campus>
 	</Building>
-	<Building code="220" CHName="圖書館K館">
-		<BuildingName>圖書館K館</BuildingName>
+	<Building code="220" CHName="航太宿舍">
+		<BuildingName>航太宿舍</BuildingName>
 		<BuildingCode>220</BuildingCode>
-		<Campus>勝利</Campus>
+		<Campus>自強</Campus>
 	</Building>
-	<Building code="221" CHName="勝六舍">
-		<BuildingName>勝六舍</BuildingName>
+	<Building code="221" CHName="技轉育成中心">
+		<BuildingName>技轉育成中心</BuildingName>
 		<BuildingCode>221</BuildingCode>
 		<Campus>勝利</Campus>
 	</Building>
-	<Building code="222" CHName="太子學舍">
-		<BuildingName>太子學舍</BuildingName>
+	<Building code="222" CHName="勝六舍">
+		<BuildingName>勝六舍</BuildingName>
 		<BuildingCode>222</BuildingCode>
 		<Campus>勝利</Campus>
 	</Building>
-	<Building code="223" CHName="蒸氣火車">
-		<BuildingName>蒸氣火車</BuildingName>
+	<Building code="223" CHName="太子學舍">
+		<BuildingName>太子學舍</BuildingName>
 		<BuildingCode>223</BuildingCode>
+		<Campus>勝利</Campus>
+	</Building>
+	<Building code="224" CHName="蒸氣火車">
+		<BuildingName>蒸氣火車</BuildingName>
+		<BuildingCode>224</BuildingCode>
 		<Campus>光復</Campus>
 	</Building>
 	<Building code="A1" CHName="共同教室">
 		<BuildingName>共同教室</BuildingName>
 		<BuildingCode>A1</BuildingCode>
 		<Campus>成功</Campus>
-	</Building>
-	<Building code="A1" CHName="共同教室">
-		<BuildingName>共同教室</BuildingName>
-		<BuildingCode>A1</BuildingCode>
-		<Campus>成功</Campus>
-		<Floor code="">
-			<FloorName></FloorName>
+		<Floor code="3">
+			<FloorName>3</FloorName>
+			<Classroom code="A1305" Name="A1305">
+				<ClassroomName>A1305</ClassroomName>
+				<ClassroomCode>A1305</ClassroomCode>
+			</Classroom>
 			<Classroom code="A1302" Name="成功共同300">
 				<ClassroomName>成功共同300</ClassroomName>
 				<ClassroomCode>A1302</ClassroomCode>
 			</Classroom>
-		</Floor>
-		<Floor code="3">
-			<FloorName>3</FloorName>
 			<Classroom code="A1303" Name="A1303">
 				<ClassroomName>A1303</ClassroomName>
 				<ClassroomCode>A1303</ClassroomCode>
@@ -5213,10 +4759,5 @@
 				<ClassroomCode>A1307</ClassroomCode>
 			</Classroom>
 		</Floor>
-	</Building>	
-	<Building code="10000" CHName="德祐的家">
-		<BuildingName>德祐的家</BuildingName>
-		<BuildingCode>10000</BuildingCode>
-		<Campus>勝利</Campus>
 	</Building>
 </NCKUClassroomDatabase>

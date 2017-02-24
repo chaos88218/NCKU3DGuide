@@ -13,8 +13,9 @@ public class Route {
 
     //STL and render data
     private float[] vertex;
-    private float color[] = new float[]{1, 0, 0};
+    private float color[] = new float[]{0, 0, 0};
     private int last_index;
+    private boolean isLoaded = false;
 
     public Route(Vector<Integer> all_nodes) {
         vertex = new float[all_nodes.size() * 3];
@@ -28,12 +29,14 @@ public class Route {
 
         vertexBuffer = RenderUtils.buildFloatBuffer(vertex);
         color = new float[]{color[0], color[1], color[2], 1.0f};
+
         float[] color1 = new float[vertex.length / 3 * 4];
 
-        for (int i = 0; i < color.length; i++) {
+        for (int i = 0; i < color1.length; i++) {
             color1[i] = color[i % 4];
         }
         colorBuffer = RenderUtils.buildFloatBuffer(color1);
+        isLoaded = true;
     }
 
     public void draw(GL10 gl) {
@@ -45,7 +48,9 @@ public class Route {
         gl.glEnableClientState(GL10.GL_COLOR_ARRAY);
         gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
 
-        gl.glDrawArrays(GL10.GL_LINE_STRIP, 0, vertex.length / 3);
+        if (isLoaded) {
+            gl.glDrawArrays(GL10.GL_LINE_STRIP, 0, vertex.length / 3);
+        }
 
         gl.glDisableClientState(GL10.GL_COLOR_ARRAY);
         gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
@@ -57,6 +62,13 @@ public class Route {
                     , (float) AllCampusData.myMap.myNodes.get(last_index).data.y};
         }
         return new float[]{0, 0};
+    }
+
+    public void clearAllData() {
+        if (isLoaded) {
+            isLoaded = false;
+            vertex = null;
+        }
     }
 
 }

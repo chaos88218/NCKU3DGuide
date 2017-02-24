@@ -92,11 +92,10 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
         gl.glClearColor(223 / 255.0f, 1, 1, 1.0f);
 
-
         gl.glMatrixMode(GL10.GL_MODELVIEW);
         gl.glPushMatrix();
         load_matrix(gl);
-
+        float rotDegTemp = mAngleY;
         //先畫校區模型
         AllCampusData.cc.drawBuilding(gl);
         AllCampusData.ck.drawBuilding(gl);
@@ -137,18 +136,20 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         }
         //定位使用者位置
         per_posi = VectorCal.getMapPosition(AllCampusData.gpsTracker.getLatitude(), AllCampusData.gpsTracker.getLongitude());
+        gl.glPushMatrix();
         gl.glTranslatef(per_posi[0] + AllCampusData.map_zero[0], per_posi[1] + AllCampusData.map_zero[1], 10);
-        AllCampusData.loco.draw(gl);
-
+        AllCampusData.loco.draw(gl, -rotDegTemp);
         gl.glPopMatrix();
 
-        load_matrix(gl);
         if (MainActivity.navi) {
             float[] desti_location = route.getDestination();
+            gl.glPushMatrix();
             gl.glTranslatef(desti_location[0], desti_location[1], 10);
-            AllCampusData.navi.draw(gl);
+            AllCampusData.navi.draw(gl, -rotDegTemp);
+            gl.glPopMatrix();
         }
 
+        gl.glPopMatrix();
     }
 
     private void load_matrix(GL10 gl) {
@@ -211,5 +212,8 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
 
     public void setRoutObject(Vector<Integer> in_number) {
         route = new Route(in_number);
+    }
+    public void clearRoute() {
+        route.clearAllData();
     }
 }

@@ -254,6 +254,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 navi = false;
                 navi_done.setVisibility(View.GONE);
+                myGLSurfaceView.clearRoute();
             }
         });
 

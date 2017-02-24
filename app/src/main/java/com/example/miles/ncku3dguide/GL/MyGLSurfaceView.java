@@ -136,5 +136,8 @@ public class MyGLSurfaceView extends GLSurfaceView {
     public void setRoutObject(Vector<Integer> in_number) {
         mRenderer.setRoutObject(in_number);
     }
+    public void clearRoute() {
+        mRenderer.clearRoute();
+    }
 
 }
