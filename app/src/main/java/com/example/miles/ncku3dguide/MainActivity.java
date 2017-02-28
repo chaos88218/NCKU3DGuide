@@ -102,8 +102,8 @@ public class MainActivity extends AppCompatActivity {
                     AllCampusData.gpsTracker.getLocation();
 
                     //重製目前位置指標
-                    myGLSurfaceView.setTranslationIdentity();
-                    myGLSurfaceView.setRotationIdendity();
+                    //myGLSurfaceView.setTranslationIdentity();
+                    //myGLSurfaceView.setRotationIdendity();
                     float[] temp = VectorCal.getMapPosition(AllCampusData.gpsTracker.getLatitude(), AllCampusData.gpsTracker.getLongitude());
                     myGLSurfaceView.setUserPosition(temp);
 
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
 
                     String ans = "";
                     if (!classroom_ans[0].matches("找不到該地點")) {
-                        ans  = "位於 " + classroom_ans[0] + "校區";
+                        ans = "位於 " + classroom_ans[0] + "校區";
                     }
                     if (!classroom_ans[1].matches("")) {
                         ans += (", " + classroom_ans[1]);
@@ -134,21 +134,24 @@ public class MainActivity extends AppCompatActivity {
         first_ad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                search_text.setText(first_ad.getText().toString());
+                if (first_ad.getText().length() > 0)
+                    search_text.setText(first_ad.getText().toString());
             }
         });
         second_ad = (TextView) findViewById(R.id.second_ad);
         second_ad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                search_text.setText(second_ad.getText().toString());
+                if (second_ad.getText().length() > 0)
+                    search_text.setText(second_ad.getText().toString());
             }
         });
         third_ad = (TextView) findViewById(R.id.third_ad);
         third_ad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                search_text.setText(third_ad.getText().toString());
+                if (third_ad.getText().length() > 0)
+                    search_text.setText(third_ad.getText().toString());
             }
         });
 
@@ -165,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
                 classroom_ans = searchClassroom.getRoomInfo(qu);
 
                 //導航或搜尋
-              if (navi_mode) {
+                if (navi_mode) {
                     {
                         if (AllCampusData.myMap.isLoaded()) {
                             int end_index = -1;
@@ -254,7 +257,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 navi = false;
                 navi_done.setVisibility(View.GONE);
-                myGLSurfaceView.clearRoute();
             }
         });
 

@@ -7,6 +7,7 @@ import android.view.MotionEvent;
 
 import com.example.miles.ncku3dguide.Calculator.VectorCal;
 
+import java.util.Arrays;
 import java.util.Vector;
 
 /**
@@ -31,6 +32,7 @@ public class MyGLSurfaceView extends GLSurfaceView {
 
     private float mPreviousX;
     private float mPreviousY;
+    private float[] mPreviousVec = new float[3];
 
 
     @Override
@@ -62,37 +64,36 @@ public class MyGLSurfaceView extends GLSurfaceView {
                     float py = e.getY(e.getPointerId(1));
 
                     //計算拉近拉遠
-                    float dx = (x - mPreviousX) * 2 / getWidth();
-                    float dy = (y - mPreviousY) * 2 / getHeight();
                     float temp_dist = VectorCal.magnitude(VectorCal.getVecByPoint(new float[]{x, y, 0}, new float[]{px, py, 0}));
                     float zoom = temp_dist - th_dist;
                     mRenderer.setZoom(zoom * 2);
                     th_dist = temp_dist;
 
-                    //計算位移
-                    mRenderer.setDist(dx * 200, -dy * 200);
 
+                    //手指移動向量
+                    float[] finger_vec = new float[]{x - px, y - py, 0};
+                    float magnitude = VectorCal.getAngleDeg(mPreviousVec, finger_vec);
+                    //手指-畫面中心向量
+                    float[] orientation_vec = VectorCal.cross(finger_vec, mPreviousVec);
+
+                    //旋轉 0.12閥值避免爆轉
+                    if (magnitude < 10) {
+                        if (orientation_vec[2] > 0) {
+                            mRenderer.addAngleY(magnitude);
+                        } else {
+                            mRenderer.addAngleY(-magnitude);
+                        }
+                    }
+                    mPreviousVec = finger_vec;
                 } else {
                     //單指
                     float dx = (x - mPreviousX) * 2 / getWidth();
                     float dy = (y - mPreviousY) * 2 / getHeight();
 
-                    //手指移動向量
-                    float[] finger_vec = new float[]{dx, dy, 0};
-                    float magnitude = VectorCal.magnitude(finger_vec);
-                    //手指-畫面中心向量
-                    float[] orientation_vec = VectorCal.getVecByPoint(new float[]{x, y, 0}, new float[]{getWidth()/2.0f, getHeight()/2.0f, 0});
-                    orientation_vec = VectorCal.cross(orientation_vec, finger_vec);
-
-                    float TOUCH_SCALE_FACTOR = (float) (180.0f / Math.PI);
-
-                    //旋轉 0.12閥值避免爆轉
-                    if(magnitude < 0.12){
-                        if (orientation_vec[2] > 0) {
-                            mRenderer.setAngleY(magnitude * TOUCH_SCALE_FACTOR);
-                        }else{
-                            mRenderer.setAngleY(-magnitude * TOUCH_SCALE_FACTOR);
-                        }
+                    //計算位移
+                    if ((dx < 0.25) && (dy < 0.25)) {
+                        mRenderer.setDist(dx * 200, -dy * 200);
+                        Log.d("Distance", dx + " " + dy);
                     }
                 }
 
@@ -108,6 +109,8 @@ public class MyGLSurfaceView extends GLSurfaceView {
                 float px = e.getX(e.getPointerId(1));
                 float py = e.getY(e.getPointerId(1));
                 th_dist = VectorCal.magnitude(VectorCal.getVecByPoint(new float[]{x, y, 0}, new float[]{px, py, 0}));
+
+                mPreviousVec = new float[]{x - px, y - py, 0};
                 d_fing = true;
             }
             break;
@@ -130,14 +133,48 @@ public class MyGLSurfaceView extends GLSurfaceView {
     }
 
     public void setUserPosition(float[] position) {
-        mRenderer.setUserPosition(position);
+        setUserPosition(position, 0);
+    }
+
+    public void setUserPosition(float[] position, float direction) {
+        final int animeIterCount = 50;
+
+        float[] lastPosition = new float[2];
+        mRenderer.getViewPosition(lastPosition);
+        float lastDirection = mRenderer.getmAngleY();
+        if (lastDirection >= 360) lastDirection -= 360;
+
+        final float[] iterPosition = {(position[0] + lastPosition[0]) / animeIterCount, (position[1] + lastPosition[1]) / animeIterCount};
+        final float iterDirection;
+        if (Math.abs(direction - lastDirection) < Math.abs(direction - (lastDirection - 360)))
+            iterDirection = (direction - lastDirection) / animeIterCount;
+        else
+            iterDirection = (direction - (lastDirection - 360)) / animeIterCount;
+        Log.d("pp", "direction:" + direction + " lastDirection:" + lastDirection + " iterDirection:" + iterDirection);
+        final float[] finalPosition = {position[0], position[1]};
+        final float finalDirection = direction;
+
+
+        //perform animation thread
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                for (int i = animeIterCount; i >= 0; i--) {
+                    float[] animePos = {finalPosition[0] - (iterPosition[0] * i), finalPosition[1] - (iterPosition[1] * i)};
+                    mRenderer.setUserPosition(animePos);
+                    mRenderer.setAngleY(finalDirection - (iterDirection * i));
+                    try {
+                        Thread.sleep(13);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }).start();
     }
 
     public void setRoutObject(Vector<Integer> in_number) {
         mRenderer.setRoutObject(in_number);
-    }
-    public void clearRoute() {
-        mRenderer.clearRoute();
     }
 
 }

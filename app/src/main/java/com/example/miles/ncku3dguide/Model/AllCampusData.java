@@ -31,8 +31,8 @@ public class AllCampusData {
 
 
     //campus cc
-    private String cc_filepath = "CC_M/";
-    private String[] cc_files = new String[]{
+    private final static String cc_filepath = "CC_M/";
+    private final static String[] cc_files = new String[]{
             cc_filepath + "M_B.STL", cc_filepath + "M_C.STL",
             cc_filepath + "M_D.STL", cc_filepath + "M_E.STL",
             cc_filepath + "M_F.STL", cc_filepath + "M_G.STL",
@@ -43,8 +43,8 @@ public class AllCampusData {
     };
 
     //campus ck
-    private String ck_filepath = "CK_S/";
-    private String[] ck_files = new String[]{
+    private final static String ck_filepath = "CK_S/";
+    private final static String[] ck_files = new String[]{
             ck_filepath + "S_A.STL", ck_filepath + "S_B.STL",
             ck_filepath + "S_C.STL", ck_filepath + "S_D.STL",
             ck_filepath + "S_E.STL", ck_filepath + "S_F.STL",
@@ -62,8 +62,8 @@ public class AllCampusData {
     };
 
     //campus sl
-    private String sl_filepath = "SL_V/";
-    private String[] sl_files = new String[]{
+    private final static String sl_filepath = "SL_V/";
+    private final static String[] sl_files = new String[]{
             sl_filepath + "V_A.STL", sl_filepath + "V_B.STL",
             sl_filepath + "V_C.STL", sl_filepath + "V_D.STL",
             sl_filepath + "V_E.STL", sl_filepath + "V_F.STL",
@@ -74,8 +74,8 @@ public class AllCampusData {
     };
 
     //campus kf
-    private String kf_filepath = "KF_L/";
-    private String[] kf_files = new String[]{
+    private final static String kf_filepath = "KF_L/";
+    private final static String[] kf_files = new String[]{
             kf_filepath + "L_A.STL", kf_filepath + "L_B.STL",
             kf_filepath + "L_C.STL", kf_filepath + "L_D.STL",
             kf_filepath + "L_E.STL", kf_filepath + "L_F.STL",
@@ -92,8 +92,8 @@ public class AllCampusData {
     };
 
     //campus ls
-    private String ls_filepath = "LS_C/";
-    private String[] ls_files = new String[]{
+    private final static String ls_filepath = "LS_C/";
+    private final static String[] ls_files = new String[]{
             ls_filepath + "C_A.STL",
             ls_filepath + "C_B.STL",
             ls_filepath + "C_C.STL",
@@ -102,8 +102,8 @@ public class AllCampusData {
     };
 
     //campus jy
-    private String jy_filepath = "JY_Y/";
-    private String[] jy_files = new String[]{
+    private final static String jy_filepath = "JY_Y/";
+    private final static String[] jy_files = new String[]{
             jy_filepath + "Y_A.STL", jy_filepath + "Y_B.STL",
             jy_filepath + "Y_C.STL", jy_filepath + "Y_D.STL",
             jy_filepath + "Y_E.STL", jy_filepath + "Y_F.STL",
@@ -112,8 +112,8 @@ public class AllCampusData {
     };
 
     //campus cs
-    private String cs_filepath = "CS_J/";
-    private String[] cs_files = new String[]{
+    private final static String cs_filepath = "CS_J/";
+    private final static String[] cs_files = new String[]{
             cs_filepath + "J_A.STL",
             cs_filepath + "J_B.STL",
             cs_filepath + "J_C.STL",

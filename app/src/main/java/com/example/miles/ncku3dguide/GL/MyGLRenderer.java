@@ -91,6 +91,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     public void onDrawFrame(GL10 gl) {
         gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
         gl.glClearColor(223 / 255.0f, 1, 1, 1.0f);
+        //gl.glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
 
         gl.glMatrixMode(GL10.GL_MODELVIEW);
         gl.glPushMatrix();
@@ -138,14 +139,16 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         per_posi = VectorCal.getMapPosition(AllCampusData.gpsTracker.getLatitude(), AllCampusData.gpsTracker.getLongitude());
         gl.glPushMatrix();
         gl.glTranslatef(per_posi[0] + AllCampusData.map_zero[0], per_posi[1] + AllCampusData.map_zero[1], 10);
-        AllCampusData.loco.draw(gl, -rotDegTemp);
+        gl.glRotatef(-rotDegTemp, 0, 0, 1);
+        AllCampusData.loco.draw(gl);
         gl.glPopMatrix();
 
         if (MainActivity.navi) {
             float[] desti_location = route.getDestination();
             gl.glPushMatrix();
             gl.glTranslatef(desti_location[0], desti_location[1], 10);
-            AllCampusData.navi.draw(gl, -rotDegTemp);
+            gl.glRotatef(-rotDegTemp, 0, 0, 1);
+            AllCampusData.navi.draw(gl);
             gl.glPopMatrix();
         }
 
@@ -167,11 +170,21 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     }
 
     void setUserPosition(float[] position) {
-        per_posi = position;
+        per_posi[0] = position[0];
+        per_posi[1] = position[1];
         mDistX = -per_posi[0];
         mDistY = -per_posi[1];
     }
-
+    void getUserPosition(float[] position){
+        if (position.length < 2)return;
+        position[0] = per_posi[0];
+        position[1] = per_posi[1];
+    }
+    void getViewPosition(float[] position){
+        if (position.length < 2)return;
+        position[0] = mDistX;
+        position[1] = mDistY;
+    }
     void setTIdentity() {
         mDistX = 0;
         mDistY = 0;
@@ -182,18 +195,17 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     }
 
     //使用者旋轉
-    void setAngleY(float angle) {
+    void addAngleY(float angle) {
         mAngleY += angle;
-        if (Math.abs(mAngleY) > 360) {
-            mAngleY -= 360;
-        }
-
-        if (Math.abs(mAngleY) <= 0) {
-            mAngleY += 360;
-        }
-
+        if (Math.abs(mAngleY) > 360) mAngleY -= 360;
+        if (Math.abs(mAngleY) <= 0) mAngleY += 360;
     }
-
+    void setAngleY(float angle){
+        mAngleY = angle;
+        if (Math.abs(mAngleY) > 360) mAngleY -= 360;
+        if (Math.abs(mAngleY) <= 0) mAngleY += 360;
+    }
+    float getmAngleY(){return mAngleY;}
     //使用者平移
     void setDist(float in_x, float in_y) {
         float[] temp = new float[16];
@@ -212,8 +224,5 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
 
     public void setRoutObject(Vector<Integer> in_number) {
         route = new Route(in_number);
-    }
-    public void clearRoute() {
-        route.clearAllData();
     }
 }

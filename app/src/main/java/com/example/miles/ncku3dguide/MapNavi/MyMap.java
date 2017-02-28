@@ -101,7 +101,7 @@ public class MyMap {
             BufferedReader br = new BufferedReader(new InputStreamReader(inputStream, Charset.forName("UTF-8")));
             String line = br.readLine();
 
-            Log.e("txt", line);
+            //Log.d("txt", line);
             //// 取名字的STRING
             String[] namestr = line.split(",");//[呼叫函式]將字串作切割,以空白" " 來切該字串
             //// 取座標點

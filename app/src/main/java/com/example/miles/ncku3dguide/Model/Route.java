@@ -13,7 +13,7 @@ public class Route {
 
     //STL and render data
     private float[] vertex;
-    private float color[] = new float[]{0, 0, 0};
+    private float color[] = new float[]{1, 0, 0};
     private int last_index;
     private boolean isLoaded = false;
 
