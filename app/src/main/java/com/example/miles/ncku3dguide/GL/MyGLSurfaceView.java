@@ -150,10 +150,8 @@ public class MyGLSurfaceView extends GLSurfaceView {
             iterDirection = (direction - lastDirection) / animeIterCount;
         else
             iterDirection = (direction - (lastDirection - 360)) / animeIterCount;
-        Log.d("pp", "direction:" + direction + " lastDirection:" + lastDirection + " iterDirection:" + iterDirection);
         final float[] finalPosition = {position[0], position[1]};
         final float finalDirection = direction;
-
 
         //perform animation thread
         new Thread(new Runnable() {
