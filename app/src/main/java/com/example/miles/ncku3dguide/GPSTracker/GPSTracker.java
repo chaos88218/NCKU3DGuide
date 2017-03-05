@@ -6,6 +6,10 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -21,7 +25,7 @@ import android.widget.Toast;
  * Created by miles on 2016/10/21.
  */
 
-public class GPSTracker extends Service implements LocationListener {
+public class GPSTracker extends Service implements LocationListener, SensorEventListener{
 
     private final Context mContext;
 
@@ -48,6 +52,9 @@ public class GPSTracker extends Service implements LocationListener {
     // Declaring a Location Manager
     protected LocationManager locationManager;
 
+    private SensorManager mSensorManager;
+    private Sensor mMagneticFieldSensor;
+
     public GPSTracker(Context context) {
         this.mContext = context;
         Log.d("GPS", "Build");
@@ -61,6 +68,10 @@ public class GPSTracker extends Service implements LocationListener {
         }
         Log.d("Location", "in");
         getLocation();
+
+        mSensorManager = (SensorManager) context.getSystemService(SENSOR_SERVICE);
+        mMagneticFieldSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_GEOMAGNETIC_ROTATION_VECTOR);
+        mSensorManager.registerListener(this, mMagneticFieldSensor, SensorManager.SENSOR_DELAY_NORMAL);
     }
 
     public Location getLocation() {
@@ -130,6 +141,9 @@ public class GPSTracker extends Service implements LocationListener {
     public void stopUsingGPS() {
         if (locationManager != null) {
             if (check_per) locationManager.removeUpdates(GPSTracker.this);
+        }
+        if (mSensorManager != null){
+            mSensorManager.unregisterListener(this);
         }
     }
 
@@ -222,4 +236,18 @@ public class GPSTracker extends Service implements LocationListener {
         return null;
     }
 
+    @Override
+    public void onSensorChanged(SensorEvent event) {
+        //https://developer.android.com/guide/topics/sensors/sensors_position.html#sensors-pos-orient
+        //Computing the Device's Orientation
+        //https://developer.android.com/reference/android/hardware/GeomagneticField.html
+        if(event.sensor.getType()==Sensor.TYPE_GEOMAGNETIC_ROTATION_VECTOR){
+            Log.d("Mag", "("+event.values[0]+", "+event.values[1]+", "+event.values[2]+")");
+        }
+    }
+
+    @Override
+    public void onAccuracyChanged(Sensor sensor, int accuracy) {
+
+    }
 }
