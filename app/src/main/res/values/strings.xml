@@ -3,17 +3,28 @@
     <string name="action_settings">操作說明</string>
     <string name="bug_report">錯誤回報及回饋</string>
     <string name="info_all_name">軟體資訊</string>
+    <string name="update_info">
+        \t*地圖操作更新：\n
+            \t\t1. 現在平移地圖，變成一隻指頭\n
+            \t\t2. 現在旋轉地圖，變成兩隻指頭\n
+        \t*動畫更新：\n
+            \t\t1. 按下定位鈕，會緩慢移動至定位位置\n
+        \t*UI更新：\n
+            \t\t1. 增加按鈕標籤，略更改版面結構\n
+        \t*修正小錯誤
+    </string>
     <string name="all_crew">\t
         籌畫功能整合 : 黃子軒\n\t
         教室資料查詢 : 陳紀融, 周秉諭\n\t
         校園立體建模 : 林俊仲, 林德祐, 周秉諭\n\t
         導航路徑規劃 : 林德祐\n\t
         上架版本控制 : 周秉諭\n\t
-        2017/02, ver a1.0.3
+        特別協助大神 : 皮卡丘\n\t
+        2017/03, ver a1.1.1
     </string>
     <string name="action_info">\t
-        單指 旋轉滑動  : 地圖旋轉\n\t
+        單指 螢幕滑移  : 地圖平移\n\t
         雙指 張開/收合 : 放大/縮小\n\t
-        雙指 左/右滑動 : 左/右移動\n\t
+        雙指 螢幕旋轉  : 地圖旋轉\n\t
     </string>
 </resources>

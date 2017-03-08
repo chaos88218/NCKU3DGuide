@@ -4,7 +4,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -12,12 +11,11 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -27,12 +25,9 @@ import android.widget.Toast;
 
 import com.example.miles.ncku3dguide.Calculator.VectorCal;
 import com.example.miles.ncku3dguide.GL.MyGLSurfaceView;
-import com.example.miles.ncku3dguide.MapNavi.MyMap;
 import com.example.miles.ncku3dguide.Model.AllCampusData;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Objects;
 import java.util.Vector;
 
 
@@ -43,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private RelativeLayout glViewLayout;
 
     //搜尋導航自標按鈕
+    private LinearLayout search_layout;
     private EditText search_text;
     private Button search_button;
 
@@ -56,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView classroom_image;
     private ImageView navi_image;
     private ImageView parking_image;
-    private ImageView navi_done;
+    private LinearLayout navi_done;
 
     //教室搜尋
     private SearchClassroom searchClassroom;
@@ -156,6 +152,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //教室搜尋
+        search_layout = (LinearLayout) findViewById(R.id.search_layout);
+
         search_text = (EditText) findViewById(R.id.search_text);
         search_text.addTextChangedListener(filterTextWatcher);
 
@@ -172,12 +170,13 @@ public class MainActivity extends AppCompatActivity {
                     {
                         if (AllCampusData.myMap.isLoaded()) {
                             int end_index = -1;
+                            Log.d("WTF", classroom_ans[0]);
 
                             //利用教室查詢找到節點
                             if (!classroom_ans[0].matches("找不到該地點")) {
                                 end_index = AllCampusData.myMap.get_location_index(classroom_ans[1]);
                             }
-                            if (end_index == -1) {
+                            if (qu.matches("") || (end_index == -1)) {
                                 Toast.makeText(v.getContext(), "無法定位", Toast.LENGTH_LONG).show();
                             } else {
                                 Toast.makeText(v.getContext(), "導航至 "
@@ -216,8 +215,7 @@ public class MainActivity extends AppCompatActivity {
                 //關掉軟鍵盤以及搜尋介面
                 InputMethodManager imm = (InputMethodManager) getSystemService(MainActivity.INPUT_METHOD_SERVICE);
                 imm.hideSoftInputFromWindow(search_text.getWindowToken(), 0);
-                search_text.setVisibility(View.GONE);
-                search_button.setVisibility(View.GONE);
+                search_layout.setVisibility(View.GONE);
                 ad_layout.setVisibility(View.GONE);
             }
         });
@@ -251,7 +249,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        navi_done = (ImageView) findViewById(R.id.navi_done);
+        navi_done = (LinearLayout) findViewById(R.id.navi_done);
         navi_done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -264,6 +262,13 @@ public class MainActivity extends AppCompatActivity {
         glViewLayout = (RelativeLayout) findViewById(R.id.GL_view);
         glViewLayout.addView(myGLSurfaceView);
 
+
+        final View search_view = LayoutInflater.from(MainActivity.this).inflate(R.layout.app_update_layout, null);
+        new AlertDialog.Builder(MainActivity.this)
+                .setTitle("更新資訊:")
+                .setView(search_view)
+                .setPositiveButton("確認", null)
+                .show();
     }
 
     @Override
@@ -359,9 +364,9 @@ public class MainActivity extends AppCompatActivity {
     };
 
     private void UIopen() {
-        search_text.setVisibility(View.VISIBLE);
+        search_layout.setVisibility(View.VISIBLE);
         ad_layout.setVisibility(View.VISIBLE);
-        search_button.setVisibility(View.VISIBLE);
+
         search_text.requestFocus();
         InputMethodManager imm = (InputMethodManager) getSystemService(MainActivity.INPUT_METHOD_SERVICE);
         imm.showSoftInput(search_text, InputMethodManager.SHOW_IMPLICIT);
