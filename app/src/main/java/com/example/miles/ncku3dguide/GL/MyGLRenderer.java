@@ -221,7 +221,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     void setZoom(float in_z) {
         mDistZ += in_z;
         if (mDistZ > 1100) mDistZ = 1100;
-        if (mDistZ < -7000) mDistZ = -7000;
+        if (mDistZ < -6000) mDistZ = -6000;
     }
 
     public void setRoutObject(Vector<Integer> in_number) {
